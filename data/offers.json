@@ -1,0 +1,1192 @@
+{
+ "schema_version": 1,
+ "generated": "2026-10-09",
+ "site": "https://freeai.alexai.top",
+ "license_note": "Facts compiled from official provider pages; always check source_url.",
+ "count": 19,
+ "offers": [
+  {
+   "slug": "google-gemini-api-free-tier",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/google-gemini-api-free-tier/",
+   "url_zh": "https://freeai.alexai.top/zh/google-gemini-api-free-tier/",
+   "start": "Ongoing",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "Gemini API rate limits",
+     "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+    },
+    {
+     "label": "Gemini API Additional Terms of Service",
+     "url": "https://ai.google.dev/gemini-api/terms"
+    }
+   ],
+   "en": {
+    "provider": "Google (Gemini API / AI Studio)",
+    "models": "Gemini 3.8 Flash, 3.7 Flash, 3.6 Flash, 3.5 Flash, 3.5 Flash-Lite, 3.1 Flash-Lite, 2.5 Pro, 2.5 Flash, 2.5 Flash-Lite, Gemini Embedding 2, some Live and TTS models",
+    "title": "Gemini API Free Tier: Free Models, Limits & How to Get a Free API Key",
+    "what_free": "The Gemini API Free tier charges nothing for input and output tokens on the models marked \"Free of charge\" on Google's pricing page, including Gemini 3.8 Flash, 3.7 Flash, 3.6 Flash, 3.5 Flash, 3.5 Flash-Lite, 3.1 Flash-Lite, 2.5 Pro, 2.5 Flash and 2.5 Flash-Lite. Gemini 3.1 Pro Preview, the Nano Banana image models, Veo, Lyria and Omni Flash are not available on the Free tier.",
+    "limits": "Per-model rate limits (requests per minute, tokens per minute, requests per day) are not listed as fixed numbers in the docs. Google says to check your active limits in AI Studio, and daily quotas reset at midnight Pacific time. Batch, Flex and Grounding with Google Search are not available on the Free tier.",
+    "how_to_claim": [
+     "Open Google AI Studio (aistudio.google.com) and sign in with your Google account",
+     "Create an API key in AI Studio",
+     "Call a free-tier model such as gemini-3.8-flash",
+     "Don't link a billing account if you want to stay on the Free tier (linking billing moves the project to Tier 1)"
+    ],
+    "end": "Ongoing (no end date published)",
+    "extended": "Not applicable",
+    "commercial_use": "Google's Gemini API terms call free usage \"Unpaid Services\". Google uses your prompts and responses to improve its products, and human reviewers may read them, so don't send sensitive or personal data. Read the Gemini API Additional Terms before shipping a product.",
+    "card_required": "No. The Free tier only needs an active project; billing is needed for Tier 1 and above.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the pricing page. Google's list of available regions doesn't include mainland China or Hong Kong.",
+    "conditions": "Free-tier content is used to improve Google products.",
+    "notes": "Paid tier: Gemini 3.8 Flash and 3.7 Flash have introductory prices of $0.75 / $3.75 per 1M input/output tokens through December 31, 2026 ($1.50 / $7.50 from January 1, 2027). That's a discount, not a free offer.",
+    "source_label": "Google AI for Developers: Gemini Developer API pricing"
+   },
+   "zh": {
+    "provider": "Google（Gemini API / AI Studio）",
+    "models": "Gemini 3.8 Flash、3.7 Flash、3.6 Flash、3.5 Flash、3.5 Flash-Lite、3.1 Flash-Lite、2.5 Pro、2.5 Flash、2.5 Flash-Lite、Gemini Embedding 2，以及部分 Live 和 TTS 模型",
+    "title": "Gemini API 免费档：哪些模型免费、限额多少、怎么拿免费 API Key",
+    "what_free": "在 Google 定价页上标为“Free of charge”的模型，Free 档的输入和输出 token 都不收费，包括 Gemini 3.8 Flash、3.7 Flash、3.6 Flash、3.5 Flash、3.5 Flash-Lite、3.1 Flash-Lite、2.5 Pro、2.5 Flash 和 2.5 Flash-Lite。Gemini 3.1 Pro Preview、Nano Banana 生图模型、Veo、Lyria 和 Omni Flash 不在免费档内。",
+    "limits": "文档没有给出每个模型固定的速率数字（每分钟请求数、每分钟 token 数、每天请求数），Google 让你到 AI Studio 里查看自己当前的限额；每日额度在太平洋时间午夜重置。Batch、Flex 和 Google 搜索 Grounding 不支持免费档。",
+    "how_to_claim": [
+     "打开 Google AI Studio（aistudio.google.com），用 Google 账号登录",
+     "在 AI Studio 里创建 API Key",
+     "调用免费档模型，例如 gemini-3.8-flash",
+     "想一直留在免费档就不要绑定结算账号（绑定后项目会升到 Tier 1）"
+    ],
+    "end": "长期有效（未公布结束日期）",
+    "extended": "不适用",
+    "commercial_use": "Google 的 Gemini API 条款把免费使用称为“Unpaid Services”（非付费服务）：Google 会用你的提示词和回复来改进产品，人工审核员可能会看到这些内容，所以不要发送敏感或个人数据。上线产品前请先读 Gemini API 附加条款。",
+    "card_required": "不需要。免费档只要有一个可用项目；Tier 1 及以上才需要结算。",
+    "phone_required": "官方页面未说明。",
+    "region": "定价页未说明；官方“可用地区”列表里没有中国大陆和香港。",
+    "conditions": "免费档的内容会被用于改进 Google 产品。",
+    "notes": "付费档：Gemini 3.8 Flash 和 3.7 Flash 的首发价是每百万输入/输出 token $0.75 / $3.75，到 2026 年 12 月 31 日为止（2027 年 1 月 1 日起为 $1.50 / $7.50）。这是折扣，不是免费。",
+    "source_label": "Google AI for Developers：Gemini Developer API 定价",
+    "cn_note": "Google 官方的可用地区列表不包含中国大陆和香港，在这些地区无法直接使用 AI Studio 和 Gemini API。所在地区不在列表里时，请不要绕过地区限制，以免违反服务条款、导致账号被封。"
+   }
+  },
+  {
+   "slug": "cloudflare-workers-ai-free-tier",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/cloudflare-workers-ai-free-tier/",
+   "url_zh": "https://freeai.alexai.top/zh/cloudflare-workers-ai-free-tier/",
+   "start": "Ongoing",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+   "source_type": "official docs",
+   "extra_sources": [],
+   "en": {
+    "provider": "Cloudflare Workers AI",
+    "models": "Llama, Gemma, Qwen, GLM-4.7-Flash, gpt-oss, FLUX image models, Whisper and more (per-model Neuron prices)",
+    "title": "Cloudflare Workers AI Free Tier: 10,000 Neurons per Day Explained",
+    "what_free": "Every account gets 10,000 Neurons per day at no charge, on both the Workers Free and Workers Paid plans. Neurons measure GPU compute; each model has a published Neuron price per million tokens, per image tile/step or per audio minute.",
+    "limits": "10,000 Neurons/day. Limits reset daily at 00:00 UTC; when you exceed them on Workers Free, requests fail with an error. Above the free allocation, Workers Paid costs $0.011 per 1,000 Neurons. Some models need a paid billing method, including @cf/moonshotai/kimi-k2.6, kimi-k2.7-code, @cf/zai-org/glm-5.2, glm-5.3, glm-5.3-flash, deepseek-v4-flash-0731 and deepseek-v4-pro-0813.",
+    "how_to_claim": [
+     "Create a Cloudflare account",
+     "Open Workers AI in the dashboard and create an API token, or use the AI binding in a Worker",
+     "Pick a model that doesn't require a paid billing method",
+     "Watch Neuron usage in the Workers AI dashboard"
+    ],
+    "end": "Ongoing (no end date published)",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "No for the free allocation on Workers Free. Workers Paid (for usage above 10,000 Neurons) is a paid plan.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not restricted on the pricing page",
+    "conditions": "Some frontier models require Workers Paid or prepaid AI Gateway credits.",
+    "notes": "Example from the price table: @cf/black-forest-labs/flux-1-schnell costs 4.80 Neurons per 512x512 tile plus 9.60 Neurons per step.",
+    "source_label": "Cloudflare Docs: Workers AI pricing (last updated Oct 1, 2026)"
+   },
+   "zh": {
+    "provider": "Cloudflare Workers AI",
+    "models": "Llama、Gemma、Qwen、GLM-4.7-Flash、gpt-oss、FLUX 生图模型、Whisper 等（每个模型的 Neuron 价格不同）",
+    "title": "Cloudflare Workers AI 免费额度：每天 10,000 Neurons 怎么用",
+    "what_free": "每个账号每天都有 10,000 Neurons 免费额度，Workers 免费版和付费版都一样。Neuron 是 GPU 算力的计量单位，每个模型都公布了按百万 token、按图块/步数或按音频分钟计算的 Neuron 价格。",
+    "limits": "每天 10,000 Neurons，UTC 00:00 重置；在 Workers 免费版上超出后请求会直接报错。超出免费额度的部分在 Workers 付费版按每 1,000 Neurons $0.011 计费。部分模型必须有付费结算方式，包括 @cf/moonshotai/kimi-k2.6、kimi-k2.7-code、@cf/zai-org/glm-5.2、glm-5.3、glm-5.3-flash、deepseek-v4-flash-0731 和 deepseek-v4-pro-0813。",
+    "how_to_claim": [
+     "注册 Cloudflare 账号",
+     "在控制台打开 Workers AI，创建 API Token，或在 Worker 里使用 AI 绑定",
+     "选择不需要付费结算的模型",
+     "在 Workers AI 控制台查看 Neuron 用量"
+    ],
+    "end": "长期有效（未公布结束日期）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "Workers 免费版的免费额度不需要绑卡。超出 10,000 Neurons 需要 Workers 付费版（付费套餐）。",
+    "phone_required": "官方页面未说明。",
+    "region": "定价页未限制地区",
+    "conditions": "部分前沿模型需要 Workers 付费版或预付的 AI Gateway 额度。",
+    "notes": "价格表举例：@cf/black-forest-labs/flux-1-schnell 每个 512x512 图块 4.80 Neurons，每步 9.60 Neurons。",
+    "source_label": "Cloudflare 文档：Workers AI 定价（2026 年 10 月 1 日更新）",
+    "cn_note": "定价页没有地区限制，也没写需要手机号。国内团队常把它当作海外后端的备用推理服务；能否从中国大陆稳定访问，以你自己的网络实测为准。"
+   }
+  },
+  {
+   "slug": "openrouter-free-models",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/openrouter-free-models/",
+   "url_zh": "https://freeai.alexai.top/zh/openrouter-free-models/",
+   "start": "Ongoing",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://openrouter.ai/docs/api-reference/limits",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "OpenRouter: Free Models collection",
+     "url": "https://openrouter.ai/collections/free-models"
+    }
+   ],
+   "en": {
+    "provider": "OpenRouter",
+    "models": "Models whose ID ends in :free (the list changes often)",
+    "title": "OpenRouter Free Models: :free Limits (50 vs 1,000 Requests a Day)",
+    "what_free": "OpenRouter offers free variants of some models; their IDs end in \":free\". Requests to these variants cost nothing, but platform rate limits apply.",
+    "limits": "20 requests per minute. 50 requests per day if you've bought less than 10 credits in total; 1,000 requests per day once you've bought at least 10 credits (all-time). Daily counters run on UTC days. If your account balance is negative, even free models can return 402 errors. The GET /api/v1/key endpoint shows your free-model daily counter.",
+    "how_to_claim": [
+     "Create an OpenRouter account and an API key",
+     "Browse free models on the official Free Models collection page",
+     "Use the model ID with the :free suffix",
+     "Optional: buying 10 credits raises the daily free-model limit from 50 to 1,000 requests"
+    ],
+    "end": "Ongoing (individual free models come and go)",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "No for the 50-requests/day level. The 1,000/day level requires buying at least 10 credits.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "Free models are often new or stealth models; availability changes without notice.",
+    "notes": "",
+    "source_label": "OpenRouter Docs: API rate limits (free usage limits)"
+   },
+   "zh": {
+    "provider": "OpenRouter",
+    "models": "模型 ID 以 :free 结尾的模型（列表经常变化）",
+    "title": "OpenRouter 免费模型：:free 模型每天 50 次还是 1,000 次？",
+    "what_free": "OpenRouter 为部分模型提供免费版本，模型 ID 以“:free”结尾。调用这些版本不收费，但有平台速率限制。",
+    "limits": "每分钟 20 次。累计购买额度不足 10 credits 时每天 50 次；累计购买满 10 credits 后每天 1,000 次。每日计数按 UTC 日计算。账户余额为负时，免费模型也可能返回 402 错误。可以用 GET /api/v1/key 接口查看当天免费模型的用量。",
+    "how_to_claim": [
+     "注册 OpenRouter 账号并创建 API Key",
+     "在官方 Free Models 合集页找免费模型",
+     "调用带 :free 后缀的模型 ID",
+     "可选：购买 10 credits 后，免费模型每天上限从 50 次提高到 1,000 次"
+    ],
+    "end": "长期有效（具体免费模型会上下架）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "每天 50 次这一档不需要。每天 1,000 次需要累计购买至少 10 credits。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "免费模型经常是新模型或匿名（stealth）模型，随时可能下线。",
+    "notes": "",
+    "source_label": "OpenRouter 文档：API 速率限制（免费用量）",
+    "cn_note": "新发布的国产模型（例如阶跃、蚂蚁 Ling）常常先在 OpenRouter 上限时免费。官方页面没有提到手机号或实名要求。"
+   }
+  },
+  {
+   "slug": "groq-free-tier",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/groq-free-tier/",
+   "url_zh": "https://freeai.alexai.top/zh/groq-free-tier/",
+   "start": "Ongoing",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://console.groq.com/docs/rate-limits",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "GroqDocs: Billing FAQs (Free tier vs Developer tier)",
+     "url": "https://console.groq.com/docs/billing-faqs"
+    }
+   ],
+   "en": {
+    "provider": "Groq",
+    "models": "Models on GroqCloud (e.g. openai/gpt-oss-120b, gpt-oss-20b, qwen/qwen3.8-27b, Whisper)",
+    "title": "Groq Free Tier: Limits and How to Get a Free Groq API Key",
+    "what_free": "GroqCloud has a Free tier: you can create an API key and call models without adding a payment method. You add a payment method only to upgrade to the Developer tier.",
+    "limits": "Groq doesn't publish separate free-tier numbers. Its rate-limits page lists base limits for the Developer plan (for example 30 RPM, 1K requests/day, 8K tokens/minute and 200K tokens/day for openai/gpt-oss-120b) and says your exact limits are on the Limits page of your account. Limits apply per organization.",
+    "how_to_claim": [
+     "Sign up at console.groq.com",
+     "Create an API key",
+     "Check your organization's exact limits on the Limits page in settings",
+     "Upgrade to Developer only if you need higher limits (a payment method is required)"
+    ],
+    "end": "Ongoing (no end date published)",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "No for the Free tier. Upgrading to Developer requires a credit card, US bank account or SEPA debit.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "",
+    "notes": "",
+    "source_label": "GroqDocs: Rate limits"
+   },
+   "zh": {
+    "provider": "Groq",
+    "models": "GroqCloud 上的模型（如 openai/gpt-oss-120b、gpt-oss-20b、qwen/qwen3.8-27b、Whisper）",
+    "title": "Groq 免费档：限额说明和免费 API Key 申请方法",
+    "what_free": "GroqCloud 有免费档：不绑定支付方式也能创建 API Key 并调用模型。只有升级到 Developer 档时才需要添加支付方式。",
+    "limits": "Groq 没有单独公布免费档的数字。速率限制页列的是 Developer 档的基础限额（例如 openai/gpt-oss-120b 为每分钟 30 次、每天 1K 次请求、每分钟 8K token、每天 200K token），并说明你账号的实际限额以控制台 Limits 页为准。限额按组织（organization）计算。",
+    "how_to_claim": [
+     "在 console.groq.com 注册",
+     "创建 API Key",
+     "在设置里的 Limits 页查看本组织的实际限额",
+     "需要更高限额时再升级 Developer（需要支付方式）"
+    ],
+    "end": "长期有效（未公布结束日期）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "免费档不需要。升级 Developer 需要信用卡、美国银行账户或 SEPA 扣款。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "Groq 文档：速率限制",
+    "cn_note": "Groq 在第三方清单里经常出现，但网上流传的“每天 14,400 次”等数字并不是官方公布的免费档数据，请以你控制台 Limits 页显示的为准。"
+   }
+  },
+  {
+   "slug": "mistral-api-free",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/mistral-api-free/",
+   "url_zh": "https://freeai.alexai.top/zh/mistral-api-free/",
+   "start": "Ongoing",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "Mistral Docs: Usage and limits",
+     "url": "https://docs.mistral.ai/admin/billing-usage/usage-limits"
+    }
+   ],
+   "en": {
+    "provider": "Mistral AI",
+    "models": "Mistral models on the API (e.g. mistral-small-latest)",
+    "title": "Mistral API Free Mode: Free API Key, No Credit Card",
+    "what_free": "New Mistral accounts start in Free mode, with API access on by default and no credit card required. Free mode includes a monthly usage allowance with rate limits.",
+    "limits": "Mistral doesn't publish the Free mode amounts in its docs. Your included monthly usage and rate limits are shown on the Limits page in Studio. Pay-as-you-go extends usage beyond the included amount.",
+    "how_to_claim": [
+     "Create a Mistral account and open Studio (console.mistral.ai)",
+     "Go to API Keys and click Create new key",
+     "Copy the key (it's shown only once)",
+     "Test with a model such as mistral-small-latest"
+    ],
+    "end": "Ongoing (no end date published)",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "No (per Mistral's quickstart).",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "Third-party posts mention a fixed monthly dollar credit; Mistral's docs don't publish one, so we don't list a number.",
+    "notes": "",
+    "source_label": "Mistral Docs: Activate Studio and generate an API key"
+   },
+   "zh": {
+    "provider": "Mistral AI",
+    "models": "Mistral API 上的模型（如 mistral-small-latest）",
+    "title": "Mistral API 免费模式：免费 API Key，不用绑卡",
+    "what_free": "新注册的 Mistral 账号默认处于 Free 模式，API 访问默认开启，不需要信用卡。Free 模式包含每月一定的用量额度，并有速率限制。",
+    "limits": "Mistral 的文档没有公布 Free 模式的具体额度。每月包含的用量和速率限制显示在 Studio 的 Limits 页。超出后可以开通按量付费。",
+    "how_to_claim": [
+     "注册 Mistral 账号并打开 Studio（console.mistral.ai）",
+     "进入 API Keys，点击 Create new key",
+     "复制 Key（只显示一次）",
+     "用 mistral-small-latest 等模型测试"
+    ],
+    "end": "长期有效（未公布结束日期）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "不需要（据 Mistral 快速入门文档）。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "第三方帖子说每月有固定美元额度，但 Mistral 文档里没有公布，所以我们不写具体数字。",
+    "notes": "",
+    "source_label": "Mistral 文档：开通 Studio 并生成 API Key",
+    "cn_note": ""
+   }
+  },
+  {
+   "slug": "zhipu-glm-flash-free-api",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/zhipu-glm-flash-free-api/",
+   "url_zh": "https://freeai.alexai.top/zh/zhipu-glm-flash-free-api/",
+   "start": "Ongoing",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://docs.z.ai/guides/overview/pricing",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "BigModel (智谱) API pricing",
+     "url": "https://docs.bigmodel.cn/cn/guide/start/pricing"
+    },
+    {
+     "label": "BigModel rate limits (速率限制)",
+     "url": "https://docs.bigmodel.cn/cn/api/rate-limit"
+    }
+   ],
+   "en": {
+    "provider": "Zhipu AI / Z.ai (GLM)",
+    "models": "GLM-4.7-Flash, GLM-4.5-Flash, GLM-4.6V-Flash (Z.ai); also GLM-4-Flash-250414, GLM-Z1-Flash, GLM-4V-Flash, GLM-4.1V-Thinking-Flash, CogView-3-Flash, CogVideoX-Flash (BigModel China)",
+    "title": "Free GLM Flash API: GLM-4.7-Flash and Other Free Zhipu / Z.ai Models",
+    "what_free": "Zhipu's international platform Z.ai lists GLM-4.7-Flash, GLM-4.5-Flash and GLM-4.6V-Flash as Free for input, cached input and output. The China platform (BigModel, bigmodel.cn) also lists several Flash models as 免费 (free), including the CogView-3-Flash image model and the CogVideoX-Flash video model.",
+    "limits": "Each model has a concurrency limit (simultaneous requests) that depends on your account level. You can see your limits in the console; the docs don't publish the numbers. Note that the \"限时免费\" (limited-time free) labels on BigModel's price table refer to cache storage on paid models, not to the models themselves.",
+    "how_to_claim": [
+     "Create an account on Z.ai (international) or BigModel (China)",
+     "Create an API key in the console",
+     "Call a model listed as Free, such as glm-4.7-flash",
+     "Check your concurrency limit on the rate-limits page in the console"
+    ],
+    "end": "Ongoing (no end date published)",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Z.ai for international users; BigModel for mainland China",
+    "conditions": "",
+    "notes": "",
+    "source_label": "Z.ai Docs: Pricing"
+   },
+   "zh": {
+    "provider": "智谱 AI / Z.ai（GLM）",
+    "models": "GLM-4.7-Flash、GLM-4.5-Flash、GLM-4.6V-Flash（Z.ai 国际站）；以及 GLM-4-Flash-250414、GLM-Z1-Flash、GLM-4V-Flash、GLM-4.1V-Thinking-Flash、CogView-3-Flash、CogVideoX-Flash（智谱开放平台 BigModel）",
+    "title": "智谱 GLM Flash 免费 API：GLM-4.7-Flash 等免费模型汇总（BigModel / Z.ai）",
+    "what_free": "智谱国际站 Z.ai 把 GLM-4.7-Flash、GLM-4.5-Flash 和 GLM-4.6V-Flash 的输入、缓存输入和输出都标为免费。国内的智谱开放平台（BigModel，bigmodel.cn）也把多款 Flash 模型标为“免费”，其中包括 CogView-3-Flash 生图模型和 CogVideoX-Flash 视频模型。",
+    "limits": "每个模型都有并发限制（同时处理的请求数），具体多少取决于你的用户权益等级。可以在控制台查看自己的限额，文档没有公布具体数字。注意：BigModel 价格表里的“限时免费”指的是付费模型的缓存存储费用，不是模型本身免费。",
+    "how_to_claim": [
+     "在 Z.ai（国际）或 BigModel（国内）注册账号",
+     "在控制台创建 API Key",
+     "调用标为免费的模型，例如 glm-4.7-flash",
+     "在控制台的速率限制页查看并发上限"
+    ],
+    "end": "长期有效（未公布结束日期）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方定价页未说明；BigModel 的速率限制文档提到会通过“注册手机号”通知审核结果。",
+    "region": "国际用户用 Z.ai；中国大陆用户用 BigModel",
+    "conditions": "",
+    "notes": "",
+    "source_label": "Z.ai 文档：定价",
+    "cn_note": "国内开发者直接用 BigModel（bigmodel.cn）就行，不需要海外网络。BigModel 的文档提到“注册手机号”，一般按国内手机号注册；是否需要实名认证，定价页没有写，以注册流程提示为准。"
+   }
+  },
+  {
+   "slug": "alibaba-qwen-model-studio-free-quota",
+   "status": "active",
+   "display_status": "active",
+   "category": "trial_credits",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/alibaba-qwen-model-studio-free-quota/",
+   "url_zh": "https://freeai.alexai.top/zh/alibaba-qwen-model-studio-free-quota/",
+   "start": "Ongoing (new users)",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://www.alibabacloud.com/help/en/model-studio/new-free-quota",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "阿里云百炼 新人免费额度 (China site)",
+     "url": "https://help.aliyun.com/zh/model-studio/new-free-quota"
+    }
+   ],
+   "en": {
+    "provider": "Alibaba Cloud Model Studio (Qwen)",
+    "models": "Qwen and other Model Studio models in the Singapore region (international deployment scope)",
+    "title": "Free Qwen API Credits: Alibaba Cloud Model Studio New-User Free Quota",
+    "what_free": "When you first activate Model Studio in the Singapore region, Alibaba Cloud gives you a separate free token quota for each eligible model (typically 1,000,000 tokens per model, input and output combined). Dated snapshot versions get their own quota.",
+    "limits": "The quota is valid for 90 days from activation, the model's release or your request approval, whichever is later. It covers real-time inference only (not batch, fine-tuning or deployment). Quotas are per model and aren't transferable. An Alibaba Cloud account and its RAM users share one quota, and re-registering doesn't grant a new one. Token Plan and Coding Plan keys don't use the free quota.",
+    "how_to_claim": [
+     "Complete your Alibaba Cloud account information",
+     "Open Model Studio (Singapore) and accept the service agreement; the quota is granted automatically, usually within two hours",
+     "Check remaining quota on the model usage page (Free Quota tab)",
+     "Turn on \"Free Quota Only\" to stop the service instead of billing you when the quota runs out"
+    ],
+    "end": "Quota expires 90 days after activation",
+    "extended": "Validity was changed to 90 days for users activating from Sep 8, 2026 (03:00 UTC); earlier users are unaffected",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "The free-quota page doesn't say; you must complete your account information before activation.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Singapore region, international deployment scope only",
+    "conditions": "After the quota runs out you're billed pay-as-you-go unless you turn on Free Quota Only.",
+    "notes": "Mainland China site (阿里云百炼): the free quota is only in the China (Beijing) region. Alibaba's Chinese help page says you can get and use it without real-name verification; you need verification only to keep going pay-as-you-go after it runs out, and re-registering under the same verified identity doesn't grant a new quota.",
+    "source_label": "Alibaba Cloud Model Studio: Free quota for new users"
+   },
+   "zh": {
+    "provider": "阿里云百炼 / Model Studio（通义千问 Qwen）",
+    "models": "国际站：新加坡地域（国际部署范围）的千问等模型；国内站：华北 2（北京）地域的模型",
+    "title": "千问 Qwen 免费额度：阿里云百炼新人免费额度怎么领（国内站 + 国际站）",
+    "what_free": "首次开通阿里云百炼时，平台会为每个可用模型自动发放独立的新人免费额度（通常每个模型 100 万 Token，输入输出合计）。带日期后缀的快照版本单独计算额度。国际站（Alibaba Cloud Model Studio）只有新加坡地域有免费额度；国内站（阿里云百炼）只有华北 2（北京）地域有免费额度。",
+    "limits": "有效期 90 天，从开通百炼、模型发布或模型申请通过之日起算（以较晚者为准）。只抵扣实时推理费用，Batch、调优、部署等不能用。额度按模型独立、不能转移；主账号和 RAM 子账号共享。国际站：重新注册账号不会再发；国内站：同一实名认证主体下重新注册也不能再领。Token Plan / Coding Plan 专属 API Key 不消耗免费额度。",
+    "how_to_claim": [
+     "国际站需先补全账号信息；国内站直接登录阿里云",
+     "打开百炼（国际站选新加坡，国内站选华北 2 北京），阅读并同意服务协议，额度会自动发放，通常两小时内生效",
+     "在控制台的免费额度页或模型用量页查看余量",
+     "建议开启“免费额度用完即停”，避免额度用完后自动按量扣费"
+    ],
+    "end": "开通后 90 天内有效",
+    "extended": "国际站：自 2026 年 9 月 8 日 03:00 UTC 起首次开通的用户有效期为 90 天，之前开通的用户不受影响",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "免费额度页面没有说要绑卡。国际站开通前需补全账号信息。",
+    "phone_required": "官方页面未说明。",
+    "region": "国际站：新加坡地域（国际部署范围）；国内站：华北 2（北京）地域",
+    "conditions": "国际站：额度用完后自动按量付费，除非开启“用完即停”。国内站：未实名用户额度用完后无法继续调用（系统强制“用完即停”）；已实名用户用完后自动转按量付费。",
+    "notes": "Mainland China site (阿里云百炼): the free quota is only in the China (Beijing) region. Alibaba's Chinese help page says you can get and use it without real-name verification; you need verification only to keep going pay-as-you-go after it runs out, and re-registering under the same verified identity doesn't grant a new quota.",
+    "source_label": "Alibaba Cloud Model Studio：新用户免费额度（国际站）",
+    "cn_note": "国内站（help.aliyun.com）写明：无需实名认证即可领取和使用免费额度；额度用完后想继续按量付费，才需要完成实名认证。未实名用户默认强制开启“用完即停”，不会意外扣费。同一实名主体重新注册账号不能再领。"
+   }
+  },
+  {
+   "slug": "nvidia-nim-free-api",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/nvidia-nim-free-api/",
+   "url_zh": "https://freeai.alexai.top/zh/nvidia-nim-free-api/",
+   "start": "Ongoing",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://docs.api.nvidia.com/nim/docs/product",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "NVIDIA API catalog",
+     "url": "https://build.nvidia.com/"
+    }
+   ],
+   "en": {
+    "provider": "NVIDIA (NIM / build.nvidia.com)",
+    "models": "Models in the NVIDIA API catalog at build.nvidia.com",
+    "title": "NVIDIA NIM Free API: What's Free on build.nvidia.com",
+    "what_free": "Members of the free NVIDIA Developer Program get free access to NIM API endpoints for prototyping, and can download NIM microservices for research, development and experimentation on up to 16 GPUs.",
+    "limits": "Rate limits for the hosted endpoints aren't published in NVIDIA's NIM FAQ. Access lasts as long as your program membership.",
+    "how_to_claim": [
+     "Join the free NVIDIA Developer Program",
+     "Open build.nvidia.com and pick a model",
+     "Generate an API key from the model page and call the hosted endpoint",
+     "For production, get an NVIDIA AI Enterprise license (a free 90-day trial is offered)"
+    ],
+    "end": "Ongoing while you're a program member",
+    "extended": "Not applicable",
+    "commercial_use": "No. Developer Program access is for prototyping, research, development and testing only. Serving real end users counts as production and needs an NVIDIA AI Enterprise license.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "",
+    "notes": "",
+    "source_label": "NVIDIA NIM FAQ (docs.api.nvidia.com)"
+   },
+   "zh": {
+    "provider": "NVIDIA（NIM / build.nvidia.com）",
+    "models": "build.nvidia.com 上 NVIDIA API 目录里的模型",
+    "title": "NVIDIA NIM 免费 API：build.nvidia.com 上哪些是免费的",
+    "what_free": "加入免费的 NVIDIA 开发者计划后，可以免费调用 NIM API 端点做原型开发，也可以下载 NIM 微服务，在最多 16 块 GPU 上用于研究、开发和实验。",
+    "limits": "NVIDIA 的 NIM FAQ 没有公布托管端点的速率限制。只要你还是开发者计划成员，就可以继续使用。",
+    "how_to_claim": [
+     "加入免费的 NVIDIA 开发者计划",
+     "打开 build.nvidia.com，选择模型",
+     "在模型页面生成 API Key，调用托管端点",
+     "生产环境需要 NVIDIA AI Enterprise 许可证（提供 90 天免费试用）"
+    ],
+    "end": "成为开发者计划成员期间持续有效",
+    "extended": "不适用",
+    "commercial_use": "不可以。开发者计划的访问权限只用于原型、研究、开发和测试。为真实终端用户提供服务属于生产用途，需要 NVIDIA AI Enterprise 许可证。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "NVIDIA NIM FAQ（docs.api.nvidia.com）",
+    "cn_note": "目录里有 DeepSeek、GLM、Kimi、Qwen 等国产开源模型，适合免费试效果。有第三方说注册时需要手机验证，NIM FAQ 里没有写，以注册页面为准。注意：免费访问不能用于给真实用户提供服务。"
+   }
+  },
+  {
+   "slug": "cerebras-free-trial-credits",
+   "status": "active",
+   "display_status": "active",
+   "category": "trial_credits",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/cerebras-free-trial-credits/",
+   "url_zh": "https://freeai.alexai.top/zh/cerebras-free-trial-credits/",
+   "start": "Ongoing (new accounts)",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://inference-docs.cerebras.ai/support/rate-limits",
+   "source_type": "official docs",
+   "extra_sources": [],
+   "en": {
+    "provider": "Cerebras",
+    "models": "All models in Cerebras Shared Inference (e.g. gpt-oss-120b, qwen-3.8-27b)",
+    "title": "Cerebras Free Trial: $5 API Credits (There's No Always-Free Tier)",
+    "what_free": "New accounts get $5 in free credits after adding a verified payment method. Cerebras says there's no permanently free tier and no per-model always-free allowance.",
+    "limits": "The credits expire 30 days after they're granted. Free Trial rate limits are low; for gpt-oss-120b they are 5 requests/minute, 30K uncached tokens/minute, 1M tokens/hour and 1M tokens/day. Once the credits run out or expire, API access stops until you buy credits.",
+    "how_to_claim": [
+     "Sign up for Cerebras Cloud",
+     "Add a verified payment method (required to activate the API and Playground)",
+     "The $5 credit is added; there's no charge until you buy more"
+    ],
+    "end": "Credits expire 30 days after they're granted",
+    "extended": "No",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "Yes, a verified payment method is required.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "Older lists that call Cerebras \"free, no card\" are out of date as of this check.",
+    "notes": "",
+    "source_label": "Cerebras Inference Docs: Rate limits & Free Trial FAQ"
+   },
+   "zh": {
+    "provider": "Cerebras",
+    "models": "Cerebras Shared Inference 上的所有模型（如 gpt-oss-120b、qwen-3.8-27b）",
+    "title": "Cerebras 免费试用：$5 API 额度（没有永久免费档）",
+    "what_free": "新账号添加经过验证的支付方式后，会获得 $5 免费额度。Cerebras 明确说没有永久免费档，也没有按模型的长期免费额度。",
+    "limits": "额度发放后 30 天过期。免费试用的速率限制很低：gpt-oss-120b 为每分钟 5 次请求、每分钟 3 万未缓存 token、每小时 100 万 token、每天 100 万 token。额度用完或过期后，API 会停用，直到你购买额度。",
+    "how_to_claim": [
+     "注册 Cerebras Cloud",
+     "添加经过验证的支付方式（开通 API 和 Playground 必需）",
+     "系统自动发放 $5 额度；在你购买更多额度之前不会扣费"
+    ],
+    "end": "额度发放后 30 天过期",
+    "extended": "否",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "需要，必须添加经过验证的支付方式。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "一些旧清单说 Cerebras“免费、不用绑卡”，截至本次核验已经过时。",
+    "notes": "",
+    "source_label": "Cerebras 推理文档：速率限制与免费试用 FAQ",
+    "cn_note": "中文圈流传的“Cerebras 每天 100 万 token、不用绑卡”已经不准确：现在必须绑定经过验证的支付方式才能拿到 $5 试用额度。"
+   }
+  },
+  {
+   "slug": "qoder-qwen3-8-flash-free",
+   "status": "active",
+   "display_status": "ext",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/qoder-qwen3-8-flash-free/",
+   "url_zh": "https://freeai.alexai.top/zh/qoder-qwen3-8-flash-free/",
+   "start": "2026-09-18 10:00 (UTC+8)",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://docs.qoder.com/events/flashoffer",
+   "source_type": "official docs",
+   "extra_sources": [],
+   "en": {
+    "provider": "Qoder (Alibaba)",
+    "models": "Qwen3.8-Flash",
+    "title": "Qwen3.8-Flash Free in Qoder (Extended): How It Works and When It Ends",
+    "what_free": "During the promotion, calls to Qwen3.8-Flash in Qoder International products cost 0 Credits (the Credit rate drops from 0.1x to 0.0x). Free accounts and accounts with zero Credits qualify.",
+    "limits": "Only works inside Qoder products (Qoder IDE, JetBrains plugin, CLI, QoderWake, Cloud Agents, Mobile, web app); it isn't an exportable API. Individual accounts only; Teams and Enterprise are excluded. Qoder warns responses may be slower at peak times. Usage caps aren't published.",
+    "how_to_claim": [
+     "Create or sign in to a Qoder International individual account",
+     "Select Qwen3.8-Flash as the model",
+     "Use it normally; nothing to claim"
+    ],
+    "end": "Extended past Sep 30, 2026; Qoder says it will post the end date on the page in advance",
+    "extended": "Yes. Originally ended Sep 30, 2026 23:59:59 (UTC+8).",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "No. Free individual users qualify.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Qoder International (times in Singapore Time, UTC+8)",
+    "conditions": "Doesn't use the 100 general-purpose Credits you can claim daily.",
+    "notes": "",
+    "source_label": "Qoder Docs: Qwen3.8-Flash free for a limited time"
+   },
+   "zh": {
+    "provider": "Qoder（阿里）",
+    "models": "Qwen3.8-Flash",
+    "title": "Qoder 限免 Qwen3.8-Flash（已延期）：怎么用、什么时候结束",
+    "what_free": "活动期间，在 Qoder 国际版产品里调用 Qwen3.8-Flash 不消耗 Credits（计费系数从 0.1x 降到 0.0x）。免费账号和 Credits 为 0 的账号也可以用。",
+    "limits": "只能在 Qoder 产品内使用（Qoder IDE、JetBrains 插件、CLI、QoderWake、Cloud Agents、移动端、网页版），不能导出成 API。仅限个人账号，团队版和企业版不参与。Qoder 提醒高峰期响应可能变慢。用量上限未公布。",
+    "how_to_claim": [
+     "注册或登录 Qoder 国际版个人账号",
+     "选择 Qwen3.8-Flash 模型",
+     "正常使用即可，无需领取"
+    ],
+    "end": "已延期，原定 2026 年 9 月 30 日结束；Qoder 表示会提前在活动页公布结束时间",
+    "extended": "是。原定 2026 年 9 月 30 日 23:59:59（UTC+8）结束。",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "不需要。免费个人用户也可参加。",
+    "phone_required": "官方页面未说明。",
+    "region": "Qoder 国际版（时间为新加坡时间 UTC+8）",
+    "conditions": "不消耗每天可领取的 100 个通用 Credits。",
+    "notes": "",
+    "source_label": "Qoder 文档：Qwen3.8-Flash 限时免费",
+    "cn_note": "Qoder 有国内版（qoder.cn）和国际版；本页依据的是国际版活动页。国内版活动规则以 docs.qoder.cn 为准。网上有说法称活动到 10 月 31 日，官方页面目前没有写结束日期。"
+   }
+  },
+  {
+   "slug": "gmi-cloud-free-qwen-3-8",
+   "status": "active",
+   "display_status": "soon",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/gmi-cloud-free-qwen-3-8/",
+   "url_zh": "https://freeai.alexai.top/zh/gmi-cloud-free-qwen-3-8/",
+   "start": "2026-10-06",
+   "end_date": "2026-10-11",
+   "last_verified": "2026-10-09",
+   "source_url": "https://www.gmicloud.ai/qwen-day",
+   "source_type": "official page + official X",
+   "extra_sources": [
+    {
+     "label": "@gmi_cloud on X: extension announcement (Oct 7, 2026)",
+     "url": "https://x.com/gmi_cloud/status/2107706772815499318"
+    },
+    {
+     "label": "@gmi_cloud reply: ending Oct 11",
+     "url": "https://x.com/gmi_cloud/status/2108263009248493656"
+    },
+    {
+     "label": "@Alibaba_Qwen on X (Oct 9, 2026)",
+     "url": "https://x.com/Alibaba_Qwen/status/2108401307577090259"
+    }
+   ],
+   "en": {
+    "provider": "GMI Cloud (with Alibaba Qwen)",
+    "models": "Qwen 3.8 Max, Qwen 3.8 Flash, Wan3.0-video",
+    "title": "Free Qwen 3.8 Max & Flash API on GMI Cloud (Ends Oct 11)",
+    "what_free": "Free use of Qwen 3.8 Max, Qwen 3.8 Flash and Wan3.0-video through GMI Cloud's OpenAI-compatible API during the promotion. Enterprise teams can also apply for voucher credits using a form on the same page.",
+    "limits": "Your account balance must be at least $10. The $10 isn't spent and stays in your balance. GMI raised rate limits on Oct 7, 2026 but hasn't published the exact numbers.",
+    "how_to_claim": [
+     "Sign up at GMI Cloud",
+     "Make sure your balance is at least $10 (top up if you're new)",
+     "Call the models through the OpenAI-compatible API with your GMI key"
+    ],
+    "end": "Oct 11, 2026 (per GMI's reply on X; timezone not stated)",
+    "extended": "Yes. Free access was extended by 7 more days on Oct 7, 2026, with higher rate limits.",
+    "commercial_use": "Not specified. The offer is \"for legitimate use only\" and subject to GMI Cloud and Alibaba Cloud Terms of Service and Acceptable Use Policy.",
+    "card_required": "Effectively yes: new users must top up $10.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "GMI monitors for multi-account signups, automated farming and resale, and can revoke access.",
+    "notes": "",
+    "source_label": "GMI Cloud: Qwen 3.8 Max, Flash & Wan 3.0, free for 7 days"
+   },
+   "zh": {
+    "provider": "GMI Cloud（与阿里通义千问合作）",
+    "models": "Qwen 3.8 Max、Qwen 3.8 Flash、Wan3.0-video",
+    "title": "GMI Cloud 免费用 Qwen 3.8 Max 和 Flash API（10 月 11 日结束）",
+    "what_free": "活动期间，可以通过 GMI Cloud 的 OpenAI 兼容 API 免费调用 Qwen 3.8 Max、Qwen 3.8 Flash 和 Wan3.0-video。企业团队还可以在同一页面通过表单申请代金券额度。",
+    "limits": "账户余额需要不低于 $10。这 $10 不会被扣掉，会一直留在余额里。GMI 在 2026 年 10 月 7 日提高了速率限制，但没有公布具体数字。",
+    "how_to_claim": [
+     "注册 GMI Cloud",
+     "确认余额不低于 $10（新用户需要先充值）",
+     "用 GMI 的 Key 通过 OpenAI 兼容 API 调用模型"
+    ],
+    "end": "2026 年 10 月 11 日（据 GMI 在 X 上的回复，未注明时区）",
+    "extended": "是。2026 年 10 月 7 日宣布再延长 7 天，并提高了速率限制。",
+    "commercial_use": "未明确说明。活动仅限“正当用途”，须遵守 GMI Cloud 和阿里云的服务条款及可接受使用政策。",
+    "card_required": "实际上需要：新用户必须先充值 $10。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "GMI 会监控多账号注册、自动化薅额度和转售行为，并可能收回访问权限。",
+    "notes": "",
+    "source_label": "GMI Cloud：Qwen 3.8 Max、Flash 和 Wan 3.0 免费 7 天",
+    "cn_note": "这是海外平台的活动，需要先充值 $10（不扣费，留在余额里），通常要用境外支付方式。只想免费试 Qwen，国内用户用阿里云百炼的新人免费额度更直接。"
+   }
+  },
+  {
+   "slug": "stepfun-step-5-preview-free",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/stepfun-step-5-preview-free/",
+   "url_zh": "https://freeai.alexai.top/zh/stepfun-step-5-preview-free/",
+   "start": "2026-10-08",
+   "end_date": "2026-10-15",
+   "last_verified": "2026-10-09",
+   "source_url": "https://x.com/StepFun_ai/status/2108182763002278158",
+   "source_type": "official X",
+   "extra_sources": [
+    {
+     "label": "@opencode on X: free on OpenCode for a week",
+     "url": "https://x.com/opencode/status/2108206631859454383"
+    },
+    {
+     "label": "@cline on X: free in Cline",
+     "url": "https://x.com/cline/status/2108249633789263917"
+    }
+   ],
+   "en": {
+    "provider": "StepFun (阶跃星辰)",
+    "models": "Step 5 Preview",
+    "title": "Step 5 Preview Free for a Week: Where to Use StepFun's Model Free",
+    "what_free": "StepFun announced a week of free access to Step 5 Preview starting Oct 8, 2026 in coding tools including OpenCode, Cline, Nous Research (Nous Portal) and Kilo Code. Step 5 Preview is also listed on OpenRouter, but the announcement doesn't say OpenRouter access is free.",
+    "limits": "Free use happens inside the partner tools. Per-tool usage caps aren't published.",
+    "how_to_claim": [
+     "Open one of the partner tools (OpenCode, Cline, Kilo Code or Nous Portal)",
+     "Select Step 5 Preview in the model picker",
+     "Use it during the free week"
+    ],
+    "end": "About Oct 15, 2026 (\"a week\" from Oct 8; exact end time not published)",
+    "extended": "No (as of this check)",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "Not stated; depends on the tool.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@StepFun_ai on X (Oct 8, 2026)"
+   },
+   "zh": {
+    "provider": "阶跃星辰 StepFun",
+    "models": "Step 5 Preview",
+    "title": "阶跃星辰 Step 5 Preview 免费一周：在哪里能免费用",
+    "what_free": "阶跃星辰宣布从 2026 年 10 月 8 日起，在 OpenCode、Cline、Nous Research（Nous Portal）和 Kilo Code 等编程工具里免费使用 Step 5 Preview 一周。Step 5 Preview 也已在 OpenRouter 上架，但公告没有说 OpenRouter 上是免费的。",
+    "limits": "只能在合作工具内免费使用。各工具的用量上限未公布。",
+    "how_to_claim": [
+     "打开合作工具之一（OpenCode、Cline、Kilo Code 或 Nous Portal）",
+     "在模型列表里选择 Step 5 Preview",
+     "在免费周内使用"
+    ],
+    "end": "约 2026 年 10 月 15 日（从 10 月 8 日起“一周”，具体结束时间未公布）",
+    "extended": "否（截至本次核验）",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "未说明，取决于具体工具。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@StepFun_ai 的 X 帖子（2026 年 10 月 8 日）",
+    "cn_note": "这次免费是通过海外编程工具提供的。另有“Step Plan 邀请好友叠加试用天数”的说法在流传，我们没有在官方页面核实到，所以没有收录。"
+   }
+  },
+  {
+   "slug": "ling-3-1-flash-free-novita",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#ling-3-1-flash-free-novita",
+   "url_zh": "https://freeai.alexai.top/zh/#ling-3-1-flash-free-novita",
+   "start": "2026-09-29",
+   "end_date": "2026-10-13",
+   "last_verified": "2026-10-09",
+   "source_url": "https://x.com/novita_labs/status/2104959811507134920",
+   "source_type": "official X",
+   "extra_sources": [
+    {
+     "label": "@AntLingAGI on X: two-week free trial, 256K context",
+     "url": "https://x.com/AntLingAGI/status/2105335242328506717"
+    }
+   ],
+   "en": {
+    "provider": "Ant Ling via Novita AI",
+    "models": "Ling-3.1-Flash",
+    "title": "Ling-3.1-Flash free on Novita AI",
+    "what_free": "Free API access to Ling-3.1-Flash on Novita AI (OpenAI-compatible, with Anthropic API support). The trial offers a 256K context window.",
+    "limits": "Usage caps not published.",
+    "how_to_claim": [
+     "Sign up at Novita AI",
+     "Create an API key",
+     "Call Ling-3.1-Flash"
+    ],
+    "end": "Oct 13, 2026, 9:00 AM PT (Oct 14, 00:00 UTC+8)",
+    "extended": "No",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "Not stated on the official post.",
+    "phone_required": "Not stated on the official post.",
+    "region": "Not stated",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@novita_labs on X (Sep 29, 2026)"
+   },
+   "zh": {
+    "provider": "蚂蚁 Ling（Novita AI）",
+    "models": "Ling-3.1-Flash",
+    "title": "Novita AI 免费用 Ling-3.1-Flash",
+    "what_free": "在 Novita AI 上免费调用 Ling-3.1-Flash API（OpenAI 兼容，也支持 Anthropic API）。试用期提供 256K 上下文。",
+    "limits": "用量上限未公布。",
+    "how_to_claim": [
+     "注册 Novita AI",
+     "创建 API Key",
+     "调用 Ling-3.1-Flash"
+    ],
+    "end": "2026 年 10 月 13 日 9:00 PT（北京时间 10 月 14 日 00:00）",
+    "extended": "否",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "官方帖子未说明。",
+    "phone_required": "官方帖子未说明。",
+    "region": "未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@novita_labs 的 X 帖子（2026 年 9 月 29 日）",
+    "cn_note": "Ling 是蚂蚁集团的模型；这次免费是通过海外推理平台 Novita AI 提供的。"
+   }
+  },
+  {
+   "slug": "meituan-longcat-5m-free-tokens",
+   "status": "active",
+   "display_status": "active",
+   "category": "trial_credits",
+   "china_vendor": true,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#meituan-longcat-5m-free-tokens",
+   "url_zh": "https://freeai.alexai.top/zh/#meituan-longcat-5m-free-tokens",
+   "start": "2026-09-25",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://x.com/Meituan_LongCat/status/2103488921233703042",
+   "source_type": "official X",
+   "extra_sources": [],
+   "en": {
+    "provider": "Meituan LongCat",
+    "models": "LongCat-2.5-Preview",
+    "title": "LongCat: 5M free tokens for existing users",
+    "what_free": "Every existing LongCat API platform user gets 5 million free tokens to try LongCat-2.5-Preview.",
+    "limits": "Existing users only. Validity period not published.",
+    "how_to_claim": [
+     "Sign in to the LongCat platform",
+     "Check your balance on the usage page (longcat.ai/platform/usage)"
+    ],
+    "end": "Not published",
+    "extended": "No",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "Not stated on the official post.",
+    "phone_required": "Not stated on the official post.",
+    "region": "Not stated",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@Meituan_LongCat on X (Sep 25, 2026)"
+   },
+   "zh": {
+    "provider": "美团 LongCat",
+    "models": "LongCat-2.5-Preview",
+    "title": "LongCat：老用户送 500 万免费 token",
+    "what_free": "所有已注册的 LongCat API 开放平台用户都获得 500 万免费 token，可用来试用 LongCat-2.5-Preview。",
+    "limits": "仅限老用户。有效期未公布。",
+    "how_to_claim": [
+     "登录 LongCat 开放平台",
+     "在用量页面（longcat.ai/platform/usage）查看余额"
+    ],
+    "end": "未公布",
+    "extended": "否",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "官方帖子未说明。",
+    "phone_required": "官方帖子未说明。",
+    "region": "未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@Meituan_LongCat 的 X 帖子（2026 年 9 月 25 日）",
+    "cn_note": ""
+   }
+  },
+  {
+   "slug": "nous-portal-solar-mini-4-free",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": false,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#nous-portal-solar-mini-4-free",
+   "url_zh": "https://freeai.alexai.top/zh/#nous-portal-solar-mini-4-free",
+   "start": "2026-10-05",
+   "end_date": "2026-10-19",
+   "last_verified": "2026-10-09",
+   "source_url": "https://x.com/NousResearch/status/2107138770088714678",
+   "source_type": "official X",
+   "extra_sources": [],
+   "en": {
+    "provider": "Nous Research (Nous Portal)",
+    "models": "Upstage Solar Mini 4",
+    "title": "Solar Mini 4 free on Nous Portal",
+    "what_free": "Upstage's Solar Mini 4 (35B total / 3B active parameters, 512K context) is free on Nous Portal for two weeks.",
+    "limits": "Usage caps not published.",
+    "how_to_claim": [
+     "Sign in to Nous Portal",
+     "Select Solar Mini 4"
+    ],
+    "end": "About Oct 19, 2026 (\"two weeks\" from Oct 5; exact end not published)",
+    "extended": "No",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "Not stated on the official post.",
+    "phone_required": "Not stated on the official post.",
+    "region": "Not stated",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@NousResearch on X (Oct 5, 2026)"
+   },
+   "zh": {
+    "provider": "Nous Research（Nous Portal）",
+    "models": "Upstage Solar Mini 4",
+    "title": "Nous Portal 免费用 Solar Mini 4",
+    "what_free": "Upstage 的 Solar Mini 4（总参数 35B / 激活 3B，512K 上下文）在 Nous Portal 上免费两周。",
+    "limits": "用量上限未公布。",
+    "how_to_claim": [
+     "登录 Nous Portal",
+     "选择 Solar Mini 4"
+    ],
+    "end": "约 2026 年 10 月 19 日（从 10 月 5 日起“两周”，具体结束时间未公布）",
+    "extended": "否",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "官方帖子未说明。",
+    "phone_required": "官方帖子未说明。",
+    "region": "未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@NousResearch 的 X 帖子（2026 年 10 月 5 日）",
+    "cn_note": ""
+   }
+  },
+  {
+   "slug": "openrouter-mercury-decide-free",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": false,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#openrouter-mercury-decide-free",
+   "url_zh": "https://freeai.alexai.top/zh/#openrouter-mercury-decide-free",
+   "start": "2026-09-30",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://x.com/OpenRouter/status/2108291696572379521",
+   "source_type": "official X",
+   "extra_sources": [],
+   "en": {
+    "provider": "OpenRouter / Inception",
+    "models": "Mercury Decide",
+    "title": "Mercury Decide free endpoint on OpenRouter",
+    "what_free": "Inception's Mercury Decide has a free endpoint on OpenRouter, next to a new paid zero-data-retention endpoint ($0.02/M input; output and cached input free).",
+    "limits": "OpenRouter's free-model limits apply (20 RPM; 50 or 1,000 requests/day). 66K context.",
+    "how_to_claim": [
+     "Use the free Mercury Decide variant on OpenRouter"
+    ],
+    "end": "Not published",
+    "extended": "No",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "No for the free endpoint (OpenRouter free limits).",
+    "phone_required": "Not stated.",
+    "region": "Not stated",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@OpenRouter on X (Oct 8, 2026)"
+   },
+   "zh": {
+    "provider": "OpenRouter / Inception",
+    "models": "Mercury Decide",
+    "title": "OpenRouter 上的 Mercury Decide 免费端点",
+    "what_free": "Inception 的 Mercury Decide 在 OpenRouter 上有免费端点；同时新上线了付费的零数据留存端点（输入 $0.02/百万 token，输出和缓存输入免费）。",
+    "limits": "适用 OpenRouter 免费模型限额（每分钟 20 次；每天 50 次或 1,000 次）。上下文 66K。",
+    "how_to_claim": [
+     "在 OpenRouter 上调用 Mercury Decide 的免费版本"
+    ],
+    "end": "未公布",
+    "extended": "否",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "免费端点不需要（按 OpenRouter 免费限额）。",
+    "phone_required": "未说明。",
+    "region": "未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@OpenRouter 的 X 帖子（2026 年 10 月 8 日）",
+    "cn_note": ""
+   }
+  },
+  {
+   "slug": "claude-max-team-api-credits",
+   "status": "active",
+   "display_status": "active",
+   "category": "subscriber",
+   "china_vendor": false,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#claude-max-team-api-credits",
+   "url_zh": "https://freeai.alexai.top/zh/#claude-max-team-api-credits",
+   "start": "2026-10-07",
+   "end_date": null,
+   "last_verified": "2026-10-09",
+   "source_url": "https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers",
+   "source_type": "official docs",
+   "extra_sources": [],
+   "en": {
+    "provider": "Anthropic (Claude)",
+    "models": "Claude API, Managed Agents, Agent SDK",
+    "title": "Monthly Claude API credits for Max and Team subscribers",
+    "what_free": "Paid Claude Max and Team plans now include monthly Claude API credits: $100 (Max 5x), $200 (Max 20x), or $20 per Standard seat and $100 per Premium seat on Team (pooled, capped at $500).",
+    "limits": "No rollover; credits expire at the end of each billing cycle. They don't cover Claude Code or extra usage in the Claude apps. New subscribers can claim after 7 days. Free, Pro and Enterprise plans aren't eligible.",
+    "how_to_claim": [
+     "On claude.ai open Settings > Billing (Max) or Organization settings > Billing (Team)",
+     "Link a Claude Console organization in the API credits section",
+     "Credits appear under Promotional credits in the Console"
+    ],
+    "end": "Ongoing (monthly)",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "No payment method needed on Claude Platform, but you need a paid Max or Team plan.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated",
+    "conditions": "",
+    "notes": "",
+    "source_label": "Claude Platform Docs: API credits for Max and Team plans"
+   },
+   "zh": {
+    "provider": "Anthropic（Claude）",
+    "models": "Claude API、Managed Agents、Agent SDK",
+    "title": "Claude Max 和 Team 订阅每月附送 API 额度",
+    "what_free": "付费的 Claude Max 和 Team 套餐现在每月附送 Claude API 额度：Max 5x 送 $100，Max 20x 送 $200；Team 每个 Standard 席位 $20、每个 Premium 席位 $100（合并计算，上限 $500）。",
+    "limits": "不能滚存，每个账单周期结束时清零。不能抵扣 Claude Code 或 Claude 应用里的额外用量。新订阅用户满 7 天后才能领取。Free、Pro 和 Enterprise 套餐不参与。",
+    "how_to_claim": [
+     "在 claude.ai 打开 设置 > 账单（Max）或 组织设置 > 账单（Team）",
+     "在 API 额度区域关联一个 Claude Console 组织",
+     "额度会显示在 Console 的 Promotional credits 里"
+    ],
+    "end": "长期（按月发放）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "Claude Platform 上不需要另绑支付方式，但你得有付费的 Max 或 Team 套餐。",
+    "phone_required": "官方页面未说明。",
+    "region": "未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "Claude Platform 文档：Max 和 Team 套餐的 API 额度",
+    "cn_note": "这不是白送的免费额度，而是付费订阅附带的权益。"
+   }
+  },
+  {
+   "slug": "cline-deepseek-v4-1-flash-free",
+   "status": "expired",
+   "display_status": "ended",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#cline-deepseek-v4-1-flash-free",
+   "url_zh": "https://freeai.alexai.top/zh/#cline-deepseek-v4-1-flash-free",
+   "start": "2026-09",
+   "end_date": "2026-10-04",
+   "last_verified": "2026-10-09",
+   "source_url": "https://x.com/cline/status/2106828852353974713",
+   "source_type": "official X",
+   "extra_sources": [],
+   "en": {
+    "provider": "Cline",
+    "models": "DeepSeek-V4.1-Flash",
+    "title": "Free DeepSeek-V4.1-Flash in Cline",
+    "what_free": "Free DeepSeek-V4.1-Flash in the Cline provider.",
+    "limits": "",
+    "how_to_claim": [],
+    "end": "Paused Oct 4, 2026 because of abuse",
+    "extended": "No",
+    "commercial_use": "",
+    "card_required": "",
+    "phone_required": "",
+    "region": "",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@cline on X (Oct 4, 2026)"
+   },
+   "zh": {
+    "provider": "Cline",
+    "models": "DeepSeek-V4.1-Flash",
+    "title": "Cline 免费 DeepSeek-V4.1-Flash",
+    "what_free": "在 Cline provider 中免费使用 DeepSeek-V4.1-Flash。",
+    "limits": "",
+    "how_to_claim": [],
+    "end": "2026 年 10 月 4 日因滥用暂停",
+    "extended": "否",
+    "commercial_use": "",
+    "card_required": "",
+    "phone_required": "",
+    "region": "",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@cline 的 X 帖子（2026 年 10 月 4 日）",
+    "cn_note": ""
+   }
+  },
+  {
+   "slug": "ling-3-0-flash-vl-free-openrouter",
+   "status": "expired",
+   "display_status": "ended",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#ling-3-0-flash-vl-free-openrouter",
+   "url_zh": "https://freeai.alexai.top/zh/#ling-3-0-flash-vl-free-openrouter",
+   "start": "2026-09-09",
+   "end_date": "2026-09-23",
+   "last_verified": "2026-10-09",
+   "source_url": "https://x.com/AntLingAGI/status/2102897822492434457",
+   "source_type": "official X",
+   "extra_sources": [],
+   "en": {
+    "provider": "Ant Ling / OpenRouter",
+    "models": "Ling-3.0-flash-VL",
+    "title": "Ling-3.0-flash-VL free on OpenRouter",
+    "what_free": "Two weeks of free access on OpenRouter.",
+    "limits": "",
+    "how_to_claim": [],
+    "end": "Ended Sep 23, 2026, 9:00 AM PT; now paid at discounted prices",
+    "extended": "No",
+    "commercial_use": "",
+    "card_required": "",
+    "phone_required": "",
+    "region": "",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@AntLingAGI on X (Sep 23, 2026)"
+   },
+   "zh": {
+    "provider": "蚂蚁 Ling / OpenRouter",
+    "models": "Ling-3.0-flash-VL",
+    "title": "OpenRouter 免费用 Ling-3.0-flash-VL",
+    "what_free": "在 OpenRouter 上免费使用两周。",
+    "limits": "",
+    "how_to_claim": [],
+    "end": "2026 年 9 月 23 日 9:00 PT 结束，之后改为付费折扣价",
+    "extended": "否",
+    "commercial_use": "",
+    "card_required": "",
+    "phone_required": "",
+    "region": "",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@AntLingAGI 的 X 帖子（2026 年 9 月 23 日）",
+    "cn_note": ""
+   }
+  }
+ ]
+}
