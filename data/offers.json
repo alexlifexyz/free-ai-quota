@@ -1,9 +1,9 @@
 {
  "schema_version": 1,
- "generated": "2026-10-09",
+ "generated": "2026-10-12",
  "site": "https://freeai.alexai.top",
  "license_note": "Facts compiled from official provider pages; always check source_url.",
- "count": 19,
+ "count": 25,
  "offers": [
   {
    "slug": "google-gemini-api-free-tier",
@@ -656,8 +656,8 @@
   },
   {
    "slug": "gmi-cloud-free-qwen-3-8",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": true,
    "has_page": true,
@@ -665,7 +665,7 @@
    "url_zh": "https://freeai.alexai.top/zh/gmi-cloud-free-qwen-3-8/",
    "start": "2026-10-06",
    "end_date": "2026-10-11",
-   "last_verified": "2026-10-09",
+   "last_verified": "2026-10-12",
    "source_url": "https://www.gmicloud.ai/qwen-day",
    "source_type": "official page + official X",
    "extra_sources": [
@@ -680,12 +680,16 @@
     {
      "label": "@Alibaba_Qwen on X (Oct 9, 2026)",
      "url": "https://x.com/Alibaba_Qwen/status/2108401307577090259"
+    },
+    {
+     "label": "@gmi_cloud on X: free Qwen and Wan paused early (Oct 11, 2026)",
+     "url": "https://x.com/gmi_cloud/status/2109101349543813542"
     }
    ],
    "en": {
     "provider": "GMI Cloud (with Alibaba Qwen)",
     "models": "Qwen 3.8 Max, Qwen 3.8 Flash, Wan3.0-video",
-    "title": "Free Qwen 3.8 Max & Flash API on GMI Cloud (Ends Oct 11)",
+    "title": "Free Qwen 3.8 Max & Flash API on GMI Cloud (Ended Early)",
     "what_free": "Free use of Qwen 3.8 Max, Qwen 3.8 Flash and Wan3.0-video through GMI Cloud's OpenAI-compatible API during the promotion. Enterprise teams can also apply for voucher credits using a form on the same page.",
     "limits": "Your account balance must be at least $10. The $10 isn't spent and stays in your balance. GMI raised rate limits on Oct 7, 2026 but hasn't published the exact numbers.",
     "how_to_claim": [
@@ -693,20 +697,20 @@
      "Make sure your balance is at least $10 (top up if you're new)",
      "Call the models through the OpenAI-compatible API with your GMI key"
     ],
-    "end": "Oct 11, 2026 (per GMI's reply on X; timezone not stated)",
+    "end": "Paused early on Oct 11, 2026 (GMI announcement at 01:58 UTC / 09:58 Beijing) due to a traffic surge",
     "extended": "Yes. Free access was extended by 7 more days on Oct 7, 2026, with higher rate limits.",
     "commercial_use": "Not specified. The offer is \"for legitimate use only\" and subject to GMI Cloud and Alibaba Cloud Terms of Service and Acceptable Use Policy.",
     "card_required": "Effectively yes: new users must top up $10.",
     "phone_required": "Not stated on the official page.",
     "region": "Not stated on the official page",
     "conditions": "GMI monitors for multi-account signups, automated farming and resale, and can revoke access.",
-    "notes": "",
+    "notes": "GMI paused the free Qwen and Wan access early on Oct 11, 2026 because of a sudden traffic increase. GMI says more free tokens and a waitlist will come \"in the coming days\". The qwen-day offer page no longer loads.",
     "source_label": "GMI Cloud: Qwen 3.8 Max, Flash & Wan 3.0, free for 7 days"
    },
    "zh": {
     "provider": "GMI Cloud（与阿里通义千问合作）",
     "models": "Qwen 3.8 Max、Qwen 3.8 Flash、Wan3.0-video",
-    "title": "GMI Cloud 免费用 Qwen 3.8 Max 和 Flash API（10 月 11 日结束）",
+    "title": "GMI Cloud 免费用 Qwen 3.8 Max 和 Flash API（已提前结束）",
     "what_free": "活动期间，可以通过 GMI Cloud 的 OpenAI 兼容 API 免费调用 Qwen 3.8 Max、Qwen 3.8 Flash 和 Wan3.0-video。企业团队还可以在同一页面通过表单申请代金券额度。",
     "limits": "账户余额需要不低于 $10。这 $10 不会被扣掉，会一直留在余额里。GMI 在 2026 年 10 月 7 日提高了速率限制，但没有公布具体数字。",
     "how_to_claim": [
@@ -714,14 +718,14 @@
      "确认余额不低于 $10（新用户需要先充值）",
      "用 GMI 的 Key 通过 OpenAI 兼容 API 调用模型"
     ],
-    "end": "2026 年 10 月 11 日（据 GMI 在 X 上的回复，未注明时区）",
+    "end": "2026 年 10 月 11 日提前暂停（GMI 于 UTC 01:58 / 北京时间 09:58 宣布，原因是流量激增）",
     "extended": "是。2026 年 10 月 7 日宣布再延长 7 天，并提高了速率限制。",
     "commercial_use": "未明确说明。活动仅限“正当用途”，须遵守 GMI Cloud 和阿里云的服务条款及可接受使用政策。",
     "card_required": "实际上需要：新用户必须先充值 $10。",
     "phone_required": "官方页面未说明。",
     "region": "官方页面未说明",
     "conditions": "GMI 会监控多账号注册、自动化薅额度和转售行为，并可能收回访问权限。",
-    "notes": "",
+    "notes": "因流量突然激增，GMI 于 2026 年 10 月 11 日提前暂停了免费 Qwen 和 Wan。GMI 表示“未来几天”会再放出免费 token 并开放候补登记。qwen-day 活动页已无法打开。",
     "source_label": "GMI Cloud：Qwen 3.8 Max、Flash 和 Wan 3.0 免费 7 天",
     "cn_note": "这是海外平台的活动，需要先充值 $10（不扣费，留在余额里），通常要用境外支付方式。只想免费试 Qwen，国内用户用阿里云百炼的新人免费额度更直接。"
    }
@@ -729,7 +733,7 @@
   {
    "slug": "stepfun-step-5-preview-free",
    "status": "active",
-   "display_status": "active",
+   "display_status": "soon",
    "category": "limited",
    "china_vendor": true,
    "has_page": true,
@@ -737,7 +741,7 @@
    "url_zh": "https://freeai.alexai.top/zh/stepfun-step-5-preview-free/",
    "start": "2026-10-08",
    "end_date": "2026-10-15",
-   "last_verified": "2026-10-09",
+   "last_verified": "2026-10-10",
    "source_url": "https://x.com/StepFun_ai/status/2108182763002278158",
    "source_type": "official X",
    "extra_sources": [
@@ -748,20 +752,28 @@
     {
      "label": "@cline on X: free in Cline",
      "url": "https://x.com/cline/status/2108249633789263917"
+    },
+    {
+     "label": "@kilocode on X: free in Kilo for a week (Oct 9, 2026)",
+     "url": "https://x.com/kilocode/status/2108557014913691902"
+    },
+    {
+     "label": "@NousResearch on X: free on Nous Portal for the next week (Oct 9, 2026)",
+     "url": "https://x.com/NousResearch/status/2108638389045960958"
     }
    ],
    "en": {
     "provider": "StepFun (阶跃星辰)",
     "models": "Step 5 Preview",
     "title": "Step 5 Preview Free for a Week: Where to Use StepFun's Model Free",
-    "what_free": "StepFun announced a week of free access to Step 5 Preview starting Oct 8, 2026 in coding tools including OpenCode, Cline, Nous Research (Nous Portal) and Kilo Code. Step 5 Preview is also listed on OpenRouter, but the announcement doesn't say OpenRouter access is free.",
+    "what_free": "StepFun announced a week of free access to Step 5 Preview starting Oct 8, 2026 in coding tools including OpenCode, Cline, Nous Research (Nous Portal) and Kilo Code. Kilo Code and Nous Portal each announced their own free week on Oct 9. Step 5 Preview is also on OpenRouter, but it's paid there ($1.00 per million input tokens, $2.70 per million output tokens, per OpenRouter's models API on Oct 10, 2026).",
     "limits": "Free use happens inside the partner tools. Per-tool usage caps aren't published.",
     "how_to_claim": [
      "Open one of the partner tools (OpenCode, Cline, Kilo Code or Nous Portal)",
      "Select Step 5 Preview in the model picker",
      "Use it during the free week"
     ],
-    "end": "About Oct 15, 2026 (\"a week\" from Oct 8; exact end time not published)",
+    "end": "About Oct 15–16, 2026 (one week from each tool's launch on Oct 8–9; exact end not published)",
     "extended": "No (as of this check)",
     "commercial_use": "Not specified on the official page; check the provider's terms.",
     "card_required": "Not stated; depends on the tool.",
@@ -775,14 +787,14 @@
     "provider": "阶跃星辰 StepFun",
     "models": "Step 5 Preview",
     "title": "阶跃星辰 Step 5 Preview 免费一周：在哪里能免费用",
-    "what_free": "阶跃星辰宣布从 2026 年 10 月 8 日起，在 OpenCode、Cline、Nous Research（Nous Portal）和 Kilo Code 等编程工具里免费使用 Step 5 Preview 一周。Step 5 Preview 也已在 OpenRouter 上架，但公告没有说 OpenRouter 上是免费的。",
+    "what_free": "阶跃星辰宣布从 2026 年 10 月 8 日起，在 OpenCode、Cline、Nous Research（Nous Portal）和 Kilo Code 等编程工具里免费使用 Step 5 Preview 一周。Kilo Code 和 Nous Portal 在 10 月 9 日各自宣布了自己的免费一周。Step 5 Preview 在 OpenRouter 上也能用，但那里是付费的（每百万输入 tokens $1.00，每百万输出 tokens $2.70，据 2026 年 10 月 10 日 OpenRouter 模型 API）。",
     "limits": "只能在合作工具内免费使用。各工具的用量上限未公布。",
     "how_to_claim": [
      "打开合作工具之一（OpenCode、Cline、Kilo Code 或 Nous Portal）",
      "在模型列表里选择 Step 5 Preview",
      "在免费周内使用"
     ],
-    "end": "约 2026 年 10 月 15 日（从 10 月 8 日起“一周”，具体结束时间未公布）",
+    "end": "约 2026 年 10 月 15–16 日（各工具从 10 月 8–9 日上线起算“一周”，具体结束时间未公布）",
     "extended": "否（截至本次核验）",
     "commercial_use": "官方页面未说明，请查看服务条款。",
     "card_required": "未说明，取决于具体工具。",
@@ -797,7 +809,7 @@
   {
    "slug": "ling-3-1-flash-free-novita",
    "status": "active",
-   "display_status": "active",
+   "display_status": "soon",
    "category": "limited",
    "china_vendor": true,
    "has_page": false,
@@ -805,20 +817,28 @@
    "url_zh": "https://freeai.alexai.top/zh/#ling-3-1-flash-free-novita",
    "start": "2026-09-29",
    "end_date": "2026-10-13",
-   "last_verified": "2026-10-09",
+   "last_verified": "2026-10-10",
    "source_url": "https://x.com/novita_labs/status/2104959811507134920",
    "source_type": "official X",
    "extra_sources": [
     {
      "label": "@AntLingAGI on X: two-week free trial, 256K context",
      "url": "https://x.com/AntLingAGI/status/2105335242328506717"
+    },
+    {
+     "label": "@novita_labs on X: free via Novita on OpenRouter until Oct 13, 9:00 AM PT",
+     "url": "https://x.com/novita_labs/status/2106039907303231692"
+    },
+    {
+     "label": "@kilocode on X: free in Kilo Code until October 13",
+     "url": "https://x.com/kilocode/status/2106048051798302945"
     }
    ],
    "en": {
     "provider": "Ant Ling via Novita AI",
     "models": "Ling-3.1-Flash",
     "title": "Ling-3.1-Flash free on Novita AI",
-    "what_free": "Free API access to Ling-3.1-Flash on Novita AI (OpenAI-compatible, with Anthropic API support). The trial offers a 256K context window.",
+    "what_free": "Free API access to Ling-3.1-Flash on Novita AI (OpenAI-compatible, with Anthropic API support). The trial offers a 256K context window. Novita also serves it free on OpenRouter until the same time, and Kilo Code says it's free in Kilo Code until October 13 (no time given).",
     "limits": "Usage caps not published.",
     "how_to_claim": [
      "Sign up at Novita AI",
@@ -839,7 +859,7 @@
     "provider": "蚂蚁 Ling（Novita AI）",
     "models": "Ling-3.1-Flash",
     "title": "Novita AI 免费用 Ling-3.1-Flash",
-    "what_free": "在 Novita AI 上免费调用 Ling-3.1-Flash API（OpenAI 兼容，也支持 Anthropic API）。试用期提供 256K 上下文。",
+    "what_free": "在 Novita AI 上免费调用 Ling-3.1-Flash API（OpenAI 兼容，也支持 Anthropic API）。试用期提供 256K 上下文。Novita 在 OpenRouter 上提供的版本也免费到同一时间；Kilo Code 也宣布在 Kilo Code 里免费到 10 月 13 日（未给出具体时间）。",
     "limits": "用量上限未公布。",
     "how_to_claim": [
      "注册 Novita AI",
@@ -856,6 +876,78 @@
     "notes": "",
     "source_label": "@novita_labs 的 X 帖子（2026 年 9 月 29 日）",
     "cn_note": "Ling 是蚂蚁集团的模型；这次免费是通过海外推理平台 Novita AI 提供的。"
+   }
+  },
+  {
+   "slug": "apodex-1-1-mini-free-novita",
+   "status": "active",
+   "display_status": "soon",
+   "category": "limited",
+   "china_vendor": false,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#apodex-1-1-mini-free-novita",
+   "url_zh": "https://freeai.alexai.top/zh/#apodex-1-1-mini-free-novita",
+   "start": "2026-10-01",
+   "end_date": "2026-10-15",
+   "last_verified": "2026-10-10",
+   "source_url": "https://x.com/novita_labs/status/2106418861402992679",
+   "source_type": "official X",
+   "extra_sources": [
+    {
+     "label": "@novita_labs on X: Apodex 1.1 Mini live on Novita (Oct 1, 2026)",
+     "url": "https://x.com/novita_labs/status/2105671708686659717"
+    },
+    {
+     "label": "@novita_labs on X: available via Novita on OpenRouter (Oct 2, 2026)",
+     "url": "https://x.com/novita_labs/status/2106042418940252166"
+    },
+    {
+     "label": "@concentrateai on X: free till Oct 14, 00:00 SGT",
+     "url": "https://x.com/concentrateai/status/2107881552214679734"
+    }
+   ],
+   "en": {
+    "provider": "Apodex via Novita AI",
+    "models": "Apodex 1.1 Mini",
+    "title": "Apodex 1.1 Mini free on Novita AI (and OpenRouter)",
+    "what_free": "Free trial of Apodex 1.1 Mini (35B parameters, 262K context, native tool/function calling) on Novita AI, launched Oct 1, 2026. Novita extended the trial from 7 to 14 days on Oct 3. Novita also serves a free version on OpenRouter (apodex/apodex-1.1-mini:free), which was still listed at $0 with no expiration date on Oct 10, 2026. Separately, Concentrate AI offers it free until Oct 14, 00:00 Singapore time.",
+    "limits": "Usage caps not published.",
+    "how_to_claim": [
+     "Sign up at Novita AI",
+     "Create an API key",
+     "Call Apodex 1.1 Mini (or use apodex/apodex-1.1-mini:free on OpenRouter)"
+    ],
+    "end": "About Oct 15, 2026 on Novita (14-day trial from Oct 1; exact end not published). Concentrate AI: Oct 14, 00:00 Singapore time (UTC+8).",
+    "extended": "Yes. Novita extended the free trial from 7 to 14 days on Oct 3, 2026.",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "Not stated on the official post.",
+    "phone_required": "Not stated on the official post.",
+    "region": "Not stated",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@novita_labs on X: free trial now 14 days (Oct 3, 2026)"
+   },
+   "zh": {
+    "provider": "Apodex（Novita AI）",
+    "models": "Apodex 1.1 Mini",
+    "title": "Novita AI（及 OpenRouter）免费用 Apodex 1.1 Mini",
+    "what_free": "在 Novita AI 上免费试用 Apodex 1.1 Mini（35B 参数，262K 上下文，原生支持工具/函数调用），2026 年 10 月 1 日上线。Novita 在 10 月 3 日把试用期从 7 天延长到 14 天。Novita 在 OpenRouter 上也提供免费版本（apodex/apodex-1.1-mini:free），2026 年 10 月 10 日查询时仍为 $0，未标注到期时间。另外，Concentrate AI 上免费到新加坡时间 10 月 14 日 00:00。",
+    "limits": "用量上限未公布。",
+    "how_to_claim": [
+     "注册 Novita AI",
+     "创建 API Key",
+     "调用 Apodex 1.1 Mini（或在 OpenRouter 上用 apodex/apodex-1.1-mini:free）"
+    ],
+    "end": "Novita：约 2026 年 10 月 15 日（从 10 月 1 日起 14 天试用，具体结束时间未公布）。Concentrate AI：北京时间 10 月 14 日 00:00（官方写的是新加坡时间，同为 UTC+8）。",
+    "extended": "是。Novita 在 2026 年 10 月 3 日把免费试用从 7 天延长到 14 天。",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "官方帖子未说明。",
+    "phone_required": "官方帖子未说明。",
+    "region": "未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@novita_labs 的 X 帖子：免费试用延长到 14 天（2026 年 10 月 3 日）",
+    "cn_note": "这是海外推理平台上的限时免费，通常需要境外支付方式或网络环境。"
    }
   },
   {
@@ -926,21 +1018,26 @@
    "url_zh": "https://freeai.alexai.top/zh/#nous-portal-solar-mini-4-free",
    "start": "2026-10-05",
    "end_date": "2026-10-19",
-   "last_verified": "2026-10-09",
+   "last_verified": "2026-10-10",
    "source_url": "https://x.com/NousResearch/status/2107138770088714678",
    "source_type": "official X",
-   "extra_sources": [],
+   "extra_sources": [
+    {
+     "label": "@cline on X: Solar Mini 4 is free in Cline (Oct 9, 2026)",
+     "url": "https://x.com/cline/status/2108630302381994318"
+    }
+   ],
    "en": {
-    "provider": "Nous Research (Nous Portal)",
+    "provider": "Nous Research (Nous Portal) / Cline",
     "models": "Upstage Solar Mini 4",
-    "title": "Solar Mini 4 free on Nous Portal",
-    "what_free": "Upstage's Solar Mini 4 (35B total / 3B active parameters, 512K context) is free on Nous Portal for two weeks.",
+    "title": "Solar Mini 4 free on Nous Portal and Cline",
+    "what_free": "Upstage's Solar Mini 4 (35B total / 3B active parameters, 512K context) is free on Nous Portal for two weeks. Cline also announced on Oct 9, 2026 that Solar Mini 4 is free in Cline; no end date was announced there.",
     "limits": "Usage caps not published.",
     "how_to_claim": [
-     "Sign in to Nous Portal",
+     "Sign in to Nous Portal, or open Cline",
      "Select Solar Mini 4"
     ],
-    "end": "About Oct 19, 2026 (\"two weeks\" from Oct 5; exact end not published)",
+    "end": "Nous Portal: about Oct 19, 2026 (\"two weeks\" from Oct 5; exact end not published). Cline: no end date announced.",
     "extended": "No",
     "commercial_use": "Not specified on the official page; check the provider's terms.",
     "card_required": "Not stated on the official post.",
@@ -951,16 +1048,16 @@
     "source_label": "@NousResearch on X (Oct 5, 2026)"
    },
    "zh": {
-    "provider": "Nous Research（Nous Portal）",
+    "provider": "Nous Research（Nous Portal）/ Cline",
     "models": "Upstage Solar Mini 4",
-    "title": "Nous Portal 免费用 Solar Mini 4",
-    "what_free": "Upstage 的 Solar Mini 4（总参数 35B / 激活 3B，512K 上下文）在 Nous Portal 上免费两周。",
+    "title": "Nous Portal 和 Cline 免费用 Solar Mini 4",
+    "what_free": "Upstage 的 Solar Mini 4（总参数 35B / 激活 3B，512K 上下文）在 Nous Portal 上免费两周。Cline 也在 2026 年 10 月 9 日宣布 Solar Mini 4 在 Cline 里免费，未公布结束时间。",
     "limits": "用量上限未公布。",
     "how_to_claim": [
-     "登录 Nous Portal",
+     "登录 Nous Portal 或打开 Cline",
      "选择 Solar Mini 4"
     ],
-    "end": "约 2026 年 10 月 19 日（从 10 月 5 日起“两周”，具体结束时间未公布）",
+    "end": "Nous Portal：约 2026 年 10 月 19 日（从美国时间 10 月 5 日起“两周”，具体结束时间未公布）。Cline：未公布结束时间。",
     "extended": "否",
     "commercial_use": "官方页面未说明，请查看服务条款。",
     "card_required": "官方帖子未说明。",
@@ -974,8 +1071,8 @@
   },
   {
    "slug": "openrouter-mercury-decide-free",
-   "status": "active",
-   "display_status": "ongoing",
+   "status": "expired",
+   "display_status": "ended",
    "category": "evergreen",
    "china_vendor": false,
    "has_page": false,
@@ -983,7 +1080,7 @@
    "url_zh": "https://freeai.alexai.top/zh/#openrouter-mercury-decide-free",
    "start": "2026-09-30",
    "end_date": null,
-   "last_verified": "2026-10-09",
+   "last_verified": "2026-10-12",
    "source_url": "https://x.com/OpenRouter/status/2108291696572379521",
    "source_type": "official X",
    "extra_sources": [],
@@ -996,14 +1093,14 @@
     "how_to_claim": [
      "Use the free Mercury Decide variant on OpenRouter"
     ],
-    "end": "Not published",
+    "end": "Free endpoint no longer listed (checked Oct 12, 2026)",
     "extended": "No",
     "commercial_use": "Not specified on the official page; check the provider's terms.",
     "card_required": "No for the free endpoint (OpenRouter free limits).",
     "phone_required": "Not stated.",
     "region": "Not stated",
     "conditions": "",
-    "notes": "",
+    "notes": "As of Oct 12, 2026, Mercury Decide no longer appears in the OpenRouter models API (https://openrouter.ai/api/v1/models), so the free endpoint appears to have ended.",
     "source_label": "@OpenRouter on X (Oct 8, 2026)"
    },
    "zh": {
@@ -1015,14 +1112,14 @@
     "how_to_claim": [
      "在 OpenRouter 上调用 Mercury Decide 的免费版本"
     ],
-    "end": "未公布",
+    "end": "免费端点已下架（2026 年 10 月 12 日核对）",
     "extended": "否",
     "commercial_use": "官方页面未说明，请查看服务条款。",
     "card_required": "免费端点不需要（按 OpenRouter 免费限额）。",
     "phone_required": "未说明。",
     "region": "未说明",
     "conditions": "",
-    "notes": "",
+    "notes": "截至 2026 年 10 月 12 日，OpenRouter 模型 API 中已查不到 Mercury Decide，免费端点应已结束。",
     "source_label": "@OpenRouter 的 X 帖子（2026 年 10 月 8 日）",
     "cn_note": ""
    }
@@ -1186,6 +1283,300 @@
     "notes": "",
     "source_label": "@AntLingAGI 的 X 帖子（2026 年 9 月 23 日）",
     "cn_note": ""
+   }
+  },
+  {
+   "slug": "nous-portal-missingno-free",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": false,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#nous-portal-missingno-free",
+   "url_zh": "https://freeai.alexai.top/zh/#nous-portal-missingno-free",
+   "start": "2026-10-10",
+   "end_date": null,
+   "last_verified": "2026-10-12",
+   "source_url": "https://x.com/NousResearch/status/2109012611555840069",
+   "source_type": "official X",
+   "extra_sources": [],
+   "en": {
+    "provider": "Nous Research (Nous Portal)",
+    "models": "MISSINGNO. (stealth model)",
+    "title": "MISSINGNO. stealth model free on Nous Portal",
+    "what_free": "MISSINGNO., a token-efficient coding and agentic reasoning model, is free for a limited time on Nous Portal and can be used in Hermes Agent. The underlying vendor is not disclosed.",
+    "limits": "Usage caps not published.",
+    "how_to_claim": [
+     "Sign in to Nous Portal",
+     "Select MISSINGNO. (e.g. in Hermes Agent)"
+    ],
+    "end": "Not published (\"limited time\")",
+    "extended": "No",
+    "commercial_use": "Not specified on the official post; check the provider's terms.",
+    "card_required": "Not stated on the official post.",
+    "phone_required": "Not stated on the official post.",
+    "region": "Not stated",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@NousResearch on X (Oct 10, 2026)"
+   },
+   "zh": {
+    "provider": "Nous Research（Nous Portal）",
+    "models": "MISSINGNO.（匿名模型）",
+    "title": "Nous Portal 限时免费用匿名模型 MISSINGNO.",
+    "what_free": "MISSINGNO. 是一款省 token 的编程与智能体推理模型，在 Nous Portal 上限时免费，可在 Hermes Agent 中使用。背后厂商未公开。",
+    "limits": "用量上限未公布。",
+    "how_to_claim": [
+     "登录 Nous Portal",
+     "选择 MISSINGNO.（例如在 Hermes Agent 中）"
+    ],
+    "end": "未公布（“限时”）",
+    "extended": "否",
+    "commercial_use": "官方帖子未说明，请查看服务条款。",
+    "card_required": "官方帖子未说明。",
+    "phone_required": "官方帖子未说明。",
+    "region": "未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "@NousResearch 的 X 帖子（2026 年 10 月 10 日）",
+    "cn_note": ""
+   }
+  },
+  {
+   "slug": "devin-swe-2-free",
+   "status": "active",
+   "display_status": "soon",
+   "category": "subscriber",
+   "china_vendor": false,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#devin-swe-2-free",
+   "url_zh": "https://freeai.alexai.top/zh/#devin-swe-2-free",
+   "start": "2026-10",
+   "end_date": "2026-10-15",
+   "last_verified": "2026-10-12",
+   "source_url": "https://devin.ai/pricing",
+   "source_type": "official page",
+   "extra_sources": [
+    {
+     "label": "Devin docs: AI models (SWE-2 pricing)",
+     "url": "https://docs.devin.ai/desktop/models"
+    }
+   ],
+   "en": {
+    "provider": "Cognition (Devin)",
+    "models": "SWE-2",
+    "title": "SWE-2 free in Devin Desktop and CLI for paid plans",
+    "what_free": "Cognition's SWE-2 coding model is free in Devin Desktop and Devin CLI for self-serve paid plans (Pro $20/month and up) during the launch period. The free Devin plan only has limited model availability.",
+    "limits": "Uses your plan quota otherwise; Voice-mode agent usage does not get the free SWE-2 promotion. After the free period, list pricing is $3.00/1M input, $15.00/1M output.",
+    "how_to_claim": [
+     "Have a self-serve paid Devin plan (Pro, Max or Teams)",
+     "Open Devin Desktop or Devin CLI",
+     "Select SWE-2"
+    ],
+    "end": "Pricing page: through Oct 16, 2026; model docs: through Oct 15, 2026 (timezone not stated)",
+    "extended": "No",
+    "commercial_use": "Not stated on the official page.",
+    "card_required": "Yes: requires a paid plan.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page.",
+    "conditions": "",
+    "notes": "The two official pages give different end dates (Oct 15 vs Oct 16); we use the earlier one.",
+    "source_label": "Devin: Plans and Pricing"
+   },
+   "zh": {
+    "provider": "Cognition（Devin）",
+    "models": "SWE-2",
+    "title": "Devin 付费用户在 Desktop 和 CLI 中免费用 SWE-2",
+    "what_free": "Cognition 的 SWE-2 编程模型在首发期内，对自助付费套餐（Pro 每月 $20 起）在 Devin Desktop 和 Devin CLI 中免费。Devin 免费版只能用部分模型。",
+    "limits": "语音模式下的智能体用量不享受 SWE-2 免费。免费期结束后按标价计费：输入 $3.00/百万 token，输出 $15.00/百万 token。",
+    "how_to_claim": [
+     "开通 Devin 自助付费套餐（Pro、Max 或 Teams）",
+     "打开 Devin Desktop 或 Devin CLI",
+     "选择 SWE-2"
+    ],
+    "end": "定价页：至 2026 年 10 月 16 日；模型文档：至 2026 年 10 月 15 日（未注明时区）",
+    "extended": "否",
+    "commercial_use": "官方页面未说明。",
+    "card_required": "需要：必须是付费套餐。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明。",
+    "conditions": "",
+    "notes": "两个官方页面给出的结束日期不同（10 月 15 日和 10 月 16 日），本站按较早的日期计。",
+    "source_label": "Devin：套餐与定价",
+    "cn_note": ""
+   }
+  },
+  {
+   "slug": "openrouter-poolside-laguna-free",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": false,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#openrouter-poolside-laguna-free",
+   "url_zh": "https://freeai.alexai.top/zh/#openrouter-poolside-laguna-free",
+   "start": "2026-10",
+   "end_date": "2026-10-31",
+   "last_verified": "2026-10-12",
+   "source_url": "https://openrouter.ai/api/v1/models",
+   "source_type": "official API",
+   "extra_sources": [],
+   "en": {
+    "provider": "OpenRouter / Poolside",
+    "models": "Laguna XS 2.1, Laguna S 2.1",
+    "title": "Poolside Laguna XS/S 2.1 free on OpenRouter (to Oct 31)",
+    "what_free": "Poolside's Laguna XS 2.1 and Laguna S 2.1 have :free variants on OpenRouter at $0 per token.",
+    "limits": "OpenRouter's free-model limits apply. 262K context on the free variants.",
+    "how_to_claim": [
+     "Create an OpenRouter account and API key",
+     "Call poolside/laguna-xs-2.1:free or poolside/laguna-s-2.1:free"
+    ],
+    "end": "Oct 31, 2026 (OpenRouter expiration date; timezone not stated)",
+    "extended": "No",
+    "commercial_use": "Not specified; check OpenRouter's and the provider's terms.",
+    "card_required": "No (OpenRouter free limits).",
+    "phone_required": "Not stated.",
+    "region": "Not stated",
+    "conditions": "",
+    "notes": "",
+    "source_label": "OpenRouter models API"
+   },
+   "zh": {
+    "provider": "OpenRouter / Poolside",
+    "models": "Laguna XS 2.1、Laguna S 2.1",
+    "title": "OpenRouter 免费用 Poolside Laguna XS/S 2.1（至 10 月 31 日）",
+    "what_free": "Poolside 的 Laguna XS 2.1 和 Laguna S 2.1 在 OpenRouter 上有 :free 版本，按 token 计价为 $0。",
+    "limits": "适用 OpenRouter 免费模型限额。免费版上下文 262K。",
+    "how_to_claim": [
+     "注册 OpenRouter 并创建 API Key",
+     "调用 poolside/laguna-xs-2.1:free 或 poolside/laguna-s-2.1:free"
+    ],
+    "end": "2026 年 10 月 31 日（OpenRouter 标注的到期日，未注明时区）",
+    "extended": "否",
+    "commercial_use": "未说明，请查看 OpenRouter 和模型方的条款。",
+    "card_required": "不需要（按 OpenRouter 免费限额）。",
+    "phone_required": "未说明。",
+    "region": "未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "OpenRouter 模型 API",
+    "cn_note": ""
+   }
+  },
+  {
+   "slug": "openrouter-dots-3-note-preview-free",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": false,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#openrouter-dots-3-note-preview-free",
+   "url_zh": "https://freeai.alexai.top/zh/#openrouter-dots-3-note-preview-free",
+   "start": "2026-10",
+   "end_date": "2026-12-31",
+   "last_verified": "2026-10-12",
+   "source_url": "https://openrouter.ai/api/v1/models",
+   "source_type": "official API",
+   "extra_sources": [],
+   "en": {
+    "provider": "OpenRouter / dots-studio",
+    "models": "dots-3-note-preview",
+    "title": "dots-3-note-preview free on OpenRouter (to Dec 31)",
+    "what_free": "dots-studio's dots-3-note-preview has a :free variant on OpenRouter at $0 per token.",
+    "limits": "OpenRouter's free-model limits apply. 512K context.",
+    "how_to_claim": [
+     "Create an OpenRouter account and API key",
+     "Call dots-studio/dots-3-note-preview:free"
+    ],
+    "end": "Dec 31, 2026 (OpenRouter expiration date; timezone not stated)",
+    "extended": "No",
+    "commercial_use": "Not specified; check OpenRouter's and the provider's terms.",
+    "card_required": "No (OpenRouter free limits).",
+    "phone_required": "Not stated.",
+    "region": "Not stated",
+    "conditions": "",
+    "notes": "",
+    "source_label": "OpenRouter models API"
+   },
+   "zh": {
+    "provider": "OpenRouter / dots-studio",
+    "models": "dots-3-note-preview",
+    "title": "OpenRouter 免费用 dots-3-note-preview（至 12 月 31 日）",
+    "what_free": "dots-studio 的 dots-3-note-preview 在 OpenRouter 上有 :free 版本，按 token 计价为 $0。",
+    "limits": "适用 OpenRouter 免费模型限额。上下文 512K。",
+    "how_to_claim": [
+     "注册 OpenRouter 并创建 API Key",
+     "调用 dots-studio/dots-3-note-preview:free"
+    ],
+    "end": "2026 年 12 月 31 日（OpenRouter 标注的到期日，未注明时区）",
+    "extended": "否",
+    "commercial_use": "未说明，请查看 OpenRouter 和模型方的条款。",
+    "card_required": "不需要（按 OpenRouter 免费限额）。",
+    "phone_required": "未说明。",
+    "region": "未说明",
+    "conditions": "",
+    "notes": "",
+    "source_label": "OpenRouter 模型 API",
+    "cn_note": ""
+   }
+  },
+  {
+   "slug": "zai-startups-program-glm-tokens",
+   "status": "active",
+   "display_status": "active",
+   "category": "trial_credits",
+   "china_vendor": true,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#zai-startups-program-glm-tokens",
+   "url_zh": "https://freeai.alexai.top/zh/#zai-startups-program-glm-tokens",
+   "start": "Open since 2026",
+   "end_date": null,
+   "last_verified": "2026-10-12",
+   "source_url": "https://startup.z.ai/",
+   "source_type": "official page",
+   "extra_sources": [],
+   "en": {
+    "provider": "Z.ai (Zhipu)",
+    "models": "GLM family",
+    "title": "Z.ai Startups Program: up to 1B free GLM API tokens",
+    "what_free": "Approved startups get free Z.ai API credits of up to 1B tokens plus volume pricing on GLM, priority support and rate limits, and early API access.",
+    "limits": "Up to 1B tokens; the actual allocation is decided by Z.ai after review.",
+    "how_to_claim": [
+     "Log in with a Z.ai account at startup.z.ai",
+     "Fill in the application with your startup details",
+     "Wait for review and approval"
+    ],
+    "end": "No deadline published",
+    "extended": "Not applicable",
+    "commercial_use": "Yes, the program is for building products (see Z.ai terms).",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page.",
+    "conditions": "Application-based; approval is not guaranteed.",
+    "notes": "",
+    "source_label": "Z.ai Startups Program"
+   },
+   "zh": {
+    "provider": "Z.ai（智谱）",
+    "models": "GLM 系列",
+    "title": "Z.ai 创业公司计划：最高 10 亿 GLM API 免费 token",
+    "what_free": "通过审核的创业公司可获得最高 10 亿（1B）token 的 Z.ai API 免费额度，以及 GLM 批量价格、优先支持和速率限制、新模型抢先体验。",
+    "limits": "最高 1B token，实际额度由 Z.ai 审核后决定。",
+    "how_to_claim": [
+     "在 startup.z.ai 用 Z.ai 账号登录",
+     "填写创业公司申请表",
+     "等待审核通过"
+    ],
+    "end": "未公布截止日期",
+    "extended": "不适用",
+    "commercial_use": "是，计划面向产品开发（以 Z.ai 条款为准）。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明。",
+    "conditions": "需要申请，不保证通过。",
+    "notes": "",
+    "source_label": "Z.ai 创业公司计划",
+    "cn_note": "Z.ai 是智谱的国际平台；国内团队也可以关注智谱开放平台（bigmodel.cn）的同类扶持。"
    }
   }
  ]
