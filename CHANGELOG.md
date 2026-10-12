@@ -2,6 +2,13 @@
 
 Weekly updates of the verified free LLM API quota list. Live site: https://freeai.alexai.top
 
+## 2026-10-12
+
+- 25 offers (21 active, 4 ended), synced from https://freeai.alexai.top/offers.json (generated 2026-10-12).
+- New (6): Apodex 1.1 Mini free on Novita AI (and OpenRouter), MISSINGNO. stealth model free on Nous Portal, SWE-2 free in Devin Desktop and CLI for paid plans, Poolside Laguna XS/S 2.1 free on OpenRouter (to Oct 31), dots-3-note-preview free on OpenRouter (to Dec 31), Z.ai Startups Program (up to 1B free GLM API tokens).
+- Ended (2): GMI Cloud free Qwen 3.8 Max & Flash (paused early on Oct 11, 2026 after a traffic surge), Mercury Decide free endpoint on OpenRouter (no longer listed in the OpenRouter models API as of Oct 12, 2026).
+- Updated: Step 5 Preview (Kilo Code and Nous Portal free weeks added; paid on OpenRouter; end now about Oct 15–16), Ling-3.1-Flash (also free via Novita on OpenRouter and in Kilo Code until Oct 13; now ending soon), Solar Mini 4 (also free in Cline, no end date announced).
+
 ## 2026-10-09 — Initial release
 
 - 19 offers (17 active, 2 ended), all verified against official sources on 2026-10-09.
