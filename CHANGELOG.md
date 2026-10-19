@@ -2,6 +2,14 @@
 
 Weekly updates of the verified free LLM API quota list. Live site: https://freeai.alexai.top
 
+## 2026-10-19
+
+- 39 offers (30 active, 9 ended), synced from https://freeai.alexai.top/offers.json (generated 2026-10-19).
+- New (14): Tencent Cloud TokenHub free trial pack (1M tokens per model, to Dec 31), OpenCode free models (Console / Zen), DeepSeek V4.1 Flash free in WorkBuddy International (to Oct 31), DeepSeek Search & Fetch tool calls free (to Nov 1), Reflection Beam free on Ollama Cloud, Reflection Beam free on Vercel AI Gateway, NVIDIA Nemotron 3.5 Super VL free on OpenRouter / OpenCode / Cline / Kilo Code, OpenAI Codex 28-day reset run (to about Nov 1), Claude banked limit reset (use by Oct 22), Nous Portal free plan, Huawei CodeArts 10M free tokens a day, Cline free models, Kilo Code free models, Dolphin API $10 credit (code API10).
+- Ended (5): Step 5 Preview free week (about Oct 15–16), Ling-3.1-Flash on Novita (Oct 13), Apodex 1.1 Mini on Novita (about Oct 15), MISSINGNO. on Nous Portal (no longer listed by Oct 19), SWE-2 free in Devin (Oct 15–16).
+- Updated: OpenRouter `:free` models (Oct 19 snapshot of free model IDs added), Solar Mini 4 (Nous Portal promo now ending soon; still free on Nous Portal and Cline on Oct 19), Cline DeepSeek-V4.1-Flash (source switched to the Cline v4.1.23 release notes), and re-verification dates for Qoder Qwen3.8-Flash, Claude Max/Team API credits, Poolside Laguna and dots-3-note-preview.
+- Data: every offer in `data/offers.json` now carries `claim_url`, `api` (base URL, example model, API style), `cli` and a `use_note` field from the site.
+
 ## 2026-10-12
 
 - 25 offers (21 active, 4 ended), synced from https://freeai.alexai.top/offers.json (generated 2026-10-12).
