@@ -2,6 +2,12 @@
 
 Weekly updates of the verified free LLM API quota list. Live site: https://freeai.alexai.top
 
+## 2026-10-28
+
+- 65 offers (51 active, 14 ended), synced from https://freeai.alexai.top/offers.json (generated 2026-10-28).
+- New (22): DeepSeek-V4.1-Flash-1017 Free in Qoder Until Nov 1 (Extended); Inception Mercury 3: 100 Million Free API Tokens for New Accounts; KRAFTON Raon-1 mini Preview: API Free for a Limited Time (Application Required); Qoder: Claim 100 Free Credits Every Day (Free Users Included); Qoder Efficient tier free for paid users (0.0x Credits); Recursive Flint Free at Launch on OpenRouter and OpenCode; HeyGen Voice Turbo Free: Text-to-Speech API Free Until Nov 30, 2026; iFlytek Spark-X2.6: 1 Billion Free Tokens on Xingchen MaaS, Spark-X2.6-4B Free for a Limited Time; AntDigital LingDT-Decision-1.0 Decision Model Free on DTMaaS Until Oct 30; Unisound U2 Flash API Free for a Limited Time (Sep 30 – Oct 31, 2026); Xiaomi MiMo TTS Models Free for a Limited Time (API and Token Plan); Qoder 1024 Community Boost: 1,024 SOTA Credits for Sonus, Plus Unlockable Packs; Qiniu Conatus Free: 100M Free Tokens a Day Through Nov 30; Zhipu AutoClaw Weekly Perk: Log In Once for 100M Tokens (China) / 40M Tokens (International), Oct 26 – Nov 1; DigitalOcean Managed Agents Free Trial: $5 Credit, No Card Required; SCNet (超算互联网) MaaS: Free 10M GLM-5.3-Flash Tokens for New Users; ZCode Global Building: 300M Free GLM-5.3-Flash Tokens Every Day; Nscale Serverless Inference: $5 Free Credit for New Users (Now Includes GLM 5.3); Intern InkStone Token Plan: 4 Models Free for a Limited Time, Plus Monthly Free Tokens in the Test Period; Morph for Students: Free Full API Access for 12 Months; MiniMax M3.1 Flash Free on EvoX Agent, Oct 28–30, 2026; Liquid Console: $2 Free API Credit for Every New Organization.
+- Added already ended (4): MiniMax M3.1 Flash Free for a Limited Time on Vercel, OpenRouter, OpenCode, Ollama and More; Zhipu AutoClaw: Log In Daily for Free Credits Through Oct 25; Baseten mammoth-1 and elephant-1 Free for One Week on Baseten Model APIs and Vercel AI Gateway; ZCode 1024 Dev Day: 500M Free GLM-5.3 Tokens This Weekend.
+- Ended (1): Claude banked limit reset (use by Oct 22).
 ## 2026-10-19
 
 - 39 offers (30 active, 9 ended), synced from https://freeai.alexai.top/offers.json (generated 2026-10-19).
