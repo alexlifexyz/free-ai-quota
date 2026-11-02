@@ -1,9 +1,9 @@
 {
  "schema_version": 1,
- "generated": "2026-10-28",
+ "generated": "2026-11-01",
  "site": "https://freeai.alexai.top",
  "license_note": "Facts compiled from official provider pages; always check source_url.",
- "count": 65,
+ "count": 82,
  "offers": [
   {
    "slug": "google-gemini-api-free-tier",
@@ -1572,8 +1572,8 @@
   },
   {
    "slug": "openrouter-poolside-laguna-free",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": false,
    "has_page": false,
@@ -1581,7 +1581,7 @@
    "url_zh": "https://freeai.alexai.top/zh/#openrouter-poolside-laguna-free",
    "start": "2026-10",
    "end_date": "2026-10-31",
-   "last_verified": "2026-10-19",
+   "last_verified": "2026-11-01",
    "source_url": "https://openrouter.ai/api/v1/models",
    "source_type": "official API",
    "extra_sources": [],
@@ -1602,14 +1602,14 @@
      "Create an OpenRouter account and API key",
      "Call poolside/laguna-xs-2.1:free or poolside/laguna-s-2.1:free"
     ],
-    "end": "Oct 31, 2026 (OpenRouter expiration date; timezone not stated)",
+    "end": "Ended. poolside/laguna-s-2.1:free and laguna-xs-2.1:free are no longer in the OpenRouter models API (checked Nov 1, 2026, about 02:10 UTC); listed expiration date was Oct 31, 2026",
     "extended": "No",
     "commercial_use": "Not specified; check OpenRouter's and the provider's terms.",
     "card_required": "No (OpenRouter free limits).",
     "phone_required": "Not stated.",
     "region": "Not stated",
     "conditions": "",
-    "notes": "",
+    "notes": "Nov 1, 2026: both :free variants were removed from https://openrouter.ai/api/v1/models. Laguna S 2.1 is still free (1,000 requests/day) in Command Code for Command Code plan holders; see command-code-free-models-ling-beam-laguna-glyph.",
     "source_label": "OpenRouter models API",
     "use_note": "Same OpenRouter key and endpoint as any :free model; swap in poolside/laguna-s-2.1:free for the larger model."
    },
@@ -1623,14 +1623,14 @@
      "注册 OpenRouter 并创建 API Key",
      "调用 poolside/laguna-xs-2.1:free 或 poolside/laguna-s-2.1:free"
     ],
-    "end": "2026 年 10 月 31 日（OpenRouter 标注的到期日，未注明时区）",
+    "end": "已结束。2026 年 11 月 1 日（北京时间约 10:10）查 OpenRouter 模型 API，poolside/laguna-s-2.1:free 和 laguna-xs-2.1:free 都已下线；原标注到期日 2026 年 10 月 31 日",
     "extended": "否",
     "commercial_use": "未说明，请查看 OpenRouter 和模型方的条款。",
     "card_required": "不需要（按 OpenRouter 免费限额）。",
     "phone_required": "未说明。",
     "region": "未说明",
     "conditions": "",
-    "notes": "",
+    "notes": "2026 年 11 月 1 日：两个 :free 版本都已从 https://openrouter.ai/api/v1/models 移除。Laguna S 2.1 目前在 Command Code 里对订阅用户免费（每天 1,000 次），见 command-code-free-models-ling-beam-laguna-glyph。",
     "source_label": "OpenRouter 模型 API",
     "cn_note": "",
     "use_note": "和其它 :free 模型一样用 OpenRouter 的 Key 和地址；大一点的型号把模型换成 poolside/laguna-s-2.1:free。"
@@ -1841,7 +1841,7 @@
    "url_zh": "https://freeai.alexai.top/zh/opencode-zen-free-models/",
    "start": "2026-10-15 (DeepSeek V4.1 Flash Free); other free models started on different dates",
    "end_date": null,
-   "last_verified": "2026-10-23",
+   "last_verified": "2026-10-31",
    "source_url": "https://opencode.ai/v2/docs/console/models/",
    "source_type": "official docs + official X",
    "extra_sources": [
@@ -1874,9 +1874,9 @@
    ],
    "en": {
     "provider": "OpenCode (OpenCode Console, formerly Zen)",
-    "models": "DeepSeek V4.1 Flash Free, GLM-5.3-Flash Free, Beam Free, Flint 40B Free, LongCat 2.5 Preview Free, Exo Free, MiMo-V2.6-Flash Free, MiMo-V2.5 Free, Nemotron 3 Ultra Free, Nemotron 3.5 Lightning Free, Nemotron 3.5 Super VL Free, Big Pickle, Jev 1.13 Free",
+    "models": "DeepSeek V4.1 Flash Free, GLM-5.3-Flash Free, Beam Free, Flint 40B Free, MiMo-V2.6-Flash Free, Nemotron 3 Ultra Free, Nemotron 3.5 Lightning Free, Nemotron 3.5 Super VL Free, Big Pickle, Jev 1.13 Free",
     "title": "OpenCode Free Models (Console / Zen): DeepSeek V4.1 Flash, GLM-5.3-Flash, Beam & More",
-    "what_free": "OpenCode's Console pricing table (the old Zen docs URL now redirects there) lists a set of models at $0 for input, output and cached reads, including DeepSeek V4.1 Flash Free (deepseek-v4.1-flash-free, free since Oct 15, 2026), GLM-5.3-Flash Free (Oct 16), Nemotron 3.5 Super VL Free (Oct 16 Beijing time) and Beam Free (Oct 17 Beijing time). Exo Free and MiMo-V2.6-Flash Free are on the same list. Every free model is labelled \"for a limited time\".",
+    "what_free": "OpenCode's Console pricing table (the old Zen docs URL now redirects there) lists a set of models at $0 for input, output and cached reads, including DeepSeek V4.1 Flash Free (deepseek-v4.1-flash-free, free since Oct 15, 2026), GLM-5.3-Flash Free (Oct 16), Nemotron 3.5 Super VL Free (Oct 16 Beijing time) and Beam Free (Oct 17 Beijing time). Flint 40B Free, MiMo-V2.6-Flash Free, Nemotron 3 Ultra Free, Nemotron 3.5 Lightning Free, Big Pickle and Jev 1.13 Free are on the same list. Every free model is labelled \"for a limited time\".",
     "limits": "Not published. The Console docs don't list rate limits or quotas for the free models.",
     "how_to_claim": [
      "Install OpenCode (opencode.ai)",
@@ -1891,15 +1891,15 @@
     "phone_required": "Not stated on the official page.",
     "region": "Models are hosted in the US and EU. Beam Free is not available in China (including Hong Kong and Macau) and several other countries; no region limits are stated for the other free models.",
     "conditions": "Data handling differs by model: the DeepSeek V4.1 Flash Free, GLM-5.3-Flash Free and LongCat 2.5 Preview Free providers follow zero retention and don't train on your data. Flint 40B Free, Exo Free, MiMo-V2.6-Flash Free, MiMo-V2.5 Free and Big Pickle may use your data to improve the model during the free period (Flint 40B Free keeps it for 30 days). Nemotron free endpoints are NVIDIA trial endpoints that log usage (don't send personal or confidential data). Beam Free isn't used for training and is retained for 30 days.",
-    "notes": "The docs don't say whether DeepSeek V4.1 Flash Free already serves the 1017 snapshot. OpenCode disclosed a security incident on Oct 17, 2026 affecting 1.4% of Console users who had external providers linked (https://x.com/opencode/status/2111519637049319818). Oct 22, 2026: Flint 40B Free was added and LL Alpha Free is no longer listed; Space Bunny Free is now listed under its real name, MiniMax M3.1 Flash Free. Oct 23, 2026: MiniMax M3.1 Flash Free is no longer listed (its launch free period ended); 13 free models remain.",
+    "notes": "The docs don't say whether DeepSeek V4.1 Flash Free already serves the 1017 snapshot. OpenCode disclosed a security incident on Oct 17, 2026 affecting 1.4% of Console users who had external providers linked (https://x.com/opencode/status/2111519637049319818). Oct 22, 2026: Flint 40B Free was added and LL Alpha Free is no longer listed; Space Bunny Free is now listed under its real name, MiniMax M3.1 Flash Free. Oct 23, 2026: MiniMax M3.1 Flash Free is no longer listed (its launch free period ended); 13 free models remain. Oct 31, 2026: LongCat 2.5 Preview Free, Exo Free and MiMo-V2.5 Free are no longer listed; 10 free models remain. The docs now say free-tier chat models require OpenCode (use paid models or Go from other clients). \"Iceman Contributor Free\" appears only in the paid OpenCode Go plan list, not on the free Console list. OpenCode's Oct 30 \"Operation Cheepseek Phase 4: $100 of usage for DeepSeek V4.1 Flash\" refers to the paid Go subscription, not a free offer.",
     "source_label": "OpenCode Console docs (models and pricing)",
     "use_note": "In the OpenCode app run /connect, paste your Console API key, then /models and pick a model ending in Free. The same key also works on the Console's OpenAI-compatible endpoint shown here."
    },
    "zh": {
     "provider": "OpenCode（OpenCode Console，原 Zen）",
-    "models": "DeepSeek V4.1 Flash Free、GLM-5.3-Flash Free、Beam Free、Flint 40B Free、LongCat 2.5 Preview Free、Exo Free、MiMo-V2.6-Flash Free、MiMo-V2.5 Free、Nemotron 3 Ultra Free、Nemotron 3.5 Lightning Free、Nemotron 3.5 Super VL Free、Big Pickle、Jev 1.13 Free",
+    "models": "DeepSeek V4.1 Flash Free、GLM-5.3-Flash Free、Beam Free、Flint 40B Free、MiMo-V2.6-Flash Free、Nemotron 3 Ultra Free、Nemotron 3.5 Lightning Free、Nemotron 3.5 Super VL Free、Big Pickle、Jev 1.13 Free",
     "title": "OpenCode 免费模型（Console / Zen）：DeepSeek V4.1 Flash、GLM-5.3-Flash、Beam 等",
-    "what_free": "OpenCode Console 的价格表（原 Zen 文档地址现已跳转到这里）里有一批模型的输入、输出和缓存读取都标为 $0，包括 DeepSeek V4.1 Flash Free（deepseek-v4.1-flash-free，2026 年 10 月 15 日起免费）、GLM-5.3-Flash Free（10 月 16 日）、Nemotron 3.5 Super VL Free（北京时间 10 月 16 日）和 Beam Free（北京时间 10 月 17 日）；Exo Free 和 MiMo-V2.6-Flash Free 也在这张表上。所有免费模型都写的是“限时免费”。",
+    "what_free": "OpenCode Console 的价格表（原 Zen 文档地址现已跳转到这里）里有一批模型的输入、输出和缓存读取都标为 $0，包括 DeepSeek V4.1 Flash Free（deepseek-v4.1-flash-free，2026 年 10 月 15 日起免费）、GLM-5.3-Flash Free（10 月 16 日）、Nemotron 3.5 Super VL Free（北京时间 10 月 16 日）和 Beam Free（北京时间 10 月 17 日）；Flint 40B Free、MiMo-V2.6-Flash Free、Nemotron 3 Ultra Free、Nemotron 3.5 Lightning Free、Big Pickle、Jev 1.13 Free 也在这张表上。所有免费模型都写的是“限时免费”。",
     "limits": "未公布。Console 文档没有写免费模型的速率限制或额度。",
     "how_to_claim": [
      "安装 OpenCode（opencode.ai）",
@@ -1914,7 +1914,7 @@
     "phone_required": "官方页面未说明",
     "region": "模型托管在美国和欧盟。Beam Free 不对中国（含香港、澳门）等多个国家和地区开放；其他免费模型官方未写地区限制。",
     "conditions": "各模型的数据政策不同：DeepSeek V4.1 Flash Free、GLM-5.3-Flash Free、LongCat 2.5 Preview Free 的服务方零留存、不拿数据训练；Flint 40B Free、Exo Free、MiMo-V2.6-Flash Free、MiMo-V2.5 Free、Big Pickle 免费期间的数据可能被用于改进模型（Flint 40B Free 保留 30 天）；Nemotron 免费端点是 NVIDIA 试用端点，会记录日志（不要提交个人或机密数据）；Beam Free 不用于训练，数据保留 30 天。",
-    "notes": "文档没说明 DeepSeek V4.1 Flash Free 是否已切到 1017 版本。OpenCode 在 2026 年 10 月 17 日披露一次安全事件，影响 1.4% 绑定了外部服务商的 Console 用户（https://x.com/opencode/status/2111519637049319818）。2026 年 10 月 22 日：新增 Flint 40B Free，LL Alpha Free 已不在列表；Space Bunny Free 已改用正式名称 MiniMax M3.1 Flash Free。 2026 年 10 月 23 日：MiniMax M3.1 Flash Free 已不在列表（首发免费期结束），现剩 13 个免费模型。",
+    "notes": "文档没说明 DeepSeek V4.1 Flash Free 是否已切到 1017 版本。OpenCode 在 2026 年 10 月 17 日披露一次安全事件，影响 1.4% 绑定了外部服务商的 Console 用户（https://x.com/opencode/status/2111519637049319818）。2026 年 10 月 22 日：新增 Flint 40B Free，LL Alpha Free 已不在列表；Space Bunny Free 已改用正式名称 MiniMax M3.1 Flash Free。 2026 年 10 月 23 日：MiniMax M3.1 Flash Free 已不在列表（首发免费期结束），现剩 13 个免费模型。 2026 年 10 月 31 日：LongCat 2.5 Preview Free、Exo Free、MiMo-V2.5 Free 已不在列表，现剩 10 个免费模型。文档现在写明免费对话模型只能在 OpenCode 里用（其他客户端请用付费模型或 Go）。“Iceman Contributor Free” 只出现在付费 OpenCode Go 套餐的模型列表里，不在 Console 免费列表。OpenCode 10 月 30 日发的 “Operation Cheepseek Phase 4: $100 of usage for DeepSeek V4.1 Flash” 指的是付费 Go 订阅，不是免费活动。",
     "source_label": "OpenCode Console 文档（模型与价格）",
     "cn_note": "OpenCode 是海外服务，大陆能否直连官方未说明；Beam Free 明确不对中国大陆和港澳开放。涉及代码隐私的任务优先选零留存的 DeepSeek / GLM 免费版。",
     "use_note": "在 OpenCode 里运行 /connect 粘贴 Console 的 API Key，再用 /models 选名字以 Free 结尾的模型。同一个 Key 也可以调用这里列出的 Console OpenAI 兼容接口。"
@@ -1922,8 +1922,8 @@
   },
   {
    "slug": "workbuddy-intl-deepseek-v4-1-flash-free",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": true,
    "has_page": true,
@@ -1931,7 +1931,7 @@
    "url_zh": "https://freeai.alexai.top/zh/workbuddy-intl-deepseek-v4-1-flash-free/",
    "start": "Extension announced Oct 12, 2026 (23:52 Beijing time); 1017 update announced Oct 17, 2026 (18:29 Beijing time)",
    "end_date": "2026-10-31",
-   "last_verified": "2026-10-19",
+   "last_verified": "2026-11-01",
    "source_url": "https://x.com/WorkBuddy_AI/status/2109673559710974130",
    "source_type": "official X",
    "extra_sources": [
@@ -1961,14 +1961,14 @@
      "Download WorkBuddy International from workbuddy.ai and sign in",
      "Pick DeepSeek V4.1 Flash in the model list"
     ],
-    "end": "Oct 31, 2026 (time and timezone not stated)",
+    "end": "Ended Oct 31, 2026 as scheduled (time and time zone not stated)",
     "extended": "Yes. Extended to Oct 31, 2026 (announced Oct 12, 2026).",
     "commercial_use": "Not stated on the official post.",
     "card_required": "Not stated on the official post.",
     "phone_required": "Not stated on the official post.",
     "region": "Not stated on the official post. The offer is for WorkBuddy International (workbuddy.ai), which is separate from the China version (workbuddy.cn).",
     "conditions": "Only inside the WorkBuddy International app; it's not a DeepSeek API quota.",
-    "notes": "Tencent's official @TencentGlobal account refers to \"Tencent @WorkBuddy_AI\", and the @WorkBuddy_AI profile links to workbuddy.ai. Per-account caps reported by third parties aren't on an official page.",
+    "notes": "Tencent's official @TencentGlobal account refers to \"Tencent @WorkBuddy_AI\", and the @WorkBuddy_AI profile links to workbuddy.ai. Per-account caps reported by third parties aren't on an official page. Nov 1, 2026: @WorkBuddy_AI posted no extension; marked ended on the stated date.",
     "source_label": "@WorkBuddy_AI on X: free until Oct 31 (Oct 12, 2026)",
     "use_note": "Desktop app for Mac and Windows: download WorkBuddy International from workbuddy.ai, sign in, and pick DeepSeek V4.1 Flash. No API key needed."
    },
@@ -1982,14 +1982,14 @@
      "从 workbuddy.ai 下载 WorkBuddy 国际版并登录",
      "在模型列表里选择 DeepSeek V4.1 Flash"
     ],
-    "end": "2026 年 10 月 31 日（未注明具体时刻和时区）",
+    "end": "已按原定 2026 年 10 月 31 日结束（未写具体时刻和时区）",
     "extended": "是。2026 年 10 月 12 日宣布延长到 10 月 31 日。",
     "commercial_use": "官方帖子未说明",
     "card_required": "官方帖子未说明",
     "phone_required": "官方帖子未说明",
     "region": "官方帖子未说明。活动针对 WorkBuddy 国际版（workbuddy.ai），和国内版（workbuddy.cn）是两套产品。",
     "conditions": "只能在 WorkBuddy 国际版应用里用，不是 DeepSeek API 额度。",
-    "notes": "腾讯官方账号 @TencentGlobal 在帖子里称其为“Tencent @WorkBuddy_AI”，@WorkBuddy_AI 主页也链接到 workbuddy.ai。第三方说的单账号用量上限没有官方出处。",
+    "notes": "腾讯官方账号 @TencentGlobal 在帖子里称其为“Tencent @WorkBuddy_AI”，@WorkBuddy_AI 主页也链接到 workbuddy.ai。第三方说的单账号用量上限没有官方出处。 2026 年 11 月 1 日：@WorkBuddy_AI 没发延期，按原截止日期标为已结束。",
     "source_label": "@WorkBuddy_AI 的 X 帖子：免费至 10 月 31 日（2026 年 10 月 12 日）",
     "cn_note": "这是国际版活动，国内版 WorkBuddy 的免费规则另算；+86 手机号能否注册国际版、大陆能否直连官方未说明。",
     "use_note": "Mac / Windows 桌面应用：从 workbuddy.ai 下载 WorkBuddy 国际版，登录后选 DeepSeek V4.1 Flash，不需要 API Key。"
@@ -1997,8 +1997,8 @@
   },
   {
    "slug": "deepseek-search-fetch-free-until-nov",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": true,
    "has_page": true,
@@ -2006,7 +2006,7 @@
    "url_zh": "https://freeai.alexai.top/zh/deepseek-search-fetch-free-until-nov/",
    "start": "2026-10-17",
    "end_date": "2026-10-31",
-   "last_verified": "2026-10-19",
+   "last_verified": "2026-11-01",
    "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
    "source_type": "official docs + official X",
    "extra_sources": [
@@ -2040,14 +2040,14 @@
      "Use a DeepSeek API key (model deepseek-flash or deepseek-v4-pro) in DeepSeek Harness, Claude Code or Codex",
      "Search/Fetch tool calls are not billed until Nov 1, 2026"
     ],
-    "end": "Nov 1, 2026, 00:00 Beijing time (Oct 31, 2026, 16:00 UTC)",
+    "end": "Ended. Billing per request started Nov 1, 2026, 00:00 Beijing time (Oct 31, 2026, 16:00 UTC)",
     "extended": "No",
     "commercial_use": "Not stated on the official page.",
     "card_required": "Not stated on the official page. A funded DeepSeek API account is needed because model tokens are billed.",
     "phone_required": "Not stated on the official page.",
     "region": "Not stated on the official page.",
     "conditions": "Direct calls to the standalone Search/Fetch APIs are billed per request; the free part is only server-side tool calls in DeepSeek Harness, Claude Code and Codex.",
-    "notes": "Billing counts only successful requests (HTTP 200 with results); failed requests, empty search results and timeouts are not billed.",
+    "notes": "Billing counts only successful requests (HTTP 200 with results); failed requests, empty search results and timeouts are not billed. Nov 1, 2026: the Chinese pricing page still says Search/Fetch calls from DeepSeek Harness, Claude Code and Codex are billed from Nov 1, 00:00 Beijing time (Search and Fetch: ¥5 per 1,000 successful requests each).",
     "source_label": "DeepSeek API Models & Pricing",
     "use_note": "Point Claude Code (or another Anthropic-format client) at DeepSeek's Anthropic-compatible base URL with your DeepSeek key; OpenAI-format clients use https://api.deepseek.com. Search/Fetch tool calls are free until Nov 1, 2026 (Beijing time); tokens are billed as usual."
    },
@@ -2061,14 +2061,14 @@
      "在 DeepSeek Harness、Claude Code 或 Codex 中配置 DeepSeek API Key（模型 deepseek-flash 或 deepseek-v4-pro）",
      "11 月 1 日前 Search / Fetch 工具调用不计费"
     ],
-    "end": "北京时间 2026 年 11 月 1 日 00:00（UTC 10 月 31 日 16:00）",
+    "end": "已结束。北京时间 2026 年 11 月 1 日 00:00 起按次收费（UTC 10 月 31 日 16:00）",
     "extended": "否",
     "commercial_use": "官方页面未说明",
     "card_required": "官方页面未说明。模型 token 要计费，所以账户需要有余额。",
     "phone_required": "官方页面未说明",
     "region": "官方页面未说明",
     "conditions": "直接调用独立的 Search / Fetch API 按次计费；免费的只是 DeepSeek Harness、Claude Code、Codex 里的服务端工具调用。",
-    "notes": "计费只算成功请求（返回 HTTP 200 且有结果）；失败请求、空搜索结果和超时不计费。",
+    "notes": "计费只算成功请求（返回 HTTP 200 且有结果）；失败请求、空搜索结果和超时不计费。 2026 年 11 月 1 日：中文价格页仍写在 DeepSeek Harness / Claude Code / Codex 中调用的 Search / Fetch 自北京时间 11 月 1 日 00:00 起按次收费（Search、Fetch 各 5 元 / 1,000 次成功请求）。",
     "source_label": "DeepSeek API 模型与价格",
     "cn_note": "DeepSeek 开放平台面向国内用户，可直接注册和充值；免费的只是工具调用费，模型 token 仍按价格表扣余额。",
     "use_note": "把 Claude Code（或其它 Anthropic 格式客户端）指向 DeepSeek 的 Anthropic 兼容地址并填 DeepSeek Key；OpenAI 格式客户端用 https://api.deepseek.com。Search/Fetch 工具调用在北京时间 2026年11月1日前免费，Token 照常计费。"
@@ -2233,7 +2233,7 @@
   {
    "slug": "openai-codex-28-day-reset-run",
    "status": "active",
-   "display_status": "active",
+   "display_status": "soon",
    "category": "resets",
    "china_vendor": false,
    "has_page": false,
@@ -2839,8 +2839,8 @@
   },
   {
    "slug": "qoder-deepseek-v4-1-flash-1017-free",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": true,
    "has_page": true,
@@ -2848,7 +2848,7 @@
    "url_zh": "https://freeai.alexai.top/zh/qoder-deepseek-v4-1-flash-1017-free/",
    "start": "2026-10-19 (official X announcement)",
    "end_date": "2026-10-31",
-   "last_verified": "2026-10-27",
+   "last_verified": "2026-11-01",
    "source_url": "https://x.com/qoder_ai_ide/status/2113850799474520402",
    "source_type": "official X + official docs",
    "extra_sources": [
@@ -2883,14 +2883,14 @@
      "Pick DeepSeek-Flash (DeepSeek-V4.1-Flash-1017) in the model selector",
      "Use it; nothing to claim"
     ],
-    "end": "Until Nov 1, 2026, 00:00 (UTC+8) (extended from Oct 24)",
+    "end": "Ended Nov 1, 2026, 00:00 (UTC+8) as scheduled (extended once from Oct 24)",
     "extended": "Yes: extended on Oct 24, 2026 from Oct 24 to Nov 1, 00:00 (UTC+8)",
     "commercial_use": "Not specified on the official post; check the provider's terms.",
     "card_required": "Not stated on the official post. Free and paid users qualify per @qoder_ai_ide.",
     "phone_required": "Not stated on the official post.",
     "region": "Qoder International (official X, docs.qoder.com) and Qoder CN (docs.qoder.cn)",
     "conditions": "Separate from the ongoing Qwen3.8-Flash 0.0x promotion (docs.qoder.com/events/flashoffer).",
-    "notes": "Verified @qoder_ai_ide account (verified badge). Model-selector docs still show DeepSeek-Flash at 0.1x; the limited-time 0.0x rate is from the Oct 19 X post and the Lite docs wording. Lead also appeared in a Qoder email (notice-noreply@qoder.com) forwarded by 大总管; email not re-fetched here. Oct 24: @qoder_ai_ide extended the 0x rate to Nov 1, 00:00 (UTC+8); the image says \"until Oct. 24 → Nov. 1, 00:00 (UTC+8)\". Oct 27: the Qoder CN docs (docs.qoder.cn) confirm the same extension for Qoder CN, to Oct 31 24:00 (Nov 1 00:00, UTC+8). On Qoder CN it is a daily free allowance: each account gets a set number of free uses per day (paid subscribers get more than free users); after that, Credits are charged at the normal rate. Enterprise plans (Team, Enterprise Standard, Enterprise Dedicated) are excluded. Exact daily counts not published.",
+    "notes": "Verified @qoder_ai_ide account (verified badge). Model-selector docs still show DeepSeek-Flash at 0.1x; the limited-time 0.0x rate is from the Oct 19 X post and the Lite docs wording. Lead also appeared in a Qoder email (notice-noreply@qoder.com) forwarded by 大总管; email not re-fetched here. Oct 24: @qoder_ai_ide extended the 0x rate to Nov 1, 00:00 (UTC+8); the image says \"until Oct. 24 → Nov. 1, 00:00 (UTC+8)\". Oct 27: the Qoder CN docs (docs.qoder.cn) confirm the same extension for Qoder CN, to Oct 31 24:00 (Nov 1 00:00, UTC+8). On Qoder CN it is a daily free allowance: each account gets a set number of free uses per day (paid subscribers get more than free users); after that, Credits are charged at the normal rate. Enterprise plans (Team, Enterprise Standard, Enterprise Dedicated) are excluded. Exact daily counts not published. Nov 1, 2026: @qoder_ai_ide posted no further extension; marked ended on the stated date.",
     "source_label": "@qoder_ai_ide on X: DeepSeek-V4.1-Flash-1017 stays at 0x credits until Nov 1, 00:00 UTC+8 (Oct 24, 2026)",
     "use_note": "Desktop IDE / CLI / plugins: install Qoder from the official download page, sign in, and pick DeepSeek-Flash. No API key needed."
    },
@@ -2905,14 +2905,14 @@
      "在模型列表选择 DeepSeek-Flash（DeepSeek-V4.1-Flash-1017）",
      "直接使用，无需领取"
     ],
-    "end": "到 2026 年 11 月 1 日 00:00（北京时间）（由 10 月 24 日延长）",
+    "end": "已按原定 2026 年 11 月 1 日 00:00（北京时间）结束（此前从 10 月 24 日延长过一次）",
     "extended": "是：2026 年 10 月 24 日宣布由 10 月 24 日延长到 11 月 1 日 00:00（北京时间）",
     "commercial_use": "官方帖子未说明，请查看服务条款。",
     "card_required": "官方帖子未说明。@qoder_ai_ide 写明免费与付费用户均可。",
     "phone_required": "官方帖子未说明。",
     "region": "Qoder 国际版（官方 X、docs.qoder.com）和 Qoder CN 国内版（docs.qoder.cn）",
     "conditions": "与仍在进行的 Qwen3.8-Flash 0.0x 限免（docs.qoder.com/events/flashoffer）是两条活动。",
-    "notes": "已核实 @qoder_ai_ide 为认证账号。模型选择器文档仍写 DeepSeek-Flash 0.1x；限时 0.0x 以 10 月 19 日官方帖和 Lite 文档表述为准。大总管转发的 Qoder 邮件（notice-noreply@qoder.com）也提到该活动，邮件原文未在本机重读。 10 月 24 日：@qoder_ai_ide 宣布 0x 延长到 11 月 1 日 00:00（北京时间），配图写“until Oct. 24 → Nov. 1, 00:00 (UTC+8)”。 10 月 27 日：Qoder CN 官方文档（docs.qoder.cn）确认国内版同样延长到 10 月 31 日 24:00（即 11 月 1 日 00:00，北京时间）。国内版是“每日免费额度”：每个账号每天有一定次数的免费使用，付费订阅用户次数多于免费用户，用完后按原系数扣 Credits；团队版、企业标准版、企业专属版不适用。具体每日次数未公布。",
+    "notes": "已核实 @qoder_ai_ide 为认证账号。模型选择器文档仍写 DeepSeek-Flash 0.1x；限时 0.0x 以 10 月 19 日官方帖和 Lite 文档表述为准。大总管转发的 Qoder 邮件（notice-noreply@qoder.com）也提到该活动，邮件原文未在本机重读。 10 月 24 日：@qoder_ai_ide 宣布 0x 延长到 11 月 1 日 00:00（北京时间），配图写“until Oct. 24 → Nov. 1, 00:00 (UTC+8)”。 10 月 27 日：Qoder CN 官方文档（docs.qoder.cn）确认国内版同样延长到 10 月 31 日 24:00（即 11 月 1 日 00:00，北京时间）。国内版是“每日免费额度”：每个账号每天有一定次数的免费使用，付费订阅用户次数多于免费用户，用完后按原系数扣 Credits；团队版、企业标准版、企业专属版不适用。具体每日次数未公布。 2026 年 11 月 1 日：@qoder_ai_ide 没再发延期，按原截止时间标为已结束。",
     "source_label": "@qoder_ai_ide 的 X 帖：DeepSeek-V4.1-Flash-1017 0x Credits 延长至 11 月 1 日 00:00（北京时间）（2026-10-24）",
     "cn_note": "国内版（qoder.cn）已由 docs.qoder.cn 确认同步延期到 11 月 1 日 00:00（北京时间），国内版按每日免费次数计，具体次数未公布。",
     "use_note": "桌面 IDE / CLI / 插件：从官方下载页安装 Qoder，登录后选 DeepSeek-Flash，不需要 API Key。"
@@ -3710,8 +3710,8 @@
   },
   {
    "slug": "antdigital-lingdt-decision-free",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": true,
    "has_page": true,
@@ -3719,7 +3719,7 @@
    "url_zh": "https://freeai.alexai.top/zh/antdigital-lingdt-decision-free/",
    "start": "2026-10-22",
    "end_date": "2026-10-30",
-   "last_verified": "2026-10-23",
+   "last_verified": "2026-10-31",
    "source_url": "https://maas.antdigital.com/models",
    "source_type": "official page",
    "extra_sources": [
@@ -3742,14 +3742,14 @@
      "Find LingDT-Decision-1.0 (model id lingdt-decision-1.0)",
      "Use the 对话 (chat) entry to try it online, or the API 调用 entry to call it by API (account and API key steps are not shown on the public page)"
     ],
-    "end": "Oct 30, 2026 (time and time zone not stated)",
+    "end": "Ended Oct 30, 2026 as scheduled (time and time zone not stated)",
     "extended": "No",
     "commercial_use": "Not stated on the official page.",
     "card_required": "Not stated on the official page.",
     "phone_required": "Not stated on the official page.",
     "region": "Not stated on the official page",
     "conditions": "Decision model: it returns choices, judgments (yes/no) and scores, plus native multi-choice and DAG-ordered decisions, instead of free-form text.",
-    "notes": "No official X post found. Not tested.",
+    "notes": "No official X post found. Not tested. Oct 31, 2026: marked ended on the stated date; no extension found (the DTMaaS page is rendered by JavaScript and could not be re-read by script).",
     "source_label": "AntDigital DTMaaS model marketplace: LingDT-Decision-1.0 free until Oct 30",
     "use_note": "A decision model for classification, routing and scoring, not a chat model."
    },
@@ -3764,14 +3764,14 @@
      "找到 LingDT-Decision-1.0（模型 ID lingdt-decision-1.0）",
      "点“对话”在线体验，或点“API 调用”通过 API 调用（公开页面未写开户和创建 Key 的步骤）"
     ],
-    "end": "2026 年 10 月 30 日（未写具体时刻和时区）",
+    "end": "已按原定 2026 年 10 月 30 日结束（未写具体时刻和时区）",
     "extended": "否",
     "commercial_use": "官方页面未说明。",
     "card_required": "官方页面未说明。",
     "phone_required": "官方页面未说明。",
     "region": "官方页面未说明",
     "conditions": "决策模型：返回单选、判断、打分，以及原生多选和按 DAG 顺序决策的结果，不生成自由文本。",
-    "notes": "没找到官方 X 帖。未实测。",
+    "notes": "没找到官方 X 帖。未实测。 2026 年 10 月 31 日：按原截止日期标为已结束，没找到延期消息（DTMaaS 页面是前端渲染，脚本读不到，没能复查原文）。",
     "source_label": "蚂蚁数科 DTMaaS 模型市场：LingDT-Decision-1.0 限时免费至 10 月 30 日",
     "cn_note": "国内平台。",
     "use_note": "用于分类、路由、打分的决策模型，不是对话模型。"
@@ -3779,8 +3779,8 @@
   },
   {
    "slug": "unisound-u2-flash-free-oct-2026",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": true,
    "has_page": true,
@@ -3788,7 +3788,7 @@
    "url_zh": "https://freeai.alexai.top/zh/unisound-u2-flash-free-oct-2026/",
    "start": "2026-09-30",
    "end_date": "2026-10-31",
-   "last_verified": "2026-10-23",
+   "last_verified": "2026-10-31",
    "source_url": "https://maas.unisound.com/docs/price/overview",
    "source_type": "official docs",
    "extra_sources": [
@@ -3815,16 +3815,16 @@
      "Get an API key",
      "Call model u2-flash at the OpenAI-compatible endpoint https://maas-api.unisound.com/v1 (Anthropic-compatible: https://maas-api.unisound.com/anthropic)"
     ],
-    "end": "Oct 31, 2026 (activity period 2026.09.30–2026.10.31; time not stated, platform prices in CNY)",
+    "end": "Ended. As of Oct 31, 2026 (about 10:10 UTC+8) the pricing page lists U2-Flash at ¥1 input / ¥0.2 cached / ¥2 output per 1M tokens and no longer shows the free promotion (stated period was 2026.09.30–2026.10.31)",
     "extended": "No",
     "commercial_use": "Not stated on the official page.",
     "card_required": "Not stated on the official page.",
     "phone_required": "Not stated on the official page.",
     "region": "Not stated on the official page",
     "conditions": "",
-    "notes": "Regular price after the promotion: ¥1 input / ¥0.2 cached / ¥2 output per 1M tokens. First seen via a third-party roundup on X (@xiaoke949); verified on the official pages. Not tested.",
+    "notes": "Regular price after the promotion: ¥1 input / ¥0.2 cached / ¥2 output per 1M tokens. First seen via a third-party roundup on X (@xiaoke949); verified on the official pages. Not tested. Oct 31, 2026: the promotion banner was replaced by the new U Plan (with a Free tier, see unisound-u-plan-free-tier) and U2-Flash now shows the regular price.",
     "source_label": "Unisound MaaS pricing: U2 Flash free 2026.09.30–2026.10.31",
-    "use_note": "Ends Oct 31. Keep within 20 requests per minute."
+    "use_note": "Ended. See the U Plan Free tier for free U2-Flash usage."
    },
    "zh": {
     "provider": "云知声 MaaS",
@@ -3837,17 +3837,17 @@
      "获取 API Key",
      "用 OpenAI 兼容地址 https://maas-api.unisound.com/v1 调用 u2-flash（Anthropic 兼容：https://maas-api.unisound.com/anthropic）"
     ],
-    "end": "2026 年 10 月 31 日（活动时间 2026.09.30–2026.10.31，未写具体时刻）",
+    "end": "已结束。2026 年 10 月 31 日（北京时间约 10:10）价格页已把 U2-Flash 标为输入 1 元 / 缓存命中 0.2 元 / 输出 2 元每百万 tokens，限免说明已撤下（原活动时间 2026.09.30–2026.10.31）",
     "extended": "否",
     "commercial_use": "官方页面未说明。",
     "card_required": "官方页面未说明。",
     "phone_required": "官方页面未说明。",
     "region": "官方页面未说明",
     "conditions": "",
-    "notes": "活动结束后原价：输入 1 元、缓存命中 0.2 元、输出 2 元 / 百万 tokens。线索来自 X 第三方汇总（@xiaoke949），已在官方页面核实。未实测。",
+    "notes": "活动结束后原价：输入 1 元、缓存命中 0.2 元、输出 2 元 / 百万 tokens。线索来自 X 第三方汇总（@xiaoke949），已在官方页面核实。未实测。 2026 年 10 月 31 日：活动横幅换成新的 U Plan（含 Free 档，见 unisound-u-plan-free-tier），U2-Flash 恢复原价。",
     "source_label": "云知声 MaaS 模型价格：U2 Flash 限时免费 2026.09.30–10.31",
     "cn_note": "国内平台。",
-    "use_note": "10 月 31 日结束。注意每分钟 20 次请求的限制。"
+    "use_note": "已结束。想免费用 U2-Flash 可以领 U Plan 的 Free 档。"
    }
   },
   {
@@ -3919,8 +3919,8 @@
   },
   {
    "slug": "qoder-1024-community-boost-sota-credits",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "subscriber",
    "china_vendor": true,
    "has_page": true,
@@ -3928,7 +3928,7 @@
    "url_zh": "https://freeai.alexai.top/zh/qoder-1024-community-boost-sota-credits/",
    "start": "2026-10-22",
    "end_date": "2026-10-30",
-   "last_verified": "2026-10-28",
+   "last_verified": "2026-10-31",
    "source_url": "https://docs.qoder.com/events/communityboost",
    "source_type": "official docs + official X",
    "extra_sources": [
@@ -3972,14 +3972,14 @@
      "Claim in a supported client: Qoder (v0.4.8+: profile picture → Rewards center → Claim; earlier: usage panel → gift icon → Claim), Qoder IDE (usage panel → Claim), JetBrains plugin (usage panel → Claim) or Qoder CLI (/claim)",
      "Select the Sonus model"
     ],
-    "end": "Claims close Oct 30, 2026 23:59 (UTC+8); Welcome Pack Credits usable until Oct 31, 2026 23:59 (UTC+8)",
+    "end": "Ended. Claims closed Oct 30, 2026 23:59 (UTC+8); Welcome Pack Credits already claimed stay usable until Oct 31, 2026 23:59 (UTC+8)",
     "extended": "No",
     "commercial_use": "Not specified on the official page; check the provider's terms.",
     "card_required": "Pro or higher paid plan, or a Free account with an approved application.",
     "phone_required": "Not stated on the official page.",
     "region": "Qoder International (docs.qoder.com)",
     "conditions": "Eligibility is checked at claim time. Packs cannot be claimed after their claim windows close.",
-    "notes": "@qoder_ai_ide is a verified business account. The launch X post listed 30K → 3,072 and 50K → 4,096; the docs say 50,000 → 3,072 and 100,000 → 4,096, so the docs are followed here. Not tested. Oct 23: @qoder_ai_ide says all rounds are unlocked and teases \"an even bigger surprise\". Round packs must be claimed within 3 days of issuance. Oct 24: @qoder_ai_ide says the 3 rounds unlocked faster than expected, so it is adding one more round (100K total boosts → a bigger mystery pack) and that subscribing or upgrading to Pro or above lets you claim 10,240 SOTA Credits (welcome gift + first 3 rounds). The docs page still lists only Rounds 1–3 and points to the event page for later rounds. Oct 27: @qoder_ai_ide says another 100,000 boosts opened the mystery pack: 12,288 SOTA Credits, 4,096 a day on Oct 28, 29 and 30, for Pro and above individual subscribers on Qoder Global and members approved for Community Boost; \"Start on Oct 28 to collect all three.\" The docs now list Round 4 (200,000 cumulative boosts → 12,288 SOTA Credits) with the daily claim rules.",
+    "notes": "@qoder_ai_ide is a verified business account. The launch X post listed 30K → 3,072 and 50K → 4,096; the docs say 50,000 → 3,072 and 100,000 → 4,096, so the docs are followed here. Not tested. Oct 23: @qoder_ai_ide says all rounds are unlocked and teases \"an even bigger surprise\". Round packs must be claimed within 3 days of issuance. Oct 24: @qoder_ai_ide says the 3 rounds unlocked faster than expected, so it is adding one more round (100K total boosts → a bigger mystery pack) and that subscribing or upgrading to Pro or above lets you claim 10,240 SOTA Credits (welcome gift + first 3 rounds). The docs page still lists only Rounds 1–3 and points to the event page for later rounds. Oct 27: @qoder_ai_ide says another 100,000 boosts opened the mystery pack: 12,288 SOTA Credits, 4,096 a day on Oct 28, 29 and 30, for Pro and above individual subscribers on Qoder Global and members approved for Community Boost; \"Start on Oct 28 to collect all three.\" The docs now list Round 4 (200,000 cumulative boosts → 12,288 SOTA Credits) with the daily claim rules. Oct 31, 2026: the docs still give Oct 22 – Oct 30 23:59 as the event period; no extension.",
     "source_label": "Qoder Docs: Qoder 1024 · Community Boost",
     "use_note": "Mainly a perk for Pro+ subscribers; Free users need an approved application. Round packs expire 24 hours after you claim them."
    },
@@ -3995,14 +3995,14 @@
      "在客户端领取：Qoder（v0.4.8 及以上：左下角头像 → Rewards center → Claim；更早版本：用量面板 → 礼物图标 → Claim）、Qoder IDE（用量面板 → Claim）、JetBrains 插件（用量面板 → Claim）或 Qoder CLI（输入 /claim）",
      "选择 Sonus 模型使用"
     ],
-    "end": "2026 年 10 月 30 日 23:59（UTC+8）截止领取；欢迎包 Credits 可用到 10 月 31 日 23:59（UTC+8）",
+    "end": "已结束。领取已于 2026 年 10 月 30 日 23:59（北京时间）截止；已领的见面礼 Credits 可用到 10 月 31 日 23:59（北京时间）",
     "extended": "否",
     "commercial_use": "官方页面未说明，请查看服务条款。",
     "card_required": "需要 Pro 及以上付费套餐，或 Free 账号申请通过。",
     "phone_required": "官方页面未说明。",
     "region": "Qoder 国际版（依据 docs.qoder.com）",
     "conditions": "领取时判断资格。过了领取窗口就不能再领。",
-    "notes": "@qoder_ai_ide 为企业认证账号。发布帖写的是 30K → 3,072、50K → 4,096；文档写的是 50,000 → 3,072、100,000 → 4,096，这里以文档为准。未实测。 10 月 23 日 @qoder_ai_ide 宣布所有轮次已解锁，并预告“更大的惊喜”。每轮的包要在发放后 3 天内领。 10 月 24 日 @qoder_ai_ide 说前三轮解锁比预期快，所以新增一轮（100K total boosts → 更大的神秘礼包），并说订阅或升级到 Pro 及以上即可领 10,240 SOTA Credits（欢迎包 + 前三轮）。文档页目前仍只列前三轮，后续轮次以活动页为准。 10 月 27 日 @qoder_ai_ide 宣布再集满 10 万次助力，神秘礼包开放：共 12,288 SOTA Credits，10 月 28、29、30 日每天 4,096，Qoder 国际版个人 Pro 及以上订阅用户和 Community Boost 申请通过的用户可在客户端领取，“从 10 月 28 日开始可以领满三份”。文档已补上第 4 轮（累计 200,000 次助力 → 12,288 SOTA Credits）和按日领取规则。",
+    "notes": "@qoder_ai_ide 为企业认证账号。发布帖写的是 30K → 3,072、50K → 4,096；文档写的是 50,000 → 3,072、100,000 → 4,096，这里以文档为准。未实测。 10 月 23 日 @qoder_ai_ide 宣布所有轮次已解锁，并预告“更大的惊喜”。每轮的包要在发放后 3 天内领。 10 月 24 日 @qoder_ai_ide 说前三轮解锁比预期快，所以新增一轮（100K total boosts → 更大的神秘礼包），并说订阅或升级到 Pro 及以上即可领 10,240 SOTA Credits（欢迎包 + 前三轮）。文档页目前仍只列前三轮，后续轮次以活动页为准。 10 月 27 日 @qoder_ai_ide 宣布再集满 10 万次助力，神秘礼包开放：共 12,288 SOTA Credits，10 月 28、29、30 日每天 4,096，Qoder 国际版个人 Pro 及以上订阅用户和 Community Boost 申请通过的用户可在客户端领取，“从 10 月 28 日开始可以领满三份”。文档已补上第 4 轮（累计 200,000 次助力 → 12,288 SOTA Credits）和按日领取规则。 2026 年 10 月 31 日：文档仍写活动时间 10 月 22 日至 10 月 30 日 23:59，没有延期。",
     "source_label": "Qoder 文档：Qoder 1024 · Community Boost",
     "cn_note": "本条依据国际版文档，国内版（qoder.cn）规则以 docs.qoder.cn 为准。这主要是 Pro 及以上付费用户的权益，Free 用户需申请通过。",
     "use_note": "主要面向 Pro 及以上订阅用户；Free 用户需申请通过。第 4 轮每天一份 4,096，当天领当天用完。"
@@ -4153,7 +4153,7 @@
   {
    "slug": "zhipu-autoclaw-weekly-perk-oct26-nov1",
    "status": "active",
-   "display_status": "active",
+   "display_status": "soon",
    "category": "limited",
    "china_vendor": true,
    "has_page": true,
@@ -4669,8 +4669,8 @@
   },
   {
    "slug": "evox-minimax-m3-1-flash-free-oct28-30",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": true,
    "has_page": true,
@@ -4678,7 +4678,7 @@
    "url_zh": "https://freeai.alexai.top/zh/evox-minimax-m3-1-flash-free-oct28-30/",
    "start": "2026-10-28",
    "end_date": "2026-10-30",
-   "last_verified": "2026-10-28",
+   "last_verified": "2026-10-31",
    "source_url": "https://x.com/EvoMapAI/status/2115287529197044084",
    "source_type": "official X",
    "extra_sources": [
@@ -4704,14 +4704,14 @@
      "Download EvoX Agent (beta) from evomap.ai/evox/beta (macOS and Windows; the page also gives a terminal install command)",
      "In EvoX, pick MiniMax M3.1 Flash in the model selector"
     ],
-    "end": "Oct 30, 2026 (time zone and exact time not stated)",
+    "end": "Ended Oct 30, 2026 as scheduled (time zone not stated)",
     "extended": "No",
     "commercial_use": "Not stated in the announcement.",
     "card_required": "Not stated in the announcement.",
     "phone_required": "Not stated in the announcement.",
     "region": "Not stated in the announcement",
     "conditions": "Requires the EvoX Agent app (beta).",
-    "notes": "@EvoMapAI has a blue checkmark (not the business badge); @MiniMax_AI (verified business) reposted it. Posted Oct 28, 03:40 UTC (11:40 Beijing time). The EvoX download page does not mention the promotion. Not tested.",
+    "notes": "@EvoMapAI has a blue checkmark (not the business badge); @MiniMax_AI (verified business) reposted it. Posted Oct 28, 03:40 UTC (11:40 Beijing time). The EvoX download page does not mention the promotion. Not tested. Oct 31, 2026: no extension posted by @EvoMapAI or @MiniMax_AI; marked ended on the stated date.",
     "source_label": "@EvoMapAI on X: MiniMax M3.1 Flash now free on EvoX Agent, Oct 28–30 (Oct 28, 2026)",
     "use_note": "Three-day, in-app only promotion."
    },
@@ -4725,14 +4725,14 @@
      "在 evomap.ai/evox/beta 下载 EvoX Agent（Beta，支持 macOS 和 Windows；页面也给了终端安装命令）",
      "在 EvoX 的模型选择器里选 MiniMax M3.1 Flash"
     ],
-    "end": "2026 年 10 月 30 日（未写时区和具体时刻）",
+    "end": "已按原定 2026 年 10 月 30 日结束（未写时区）",
     "extended": "否",
     "commercial_use": "公告未说明。",
     "card_required": "公告未说明。",
     "phone_required": "公告未说明。",
     "region": "公告未说明",
     "conditions": "需使用 EvoX Agent 客户端（Beta）。",
-    "notes": "@EvoMapAI 是蓝标认证（非企业金标），@MiniMax_AI（企业认证）转发了这条公告。发帖时间 10 月 28 日 03:40 UTC（北京时间 11:40）。EvoX 下载页没写这次活动。未实测。",
+    "notes": "@EvoMapAI 是蓝标认证（非企业金标），@MiniMax_AI（企业认证）转发了这条公告。发帖时间 10 月 28 日 03:40 UTC（北京时间 11:40）。EvoX 下载页没写这次活动。未实测。 2026 年 10 月 31 日：@EvoMapAI 和 @MiniMax_AI 都没发延期消息，按原截止日期标为已结束。",
     "source_label": "@EvoMapAI X 帖：EvoX Agent 10 月 28–30 日免费用 MiniMax M3.1 Flash（2026-10-28）",
     "cn_note": "MiniMax 是国产厂商；EvoX 是 EVOMAP PTE. LTD. 的客户端，公告没说中国大陆能否使用。",
     "use_note": "只有三天，只能在客户端里用。"
@@ -4803,6 +4803,1338 @@
     "source_label": "Liquid AI：价格页",
     "cn_note": "Liquid AI 是海外厂商，价格页没提中国大陆能否使用，也没提手机号要求。",
     "use_note": "一次性小额试用额度；价格页说在 Liquid Console、OpenRouter、Vercel AI Gateway 调用价格相同。"
+   }
+  },
+  {
+   "slug": "openai-chatgpt-pro-business-api-credits",
+   "status": "active",
+   "display_status": "active",
+   "category": "subscriber",
+   "china_vendor": false,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#openai-chatgpt-pro-business-api-credits",
+   "url_zh": "https://freeai.alexai.top/zh/#openai-chatgpt-pro-business-api-credits",
+   "start": "2026-10-28 (announced by @OpenAIDevs)",
+   "end_date": null,
+   "last_verified": "2026-10-29",
+   "source_url": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits",
+   "source_type": "official docs + official X",
+   "extra_sources": [
+    {
+     "label": "OpenAI Help Center: API credits benefit for eligible ChatGPT subscriptions",
+     "url": "https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions"
+    },
+    {
+     "label": "@OpenAIDevs announcement (Oct 28, 2026)",
+     "url": "https://x.com/OpenAIDevs/status/2115583698074755078"
+    }
+   ],
+   "claim_url": "https://chatgpt.com/settings/billing",
+   "api": {
+    "base_url": "https://api.openai.com/v1",
+    "model": null,
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "OpenAI (ChatGPT Pro / Business)",
+    "models": "OpenAI API (Responses API, Agents API, Decisions API, GPT-Live / Realtime API, Images API, built-in tools)",
+    "title": "Free OpenAI API Credits for ChatGPT Pro and Business Subscribers (Up to $500 a Month)",
+    "what_free": "Eligible ChatGPT Pro and Business subscriptions \"can claim free API credits as part of their subscription benefits\": Pro ($100 tier) $100, Pro ($200 tier) $200, Pro ($500 tier) $500 per month; Business $20 per paid Standard seat and $100 per paid Premium seat, pooled and capped at $500 per workspace per month. \"No API payment method required.\"",
+    "limits": "Needs an active, paid Pro or Business subscription at least seven days old; free trials and complimentary subscriptions don't qualify (Plus, Go and Free aren't eligible). You must own both the subscription or workspace and the receiving API organization, using the same email. The first grant is prorated; unused credits expire at the end of the billing cycle and don't roll over. Business annual prepay gets the year's grant at once (capped at $6,000). Codex usage through API keys is not covered, and the credits don't raise ChatGPT or signed-in Codex limits. API rate limits apply; when credits run out with no purchased balance, requests fail with HTTP 429 credit_balance_exhausted.",
+    "how_to_claim": [
+     "Sign in to ChatGPT with the account that owns the eligible subscription",
+     "Pro: open Settings → Billing; Business: open the workspace billing settings in ChatGPT or the Admin Console",
+     "Find the API credits benefit and start the claim flow",
+     "Review and select the API organization that will receive the credits, then confirm",
+     "Or start from API Platform: sign in with the same email, select the organization you own, open Billing, find the API credit benefit, select the eligible subscription or workspace and confirm",
+     "Check the credits in API Platform billing settings, then create a project API key"
+    ],
+    "end": "Ongoing (monthly, \"while these benefits are available\")",
+    "extended": "Not applicable",
+    "commercial_use": "Subject to OpenAI's API terms and usage policies (service credit terms).",
+    "card_required": "No API payment method required, but you need a paid ChatGPT Pro or Business subscription.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "Paid ChatGPT Pro or Business subscription (7+ days old); owner of both the subscription and the API organization.",
+    "notes": "Announced by @OpenAIDevs (verified) on Oct 28, 2026 23:17 UTC (Oct 29 07:17 Beijing time): \"Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents.\" Similar to the Claude Max/Team API credits entry. Not tested.",
+    "source_label": "OpenAI API docs: API credits for ChatGPT subscribers",
+    "use_note": "Use a project API key from the linked organization; free credits are spent before purchased credits. OpenAI suggests the OpenAI Developers plugin in ChatGPT or Codex to create keys."
+   },
+   "zh": {
+    "provider": "OpenAI（ChatGPT Pro / Business）",
+    "models": "OpenAI API（Responses API、Agents API、Decisions API、GPT-Live / Realtime API、Images API、内置工具）",
+    "title": "ChatGPT Pro 和 Business 订阅每月送 OpenAI API 额度（最高 $500）",
+    "what_free": "符合条件的 ChatGPT Pro 和 Business 订阅可以领取免费 API 额度（官方原文 “can claim free API credits as part of their subscription benefits”）：Pro（$100 档）每月 $100，Pro（$200 档）$200，Pro（$500 档）$500；Business 每个付费 Standard 席位 $20、每个 Premium 席位 $100，整个工作区合并计算，每月上限 $500。官方写明不需要 API 支付方式（“No API payment method required”）。",
+    "limits": "需要已付费满 7 天的 Pro 或 Business 订阅；免费试用和赠送的订阅不算（Plus、Go、Free 不参与）。你必须同时是订阅（或工作区）和接收额度的 API 组织的所有者，且用同一个邮箱。首月按剩余天数折算；没用完的额度在账单周期结束时清零，不能滚存。Business 年付一次发全年额度（上限 $6,000）。不能抵扣通过 API Key 使用的 Codex，也不会提高 ChatGPT 或登录态 Codex 的用量上限。受 API 速率限制；额度用完且没有购买余额时，请求返回 HTTP 429 credit_balance_exhausted。",
+    "how_to_claim": [
+     "用拥有该订阅的账号登录 ChatGPT",
+     "Pro：打开 设置 → 账单（Settings → Billing）；Business：打开 ChatGPT 或 Admin Console 里的工作区账单设置",
+     "找到 API credits 权益，开始领取流程",
+     "确认并选择接收额度的 API 组织，然后确认激活",
+     "也可以从 API Platform 开始：用同一邮箱登录，选你拥有的组织，打开 Billing，找到 API credit 权益，选择符合条件的订阅或工作区并确认",
+     "在 API Platform 账单设置里查看额度，然后创建项目 API Key"
+    ],
+    "end": "长期（按月发放，官方写 “while these benefits are available”）",
+    "extended": "不适用",
+    "commercial_use": "受 OpenAI API 条款和使用政策（服务额度条款）约束。",
+    "card_required": "不需要 API 支付方式，但你得有付费的 ChatGPT Pro 或 Business 订阅。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "付费 ChatGPT Pro 或 Business 订阅（满 7 天）；同时是订阅和 API 组织的所有者。",
+    "notes": "@OpenAIDevs（认证账号）北京时间 10-29 07:17 发帖宣布：“Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents.” 和 Claude Max / Team 每月 API 额度类似。未实测。",
+    "source_label": "OpenAI API 文档：ChatGPT 订阅用户的 API 额度",
+    "cn_note": "这不是白送的免费额度，而是付费订阅附带的权益。",
+    "use_note": "用关联组织下的项目 API Key 调用；免费额度先于购买的额度扣除。官方建议用 ChatGPT 或 Codex 里的 OpenAI Developers 插件创建 Key。"
+   }
+  },
+  {
+   "slug": "openai-data-sharing-complimentary-daily-tokens",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/openai-data-sharing-complimentary-daily-tokens/",
+   "url_zh": "https://freeai.alexai.top/zh/openai-data-sharing-complimentary-daily-tokens/",
+   "start": "Ongoing (existing program)",
+   "end_date": null,
+   "last_verified": "2026-10-30",
+   "source_url": "https://help.openai.com/en/articles/10306912-sharing-feedback-evaluation-and-fine-tuning-data-and-api-inputs-and-outputs-with-openai",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "Data sharing settings",
+     "url": "https://platform.openai.com/settings/organization/data-controls/sharing"
+    }
+   ],
+   "claim_url": "https://platform.openai.com/settings/organization/data-controls/sharing",
+   "api": {
+    "base_url": "https://api.openai.com/v1",
+    "model": "gpt-5.6-luna",
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "OpenAI API (data sharing program)",
+    "models": "1M/250K group: gpt-6.1-sol, gpt-6-astra, gpt-6-sol, gpt-6-luna, gpt-5.6-sol, gpt-5.5, gpt-5.4, gpt-5.2, gpt-5.1, gpt-5.1-codex, gpt-5, gpt-4.1, gpt-4o, o3, o1 and others; 10M/2.5M group: gpt-5.6-terra, gpt-5.6-luna, gpt-5.4-mini, gpt-5.4-nano, gpt-5.1-codex-mini, gpt-5-mini, gpt-5-nano, gpt-4.1-mini/nano, gpt-4o-mini, o4-mini, codex-mini-latest and others",
+    "title": "OpenAI API Free Daily Tokens for Sharing Data: Up to 1M + 10M Tokens a Day",
+    "what_free": "\"Some organizations may qualify for daily complimentary tokens on traffic shared with OpenAI.\" Eligible Launch and Grow organizations get up to 1 million tokens a day on the larger-model group and 10 million on the mini/nano group; eligible Build organizations get 250,000 and 2.5 million. The tokens apply automatically to traffic you share with OpenAI on the listed models.",
+    "limits": "Not every organization qualifies; you only qualify if your data sharing settings page shows \"You're eligible for free daily usage on traffic shared with OpenAI.\" Each model group has its own daily limit shared across its models. If a single request would push your daily total over the quota, that entire request is billed at normal rates. The counter resets at 00:00 UTC. You need a positive account balance. Fine-tuned models, fine-tuning training, evals and tool use are not included. Only usage on projects with sharing enabled counts. Zero Data Retention and Enterprise organizations can't opt in.",
+    "how_to_claim": [
+     "Sign in to platform.openai.com as an organization owner",
+     "Open Settings → Organization → Data controls → Sharing",
+     "Check for the message \"You're eligible for free daily usage on traffic shared with OpenAI\"; if it isn't there, you aren't eligible right now",
+     "Enable sharing of inputs and outputs for all projects or selected projects",
+     "Confirm the page says \"You're enrolled for complimentary daily tokens\"",
+     "Keep a positive balance, then call the listed models as usual; free usage shows as \"data sharing incentive tier\" in the Usage dashboard"
+    ],
+    "end": "Ongoing (OpenAI will give 30 days notice before ending it)",
+    "extended": "Not applicable",
+    "commercial_use": "Subject to OpenAI's API terms. Shared inputs and outputs may be used to evaluate and train OpenAI models; OpenAI says not to include sensitive, confidential or proprietary information.",
+    "card_required": "You need a positive API account balance (so in practice a prepaid top-up).",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the help article (OpenAI API supported countries apply)",
+    "conditions": "Organization owner only; eligibility is decided by OpenAI and shown on the data sharing page; your API traffic is shared with OpenAI.",
+    "notes": "Not a new promotion; it's a long-running OpenAI program that resurfaced in third-party X posts on Oct 29-30, 2026 (@xulijian1994, @Vincent_AINotes, @xxoooPro). Model list and limits are from the help article (updated about 10 days before Oct 30). Shared evals are processed at no cost for up to 7 runs per week. Not tested.",
+    "source_label": "OpenAI Help Center: Sharing feedback, evaluation and fine-tuning data, and API inputs and outputs with OpenAI",
+    "use_note": "Use a key from a project with sharing enabled. Set a hard spending limit if you want to avoid overage, because a request that crosses the daily quota is billed in full."
+   },
+   "zh": {
+    "provider": "OpenAI API（数据共享计划）",
+    "models": "100 万 / 25 万档：gpt-6.1-sol、gpt-6-astra、gpt-6-sol、gpt-6-luna、gpt-5.6-sol、gpt-5.5、gpt-5.4、gpt-5.2、gpt-5.1、gpt-5.1-codex、gpt-5、gpt-4.1、gpt-4o、o3、o1 等；1000 万 / 250 万档：gpt-5.6-terra、gpt-5.6-luna、gpt-5.4-mini、gpt-5.4-nano、gpt-5.1-codex-mini、gpt-5-mini、gpt-5-nano、gpt-4.1-mini / nano、gpt-4o-mini、o4-mini、codex-mini-latest 等",
+    "title": "OpenAI API 开启数据共享每天送免费 Token：最多 100 万 + 1000 万",
+    "what_free": "官方原文 “Some organizations may qualify for daily complimentary tokens on traffic shared with OpenAI.” 符合条件的 Launch / Grow 等级组织，大模型组每天最多 100 万 token、mini / nano 组每天最多 1000 万 token；符合条件的 Build 等级组织分别是 25 万和 250 万。额度自动抵扣你共享给 OpenAI 的流量。",
+    "limits": "不是所有组织都有资格，数据共享设置页出现 “You're eligible for free daily usage on traffic shared with OpenAI” 才算。两组模型各有每日上限，组内模型共用。单次请求如果会让当天累计超过额度，这一整笔请求按正常价格计费。每天 00:00 UTC（北京时间 08:00）重置。账户余额必须大于 0。微调模型、微调训练、evals 和工具调用不算在内。只有开启共享的项目上的用量才抵扣。开了零数据保留（ZDR）的组织和 Enterprise 不能开启。",
+    "how_to_claim": [
+     "用组织所有者（Org Owner）账号登录 platform.openai.com",
+     "打开 Settings → Organization → Data controls → Sharing",
+     "看页面上有没有 “You're eligible for free daily usage on traffic shared with OpenAI”，没有就说明暂时没资格",
+     "对全部项目或指定项目开启输入输出共享",
+     "确认页面显示 “You're enrolled for complimentary daily tokens”",
+     "保持账户余额大于 0，正常调用上面列出的模型；免费用量在 Usage 面板里显示为 “data sharing incentive tier”"
+    ],
+    "end": "长期（官方写结束前会提前 30 天通知）",
+    "extended": "不适用",
+    "commercial_use": "受 OpenAI API 条款约束。共享的输入输出可能被 OpenAI 用于模型评估和训练，官方提醒不要包含敏感、保密或专有信息。",
+    "card_required": "账户余额需要大于 0（实际上要先充值）。",
+    "phone_required": "官方页面未说明。",
+    "region": "帮助文档未说明（按 OpenAI API 支持的国家和地区）",
+    "conditions": "仅组织所有者可操作；是否有资格由 OpenAI 决定，在数据共享页显示；你的 API 流量会共享给 OpenAI。",
+    "notes": "这不是新活动，是 OpenAI 一直有的计划，10 月 29–30 日又被第三方 X 帖翻出来（@xulijian1994、@Vincent_AINotes、@xxoooPro）。模型清单和额度以帮助中心文章为准（10-30 时显示约 10 天前更新）。共享的 evals 每周最多 7 次免费运行。未实测。",
+    "source_label": "OpenAI 帮助中心：与 OpenAI 共享反馈、评估和微调数据以及 API 输入输出",
+    "cn_note": "等于拿 API 数据换免费额度，不要把敏感数据走开启共享的项目。超额那笔请求会整笔收费，建议在 Limits 页面设置硬性支出上限。",
+    "use_note": "用开启了共享的项目下的 Key 调用。想避免超额扣费就设硬性支出上限，因为跨过每日额度的那笔请求会整笔计费。"
+   }
+  },
+  {
+   "slug": "sensenova-token-plan-free-beta",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/sensenova-token-plan-free-beta/",
+   "url_zh": "https://freeai.alexai.top/zh/sensenova-token-plan-free-beta/",
+   "start": "Public beta (credit increase effective Oct 27, 2026)",
+   "end_date": null,
+   "last_verified": "2026-10-30",
+   "source_url": "https://platform.sensenova.cn/docs",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "SenseNova Token Plan page",
+     "url": "https://www.sensenova.cn/token-plan"
+    }
+   ],
+   "claim_url": "https://platform.sensenova.cn/console/keys",
+   "api": {
+    "base_url": "https://token.sensenova.cn/v1",
+    "model": "glm-5.2",
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "SenseTime SenseNova (Token Plan)",
+    "models": "SenseNova 6.8 Flash Lite, SenseNova U1.5 Lite / U1.5 Fast (image), DeepSeek V4 Flash, DeepSeek V4.1 Flash, GLM-5.2, Kimi K3",
+    "title": "SenseNova Token Plan Free Beta: GLM-5.2, Kimi K3 and DeepSeek V4.1 Flash API at ¥0 (Credits Doubled Oct 27)",
+    "what_free": "The Token Plan page says \"公测期完全免费开放\" (fully free during the public beta) with a Free beta tier at ¥0/month. From Oct 27, 2026 the general credit pool was raised from 60,000 to 120,000 credits per rolling 5 hours and from 600,000 to 1,200,000 credits per rolling week. A separate Flash-Lite pool gives 60,000 credits per 5 hours and 600,000 per week for SenseNova Flash-Lite models.",
+    "limits": "Two rolling windows (5 hours and 1 week); each model deducts a different number of credits based on actual usage, and the per-model rate is not published. The Flash-Lite purchase-rebate promotion ended Oct 27, 2026. Up to 20 API keys per account. The docs say the quota and rules are public-beta benefits and SenseNova will give advance notice of changes. Paid Lite / Pro tiers are \"coming soon\".",
+    "how_to_claim": [
+     "Open the SenseNova Token Plan page and click 免费开始 (Start free)",
+     "Register and verify your phone number",
+     "In Console → API Keys, create a key starting with sk- (shown only once)",
+     "Set base_url to https://token.sensenova.cn/v1 in an OpenAI-compatible client and pick a model ID",
+     "Check credit balance and deductions on the TokenPlan account page"
+    ],
+    "end": "Not published (free during the public beta)",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; check SenseNova's terms.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Yes, phone number verification is required at sign-up.",
+    "region": "Not stated on the official page (models are listed in a CN data center)",
+    "conditions": "Public beta benefit; quotas may change with advance notice.",
+    "notes": "Lead from third-party X posts (@NiuOnAI, @linkeverythingy, @fakeroo8). The official @SenseTime_AI account (verified) hasn't posted the change; the source is the official docs. Model IDs: sensenova-6.8-flash-lite, deepseek-v4-flash, deepseek-flash (V4.1 Flash 1017), glm-5.2, kimi-k3, sensenova-u1.5-lite, sensenova-u1.5-fast. Third-party users report strict rate limits. Not tested.",
+    "source_label": "SenseNova API docs (credits section, Oct 27, 2026 update)",
+    "use_note": "OpenAI-compatible Chat Completions; an Anthropic Messages-compatible endpoint is also documented. Kimi K3 only accepts Base64 images."
+   },
+   "zh": {
+    "provider": "商汤日日新 SenseNova（Token Plan）",
+    "models": "SenseNova 6.8 Flash Lite、SenseNova U1.5 Lite / U1.5 Fast（生图）、DeepSeek V4 Flash、DeepSeek V4.1 Flash、GLM-5.2、Kimi K3",
+    "title": "商汤日日新 Token Plan 公测免费：GLM-5.2、Kimi K3、DeepSeek V4.1 Flash 免费调 API（10-27 起积分翻倍）",
+    "what_free": "Token Plan 页面写“公测期完全免费开放”，Free 公测档 ¥0/月。自 2026 年 10 月 27 日起，通用积分池滚动 5 小时上限由 60,000 提到 120,000 积分，滚动周上限由 600,000 提到 1,200,000 积分。另有 Flash-Lite 专属积分池：每 5 小时 60,000、每周 600,000 积分，供 SenseNova Flash-Lite 模型使用。",
+    "limits": "有滚动 5 小时和滚动周两层限制；不同模型按实际用量扣不同积分，官方没公布每个模型的扣分标准。Flash-Lite 消费返赠活动已于 10 月 27 日下线。每个账号最多 20 个 API Key。文档写明当前额度和规则属于公测期权益，后续调整会提前通知。Lite / Pro 付费档“即将上线”。",
+    "how_to_claim": [
+     "打开 SenseNova Token Plan 页面，点“免费开始”",
+     "注册账号并完成手机号验证",
+     "在 控制台 → API Keys 创建 sk- 开头的密钥（只显示一次）",
+     "在 OpenAI 兼容客户端里把 base_url 设为 https://token.sensenova.cn/v1，填模型 ID",
+     "在 TokenPlan 账户页查看积分额度和扣减明细"
+    ],
+    "end": "未公布（公测期内免费）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明，请查看商汤服务条款。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "需要，注册要做手机号验证。",
+    "region": "官方页面未说明（模型数据中心标为中国）",
+    "conditions": "公测期权益，额度可能调整（官方说会提前通知）。",
+    "notes": "线索来自第三方 X 帖（@NiuOnAI、@linkeverythingy、@fakeroo8）。商汤官方 X（@SenseTime_AI，认证账号）没发这条，来源是官方文档。模型 ID：sensenova-6.8-flash-lite、deepseek-v4-flash、deepseek-flash（V4.1 Flash 1017 版）、glm-5.2、kimi-k3、sensenova-u1.5-lite、sensenova-u1.5-fast。有第三方用户反映速率限制很严。未实测。",
+    "source_label": "SenseNova API 文档（积分说明，2026-10-27 更新）",
+    "cn_note": "和“办公小浣熊”的积分活动不是一回事；这里是开放平台 API。",
+    "use_note": "OpenAI 兼容的 Chat Completions，文档也给了 Anthropic Messages 兼容接口。Kimi K3 图片输入只支持 Base64。"
+   }
+  },
+  {
+   "slug": "regolo-30-day-free-trial",
+   "status": "active",
+   "display_status": "active",
+   "category": "trial_credits",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/regolo-30-day-free-trial/",
+   "url_zh": "https://freeai.alexai.top/zh/regolo-30-day-free-trial/",
+   "start": "Ongoing (new users)",
+   "end_date": null,
+   "last_verified": "2026-10-30",
+   "source_url": "https://regolo.ai/pricing/",
+   "source_type": "official page",
+   "extra_sources": [
+    {
+     "label": "Regolo FAQ",
+     "url": "https://regolo.ai/faq/"
+    },
+    {
+     "label": "Regolo terms (Freemium Subscription)",
+     "url": "https://regolo.ai/terms-and-conditions/"
+    }
+   ],
+   "claim_url": "https://regolo.ai/pricing/",
+   "api": {
+    "base_url": "https://api.regolo.ai/v1",
+    "model": "glm5.2",
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "Regolo (Seeweb)",
+    "models": "All Regolo Core Models, including glm5.2, qwen3.8-27b, qwen3.5-122b, gpt-oss-120b, gpt-oss-20b, gemma4-31b, mistral-small-4-119b, apertus-70b, qwen3.5-9b",
+    "title": "Regolo Free Trial: 30 Days, 1M Tokens a Day, No Credit Card (GLM-5.2, Qwen3.8)",
+    "what_free": "\"START YOUR 30-DAY FREE TRIAL. Get full access to all Core Models. No credit card required, no commitment.\" The trial card lists \"1 month duration\", \"1M tokens per day\" and \"All Core Models\".",
+    "limits": "1M tokens per day for 30 days. \"Stricter rate limits\" with fair usage throttling. Regolo's terms say the free 30-day plan can only be used once per subscriber. Embedding, speech-to-text, image generation, OCR, rerank and decision models are marked \"Not included\" in subscription plans on the price table. After 30 days the account moves to Pay-as-you-Go with \"no automatic charge\".",
+    "how_to_claim": [
+     "Open regolo.ai/pricing and click Start Free Trial",
+     "Sign up for an account",
+     "Create an API key in the dashboard",
+     "Call the OpenAI-compatible API at https://api.regolo.ai/v1 with a Core model such as glm5.2"
+    ],
+    "end": "Trial lasts 30 days from sign-up",
+    "extended": "No",
+    "commercial_use": "Not specified on the pricing page; check Regolo's terms.",
+    "card_required": "No (\"No credit card required\").",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "New users, once per subscriber.",
+    "notes": "Not a new promotion; lead from a third-party X roundup (@KevinWwwrz, Oct 29). Regolo is run by Italian cloud provider Seeweb. The @regolo_ai X account is not verified. Model IDs from GET https://api.regolo.ai/v1/models. Not tested.",
+    "source_label": "Regolo pricing: 30-day free trial",
+    "use_note": "OpenAI-compatible. Model IDs use Regolo's names (e.g. glm5.2, qwen3.8-27b, gpt-oss-120b)."
+   },
+   "zh": {
+    "provider": "Regolo（Seeweb）",
+    "models": "Regolo 全部 Core 模型，包括 glm5.2、qwen3.8-27b、qwen3.5-122b、gpt-oss-120b、gpt-oss-20b、gemma4-31b、mistral-small-4-119b、apertus-70b、qwen3.5-9b",
+    "title": "Regolo 免费试用：30 天每天 100 万 token，不用绑卡（GLM-5.2、Qwen3.8）",
+    "what_free": "官方原文 “START YOUR 30-DAY FREE TRIAL. Get full access to all Core Models. No credit card required, no commitment.” 试用卡片写 “1 month duration”、“1M tokens per day”、“All Core Models”。",
+    "limits": "30 天内每天 100 万 token。速率限制更严（“Stricter rate limits”，有公平使用限流）。服务条款写明 30 天免费方案每个用户只能用一次。价格表里 Embedding、语音转写、生图、OCR、Rerank、Decision 模型标为订阅不含。30 天后账号转为按量付费，官方写 “no automatic charge”（不会自动扣费）。",
+    "how_to_claim": [
+     "打开 regolo.ai/pricing，点 Start Free Trial",
+     "注册账号",
+     "在控制台创建 API Key",
+     "用 OpenAI 兼容接口 https://api.regolo.ai/v1 调用 Core 模型，比如 glm5.2"
+    ],
+    "end": "试用期为注册后 30 天",
+    "extended": "否",
+    "commercial_use": "价格页未说明，请查看 Regolo 服务条款。",
+    "card_required": "不需要（“No credit card required”）。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "新用户，每人限一次。",
+    "notes": "不是新活动，线索来自第三方 X 合集帖（@KevinWwwrz，10-29）。Regolo 由意大利云厂商 Seeweb 运营。@regolo_ai 不是认证账号。模型 ID 来自 GET https://api.regolo.ai/v1/models。未实测。",
+    "source_label": "Regolo 价格页：30 天免费试用",
+    "cn_note": "欧盟（意大利）机房，国内直连速度未测。",
+    "use_note": "OpenAI 兼容。模型 ID 用 Regolo 自己的写法（如 glm5.2、qwen3.8-27b、gpt-oss-120b）。"
+   }
+  },
+  {
+   "slug": "sakura-ai-engine-free-plan",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/sakura-ai-engine-free-plan/",
+   "url_zh": "https://freeai.alexai.top/zh/sakura-ai-engine-free-plan/",
+   "start": "Ongoing",
+   "end_date": null,
+   "last_verified": "2026-10-30",
+   "source_url": "https://ai.sakura.ad.jp/sakura-ai/ai-engine/",
+   "source_type": "official page",
+   "extra_sources": [
+    {
+     "label": "Sakura Cloud news: Kimi-K2.7-Code public preview (free plan 3,000 requests/month)",
+     "url": "https://cloud.sakura.ad.jp/news/2026/07/28/aiengine_kimi-k2-7-code_pubpreview/"
+    }
+   ],
+   "claim_url": "https://ai.sakura.ad.jp/sakura-ai/ai-engine/",
+   "api": {
+    "base_url": "https://api.ai.sakura.ad.jp/v1",
+    "model": "preview/Kimi-K2.7-Code",
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "SAKURA internet (さくらのAI Engine)",
+    "models": "gpt-oss-120b, llm-jp-3.1-8x13b-instruct4, preview models Kimi-K2.6, Kimi-K2.7-Code, Qwen3.6-35B-A3B, gemma-4-31B-it, Qwen3-VL-30B-A3B-Instruct and others; whisper-large-v3-turbo; multilingual-e5-large; VOICEVOX TTS",
+    "title": "Sakura AI Engine Free Plan: 3,000 Chat Requests a Month (Kimi-K2.7-Code, gpt-oss-120b)",
+    "what_free": "The 基盤モデル無償プラン (foundation model free plan) is free within its request limits: up to 3,000 requests a month across all Chat Completions models, 50 requests a month for Whisper transcription, 10,000 requests a month for embeddings, and 50 a month for VOICEVOX text-to-speech. The free quota resets automatically each month.",
+    "limits": "3,000 requests a month is shared across all Chat Completions models. On the free plan, going over the quota triggers rate limiting instead of charges, and you may get HTTP 429 during heavy load. The free plan doesn't switch to pay-as-you-go automatically. Weblab-MedLLM-gpt-oss-120b and RAG are not covered. The free plan has a cap on sign-ups and stops accepting new users when it's reached. Public preview models can end without notice and their prices may change.",
+    "how_to_claim": [
+     "Create a SAKURA internet member ID (phone number verification required)",
+     "Log in to the control panel and create a さくらのクラウド (Sakura Cloud) project (a credit card must be registered)",
+     "Apply for the 基盤モデル無償プラン in the さくらのAI Engine section of the control panel and issue an account token",
+     "Call the OpenAI-compatible API at https://api.ai.sakura.ad.jp/v1 with a model such as preview/Kimi-K2.7-Code"
+    ],
+    "end": "Ongoing (no end date published)",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; check SAKURA internet's terms.",
+    "card_required": "Yes, Sakura Cloud requires a registered credit card, but the free plan doesn't charge.",
+    "phone_required": "Yes, phone number verification is required for the member ID.",
+    "region": "Not stated on the official page (Japanese service)",
+    "conditions": "Free plan sign-ups are capped and may close when the limit is reached.",
+    "notes": "Not a new promotion; lead from a third-party X roundup (@KevinWwwrz, Oct 29). The official page doesn't say whether non-Japanese phone numbers or cards are accepted. The API base comes from Sakura's official knowledge article. Not tested.",
+    "source_label": "SAKURA internet: さくらのAI Engine pricing (free plan)",
+    "use_note": "OpenAI-compatible POST /v1/chat/completions. Preview models use the preview/ prefix."
+   },
+   "zh": {
+    "provider": "樱花互联网 SAKURA internet（さくらのAI Engine）",
+    "models": "gpt-oss-120b、llm-jp-3.1-8x13b-instruct4，预览模型 Kimi-K2.6、Kimi-K2.7-Code、Qwen3.6-35B-A3B、gemma-4-31B-it、Qwen3-VL-30B-A3B-Instruct 等；whisper-large-v3-turbo；multilingual-e5-large；VOICEVOX 语音合成",
+    "title": "さくらのAI Engine 免费方案：每月 3,000 次对话请求（Kimi-K2.7-Code、gpt-oss-120b）",
+    "what_free": "“基盤モデル無償プラン”（基础模型免费方案）在请求上限内免费：所有 Chat Completions 模型合计每月 3,000 次请求，Whisper 转写每月 50 次，Embedding 每月 10,000 次，VOICEVOX 语音合成每月 50 次。免费额度每月自动重置。",
+    "limits": "每月 3,000 次是所有 Chat Completions 模型共用的。免费方案超出额度后是限速，不会扣费；高峰时即使没用完也可能返回 429。免费方案不会自动转成按量付费。Weblab-MedLLM-gpt-oss-120b 和 RAG 不在免费范围内。免费方案有申请名额上限，满了就停止受理新用户。预览模型可能不经通知下线，价格也可能变。",
+    "how_to_claim": [
+     "注册 SAKURA internet 会员 ID（需要电话号码验证）",
+     "登录控制面板，创建“さくらのクラウド”项目（必须登记信用卡）",
+     "在控制面板的 さくらのAI Engine 里申请“基盤モデル無償プラン”，签发账户 Token",
+     "用 OpenAI 兼容接口 https://api.ai.sakura.ad.jp/v1 调用，比如 preview/Kimi-K2.7-Code"
+    ],
+    "end": "长期（未公布结束日期）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明，请查看 SAKURA internet 服务条款。",
+    "card_required": "需要，さくらのクラウド 必须登记信用卡，但免费方案不扣费。",
+    "phone_required": "需要，注册会员 ID 要做电话号码验证。",
+    "region": "官方页面未说明（日本服务）",
+    "conditions": "免费方案名额有限，满额可能停止受理。",
+    "notes": "不是新活动，线索来自第三方 X 合集帖（@KevinWwwrz，10-29）。官方页面没说海外手机号或信用卡能不能用。API 地址来自樱花官方知识库文章。未实测。",
+    "source_label": "SAKURA internet：さくらのAI Engine 价格（免费方案）",
+    "cn_note": "日本服务，页面为日文；需要电话验证和信用卡，国内用户能否注册未验证。",
+    "use_note": "OpenAI 兼容的 POST /v1/chat/completions。预览模型要带 preview/ 前缀。"
+   }
+  },
+  {
+   "slug": "vercel-ai-gateway-ling-3-1-flash-1019-free",
+   "status": "active",
+   "display_status": "soon",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/vercel-ai-gateway-ling-3-1-flash-1019-free/",
+   "url_zh": "https://freeai.alexai.top/zh/vercel-ai-gateway-ling-3-1-flash-1019-free/",
+   "start": "2026-10-30 (Vercel changelog date)",
+   "end_date": "2026-11-03",
+   "last_verified": "2026-10-31",
+   "source_url": "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
+   "source_type": "official changelog + official X",
+   "extra_sources": [
+    {
+     "label": "AI Gateway model page",
+     "url": "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019"
+    },
+    {
+     "label": "@vercel_dev on X (Oct 30, 2026 16:34 UTC)",
+     "url": "https://x.com/vercel_dev/status/2116207023855632656"
+    }
+   ],
+   "claim_url": "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
+   "api": {
+    "base_url": "https://ai-gateway.vercel.sh/v1",
+    "model": "inclusionai/ling-3.1-flash-1019",
+    "style": "openai"
+   },
+   "cli": [
+    "npx vercel ai-gateway setup"
+   ],
+   "en": {
+    "provider": "Vercel AI Gateway / InclusionAI (Ant Ling)",
+    "models": "Ling 3.1 Flash 1019 (inclusionai/ling-3.1-flash-1019; 560B total / 25B active, 1M context)",
+    "title": "Ling 3.1 Flash 1019 Free on Vercel AI Gateway Until November 3, 2026",
+    "what_free": "Vercel: \"Ling 3.1 Flash 1019 from InclusionAI is now available on AI Gateway, free until November 3, 2026.\" The model page lists the price as Free (input and output) via the Novita AI provider. \"Free requests still appear in your spend dashboard with a full request trace, they just cost nothing.\"",
+    "limits": "Usage caps and rate limits for the free period are not published. \"On November 3, requests will begin charging at the published rate\" (the exact time and time zone are not stated). There is only the standard model name, no separate -free variant, so billing starts automatically after the free period.",
+    "how_to_claim": [
+     "Sign in to Vercel and create an AI Gateway API key (the model page has a \"Get API key\" button)",
+     "Call the model as inclusionai/ling-3.1-flash-1019 through AI Gateway (AI SDK or the OpenAI-compatible Chat Completions endpoint)",
+     "To use it in Claude Code, Codex, Cursor and more: install the latest Vercel CLI, run npx vercel ai-gateway setup, then select inclusionai/ling-3.1-flash-1019 in the agent",
+     "You can also try it in the AI Gateway model playground"
+    ],
+    "end": "Free until November 3, 2026; charging at the published rate begins on November 3 (time and time zone not stated)",
+    "extended": "No",
+    "commercial_use": "Ling 3.1 Flash 1019 weights are MIT-licensed; hosted use is subject to Vercel and provider terms.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "Billing starts automatically on November 3; switch models before then if you don't want to be charged.",
+    "notes": "@vercel_dev is a verified business account. The model page lists Novita AI as the provider. Vercel's model page also says free users (those who haven't made a payment) get $5 of credits every 30 days. Leads also came from third-party X posts (@xulijian1994, @okeyccronald, @zhongzhong98435). Not tested.",
+    "source_label": "Vercel changelog: Ling 3.1 Flash 1019 now available on AI Gateway for free (Oct 30, 2026)",
+    "use_note": "Use your AI Gateway API key. Remember to switch away before November 3, when billing starts at the published rate."
+   },
+   "zh": {
+    "provider": "Vercel AI Gateway / 蚂蚁百灵 InclusionAI",
+    "models": "Ling 3.1 Flash 1019（inclusionai/ling-3.1-flash-1019；总参数 560B、激活 25B，1M 上下文）",
+    "title": "Vercel AI Gateway 限免 Ling 3.1 Flash 1019：免费到 2026 年 11 月 3 日",
+    "what_free": "Vercel 官方原文 “Ling 3.1 Flash 1019 from InclusionAI is now available on AI Gateway, free until November 3, 2026.” 模型页价格标为 Free（输入、输出），服务商为 Novita AI。官方说免费请求仍会出现在花费面板里并有完整请求记录，只是不收钱。",
+    "limits": "免费期的用量上限和速率限制未公布。官方写 “On November 3, requests will begin charging at the published rate”，没写具体时刻和时区。这次只有一个标准模型名，没有单独的 -free 版本，免费期一过会自动开始计费。",
+    "how_to_claim": [
+     "登录 Vercel，创建 AI Gateway API Key（模型页有 “Get API key” 按钮）",
+     "通过 AI Gateway 调用模型 inclusionai/ling-3.1-flash-1019（AI SDK 或 OpenAI 兼容的 Chat Completions 接口）",
+     "想在 Claude Code、Codex、Cursor 等工具里用：安装最新版 Vercel CLI，运行 npx vercel ai-gateway setup，再在工具里选 inclusionai/ling-3.1-flash-1019",
+     "也可以先在 AI Gateway 的模型 Playground 里试用"
+    ],
+    "end": "免费到 2026 年 11 月 3 日；11 月 3 日起按标价计费（未写具体时刻和时区）",
+    "extended": "否",
+    "commercial_use": "Ling 3.1 Flash 1019 权重为 MIT 许可；托管调用受 Vercel 和服务商条款约束。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "11 月 3 日起自动计费，不想付费请提前切换模型。",
+    "notes": "@vercel_dev 是企业认证账号。模型页显示服务商为 Novita AI。Vercel 模型页还写明未付过款的免费用户每 30 天有 $5 额度。线索也来自第三方 X 帖（@xulijian1994、@okeyccronald、@zhongzhong98435）。未实测。",
+    "source_label": "Vercel 更新日志：Ling 3.1 Flash 1019 在 AI Gateway 免费开放（2026-10-30）",
+    "cn_note": "蚂蚁百灵的模型，经 Vercel（海外）调用；国内直连情况未测。时区未写，保守起见按北京时间 11 月 3 日 00:00 前停用。",
+    "use_note": "用 AI Gateway 的 API Key。11 月 3 日起按标价收费，记得提前切走。"
+   }
+  },
+  {
+   "slug": "kiroween-2026-hackathon-4000-kiro-credits",
+   "status": "active",
+   "display_status": "active",
+   "category": "trial_credits",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/kiroween-2026-hackathon-4000-kiro-credits/",
+   "url_zh": "https://freeai.alexai.top/zh/kiroween-2026-hackathon-4000-kiro-credits/",
+   "start": "2026-10-30 (Submission Period opens)",
+   "end_date": "2026-12-01",
+   "last_verified": "2026-10-31",
+   "source_url": "https://kiroween.devpost.com/resources",
+   "source_type": "official page + official X",
+   "extra_sources": [
+    {
+     "label": "Kiroween 2026 overview",
+     "url": "https://kiroween.devpost.com/"
+    },
+    {
+     "label": "Official Rules",
+     "url": "https://kiroween.devpost.com/rules"
+    },
+    {
+     "label": "@kirodotdev on X (Oct 30, 2026 17:36 UTC)",
+     "url": "https://x.com/kirodotdev/status/2116222819407118651"
+    }
+   ],
+   "claim_url": "https://kiroween.devpost.com/resources",
+   "api": null,
+   "cli": [],
+   "en": {
+    "provider": "Kiro (AWS) via Devpost",
+    "models": "Models available inside Kiro (IDE, CLI, Web and Kiro Crew) via Kiro credits",
+    "title": "Kiroween 2026 Hackathon: Request 4,000 Free Kiro Credits (by Dec 1)",
+    "what_free": "\"Kiroween participants can request 4,000 free Kiro credits to use during the Submission Period.\" It is a one-time grant.",
+    "limits": "\"This is a one-time grant. No additional credits will be provided.\" You need a Kiro account and your Kiro user ID (or AWS account ID). Requests are reviewed and credits are sent within 48 business hours. Request by Dec 1, 2026, 12:00 PM PT; redeem the credit code by Dec 4, 2026; redeemed credits expire Dec 31, 2026, 11:59 PM PT. Entrants must be above the legal age of majority; residents of certain countries/regions are excluded (the rules list, among others, Quebec, Argentina, Australia, Brazil, Indonesia, Italy, Philippines, Russia, the UAE and OFAC-sanctioned countries).",
+    "how_to_claim": [
+     "Join the Kiroween 2026 hackathon on Devpost (kiroween.devpost.com)",
+     "Create a Kiro account if you don't have one and find your Kiro user ID (or AWS account ID)",
+     "On the Resources tab, use the \"Request your Kiro credits here\" link by Dec 1, 2026, 12:00 PM PT",
+     "Wait up to 48 business hours for the credit code",
+     "Log in to Kiro, open the Kiro credit code URL and look for \"Kiroupon successfully redeemed!\" (redeem by Dec 4)",
+     "Check app.kiro.dev usage dashboard for a credit line with the kiroween prefix"
+    ],
+    "end": "Request by Dec 1, 2026, 12:00 PM PT (Dec 2, 04:00 UTC+8); redeem by Dec 4, 2026; credits expire Dec 31, 2026, 11:59 PM PT (Jan 1, 2027, 15:59 UTC+8)",
+    "extended": "No",
+    "commercial_use": "Hackathon projects must be new, public and open source; see the Official Rules.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Excluded: residents of places where participation is prohibited, including Quebec, Argentina, Australia, Brazil, Indonesia, Italy, Philippines, Russia, Cuba, Iran, North Korea, Syria, Belarus, Crimea, DNR, LNR, the UAE and OFAC-sanctioned countries",
+    "conditions": "Hackathon participants only; legal age of majority; one-time grant.",
+    "notes": "@kirodotdev is a verified business account. Builds are due Dec 4, 2026, 2:00 PM PT; $100K in cash prizes. Lead also from third-party X roundup @KevinWwwrz (Oct 31). Not tested.",
+    "source_label": "Kiroween 2026 (Devpost): Resources — Kiro access",
+    "use_note": "Credits are for Kiro usage during the hackathon, not an API key."
+   },
+   "zh": {
+    "provider": "Kiro（AWS）/ Devpost",
+    "models": "Kiro 内可用的模型（IDE、CLI、Web、Kiro Crew，按 Kiro 积分计费）",
+    "title": "Kiroween 2026 黑客松：申请 4,000 免费 Kiro 积分（12 月 1 日前）",
+    "what_free": "官方原文 “Kiroween participants can request 4,000 free Kiro credits to use during the Submission Period.” 一次性发放。",
+    "limits": "官方写 “This is a one-time grant. No additional credits will be provided.” 需要 Kiro 账号和 Kiro 用户 ID（或 AWS 账号 ID）。提交申请后人工审核，48 个工作小时内发放。申请截止 2026 年 12 月 1 日 12:00 PM PT；兑换码须在 12 月 4 日前兑换；兑换后的积分 2026 年 12 月 31 日 11:59 PM PT 过期。参赛者须达到所在地法定成年年龄；部分国家和地区居民不能参加（规则列出魁北克、阿根廷、澳大利亚、巴西、印尼、意大利、菲律宾、俄罗斯、阿联酋及 OFAC 全面制裁国家等）。",
+    "how_to_claim": [
+     "在 Devpost 报名 Kiroween 2026（kiroween.devpost.com）",
+     "没有 Kiro 账号先注册，并找到自己的 Kiro 用户 ID（或 AWS 账号 ID）",
+     "在 Resources 页点 “Request your Kiro credits here” 提交申请，截止 2026 年 12 月 1 日 12:00 PM PT",
+     "等最多 48 个工作小时收到积分兑换码",
+     "登录 Kiro，打开兑换码链接，看到 “Kiroupon successfully redeemed!” 即成功（12 月 4 日前兑换）",
+     "到 app.kiro.dev 用量面板查看带 kiroween 前缀的积分"
+    ],
+    "end": "申请截止 2026 年 12 月 1 日 12:00 PM PT（北京时间 12 月 2 日 04:00）；12 月 4 日前兑换；积分 2026 年 12 月 31 日 11:59 PM PT（北京时间 2027 年 1 月 1 日 15:59）过期",
+    "extended": "否",
+    "commercial_use": "参赛项目须为新项目、公开且开源，详见官方规则。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "不对以下地区居民开放：魁北克、阿根廷、澳大利亚、巴西、印尼、意大利、菲律宾、俄罗斯、古巴、伊朗、朝鲜、叙利亚、白俄罗斯、克里米亚、DNR、LNR、阿联酋及 OFAC 全面制裁国家等",
+    "conditions": "仅限黑客松参赛者；须成年；一次性发放。",
+    "notes": "@kirodotdev 是企业认证账号。作品截止 2026 年 12 月 4 日 2:00 PM PT，总奖金 10 万美元现金。线索也来自第三方 X 合集帖 @KevinWwwrz（10-31）。未实测。",
+    "source_label": "Kiroween 2026（Devpost）：Resources — Kiro access",
+    "cn_note": "规则排除名单里没有中国大陆，但官方也没写明可以参加，以 Devpost 报名结果为准。",
+    "use_note": "积分只在 Kiro 里用，不是 API Key。"
+   }
+  },
+  {
+   "slug": "entire-agents-100-trial-credit",
+   "status": "active",
+   "display_status": "active",
+   "category": "trial_credits",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/entire-agents-100-trial-credit/",
+   "url_zh": "https://freeai.alexai.top/zh/entire-agents-100-trial-credit/",
+   "start": "Ongoing (early access preview)",
+   "end_date": null,
+   "last_verified": "2026-10-31",
+   "source_url": "https://docs.entire.com/billing",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "Entire pricing (models and rates)",
+     "url": "https://entire.com/pricing"
+    }
+   ],
+   "claim_url": "https://entire.com/pricing",
+   "api": null,
+   "cli": [],
+   "en": {
+    "provider": "Entire (entire.com)",
+    "models": "Models used by Entire Agents, priced per token: Claude Opus 5.5, Claude Opus 5, Claude Sonnet 5.5, Claude Sonnet 5, Claude Haiku 5.5, GPT-6 Astra, GPT-6.1 Sol, GPT-6 Sol, GPT-5.6 Sol, GPT-5.6 Luna, GPT-6 Luna",
+    "title": "Entire Free Trial: $100 of Agent Usage Credit for 90 Days",
+    "what_free": "\"Every billing account receives a one-time trial credit of $100. The trial ends after $100 of usage or 90 days after it starts, whichever happens first.\" No payment is necessary.",
+    "limits": "One-time per billing account (each personal account and organization is billed separately); does not reset; expires 90 days after it is granted; no cash value, not transferable. The credit is granted only when you set up billing with a verified credit or debit card. Custom agents require a payment method on the billing account before you can use the trial credit. Credit pays only for Entire Agents usage (model tokens at the listed rates), not a standalone model API. When the balance reaches $0, Agents stop until you add credit.",
+    "how_to_claim": [
+     "Sign in to entire.com",
+     "Open Account > Billing and select Set up billing",
+     "Add a verified credit or debit card (no payment is taken) to receive the $100 trial credit",
+     "Run Entire Agents (for example Trails evaluations) on your repositories; usage is deducted from the trial credit"
+    ],
+    "end": "Credit expires 90 days after it is granted, or when $100 is used",
+    "extended": "Not applicable",
+    "commercial_use": "Subject to Entire's Credit Terms and terms of service.",
+    "card_required": "Yes, a verified credit or debit card is required to receive the credit (no payment is necessary).",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "One trial per billing account.",
+    "notes": "Third-party X posts (@KOF97AI, @KevinWwwrz, Oct 30–31) say no card is needed; the official billing docs say a verified card is required to get the credit, so the docs are followed here. Not tested.",
+    "source_label": "Entire docs: Billing (Free Trial)",
+    "use_note": "Only for Entire Agents inside the platform; there is no API key for calling the models directly."
+   },
+   "zh": {
+    "provider": "Entire（entire.com）",
+    "models": "Entire Agents 按 token 计费使用的模型：Claude Opus 5.5、Claude Opus 5、Claude Sonnet 5.5、Claude Sonnet 5、Claude Haiku 5.5、GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol、GPT-5.6 Sol、GPT-5.6 Luna、GPT-6 Luna",
+    "title": "Entire 免费试用：$100 Agent 额度，90 天有效",
+    "what_free": "官方文档原文：“Every billing account receives a one-time trial credit of $100. The trial ends after $100 of usage or 90 days after it starts, whichever happens first.” 不需要付款。",
+    "limits": "每个计费账户一次（个人账户和组织分开计费）；不重置；发放后 90 天过期；无现金价值，不能转让。只有用经过验证的信用卡或借记卡完成 “Set up billing” 后才发放。自定义 Agent 要先绑定付款方式才能用试用额度。额度只用于 Entire Agents 的用量（按列出的模型单价扣 token），不是单独的模型 API。余额为 0 时 Agent 停止运行。",
+    "how_to_claim": [
+     "登录 entire.com",
+     "打开 Account > Billing，点 Set up billing",
+     "绑定一张经过验证的信用卡或借记卡（不扣款），即可获得 $100 试用额度",
+     "在仓库上运行 Entire Agents（比如 Trails 评审），用量从试用额度扣除"
+    ],
+    "end": "发放后 90 天过期，或 $100 用完为止",
+    "extended": "不适用",
+    "commercial_use": "受 Entire Credit Terms 和服务条款约束。",
+    "card_required": "需要，必须绑定经过验证的信用卡或借记卡才发放（不扣款）。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "每个计费账户限一次。",
+    "notes": "第三方 X 帖（@KOF97AI、@KevinWwwrz，10-30 至 10-31）说不用绑卡；官方计费文档写的是要验证卡才发放，这里以官方为准。未实测。",
+    "source_label": "Entire 文档：Billing（Free Trial）",
+    "cn_note": "海外服务，需要能通过验证的银行卡。",
+    "use_note": "只能在平台内跑 Entire Agents，没有可直接调用模型的 API Key。"
+   }
+  },
+  {
+   "slug": "unisound-u-plan-free-tier",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/unisound-u-plan-free-tier/",
+   "url_zh": "https://freeai.alexai.top/zh/unisound-u-plan-free-tier/",
+   "start": "Not published (first seen on the official pages on Oct 31, 2026)",
+   "end_date": null,
+   "last_verified": "2026-10-31",
+   "source_url": "https://maas.unisound.com/docs/token-plan/overview",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "U Plan quick start",
+     "url": "https://maas.unisound.com/docs/token-plan/quickstart"
+    },
+    {
+     "label": "U Plan upgrade notice",
+     "url": "https://maas.unisound.com/docs/token-plan/upgrade-notice"
+    },
+    {
+     "label": "U Plan page",
+     "url": "https://maas.unisound.com/token-plan"
+    }
+   ],
+   "claim_url": "https://maas.unisound.com/token-plan",
+   "api": {
+    "base_url": "https://maas-api.unisound.com/v1",
+    "model": "u2-flash",
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "Unisound (Unisound Token Hub / U Plan)",
+    "models": "U2-Flash, U2-Med, U2-RadiMed, U2-ASR, U2-TTS, U2-OCR, U2-OCR-Med",
+    "title": "Unisound U Plan Free Tier: 2,500 Credits a Week for U2-Flash (About 60M Tokens at 90% Cache Hits)",
+    "what_free": "Unisound launched U Plan with a Free tier (\"Free 档免费领\"). Free gets 2,500 credits per week and 500 credits per rolling 5-hour window, usable on all U-Model series models, plus bundled quotas: U2-RadiMed 475K tokens, U2-ASR 8 hours, U2-TTS 40K characters, U2-OCR 7.375M tokens, U2-OCR-Med 7.375M tokens. Unisound's own estimate for U2-Flash on Free: about 60.68M tokens per week at a 90%+ cache hit rate.",
+    "limits": "Credits used = (input tokens × 1 + cached input tokens × 0.2 + output tokens × 2) / 10,000 for U2-Flash (U2-Med: 2 / 0.5 / 7). The 5-hour credits refresh 5 hours after use; weekly credits refresh every 7 days from the order time. Unused credits don't carry over. Peak-hour usage normally costs 2× credits; this is currently waived for a limited time. The Free tier must be claimed manually (\"Free 需点击「立即领取」，不自动发放\"). The plan has its own API key (one per account, only valid while the plan is active); it is not interchangeable with pay-as-you-go keys. How long a Free plan period lasts is not published.",
+    "how_to_claim": [
+     "Open the U Plan subscription page (maas.unisound.com/token-plan) and sign in",
+     "Choose Free and click 立即领取 (claim now); it isn't granted automatically",
+     "Go to Console > 订阅管理 > U Plan to get the plan's dedicated API key and base URL",
+     "Call the OpenAI-compatible API at https://maas-api.unisound.com/v1 with model u2-flash, or configure it in Codex, Claude Code, OpenCode, Cursor and other listed tools"
+    ],
+    "end": "Not published",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; check Unisound's terms.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page (China platform, prices in CNY)",
+    "conditions": "One plan per account at a time; Free cannot be upgraded by paying the difference.",
+    "notes": "U Plan replaces the old Token Plan (no longer sold). Paid tiers: Standard ¥59/month, Plus ¥269/month (banner: limited-time 50% off from ¥29.5/month). Weekly-token figures are Unisound's estimates at 90%+ cache hits. Same day the U2-Flash limited-time free API pricing ended (see the expired U2 Flash entry). Not tested.",
+    "source_label": "Unisound docs: U Plan overview",
+    "use_note": "Use the U Plan key from 订阅管理, not a pay-as-you-go key."
+   },
+   "zh": {
+    "provider": "云知声（Unisound Token Hub / U Plan）",
+    "models": "U2-Flash、U2-Med、U2-RadiMed、U2-ASR、U2-TTS、U2-OCR、U2-OCR-Med",
+    "title": "云知声 U Plan 免费档：每周 2,500 积分可用 U2-Flash（约 6,068 万 Token / 周，缓存命中 90% 以上时）",
+    "what_free": "云知声上线 U Plan，横幅写 “Free 档免费领”。Free 档每周 2,500 积分、每 5 小时动态窗口 500 积分，可用全部 U-Model 系列模型，另送：U2-RadiMed 47.5 万 Token、U2-ASR 8 小时、U2-TTS 4 万字、U2-OCR 737.5 万 Token、U2-OCR-Med 737.5 万 Token。官方按 U2-Flash 估算：缓存命中率 90% 以上时 Free 档约每周 6,068.47 万 Token。",
+    "limits": "U2-Flash 积分消耗 =（输入 Token × 1 + 缓存命中 Token × 0.2 + 输出 Token × 2）/ 10000（U2-Med 为 2 / 0.5 / 7）。5 小时积分在消耗 5 小时后刷新；周积分自下单时起每 7 天刷新；未用完不累积、不结转。忙时本应 2 倍消耗，目前限时免除。Free 档要手动领取（官方原文“Free 需点击「立即领取」，不自动发放”）。套餐有专属 API Key（每账户一把，只在套餐有效期内可用），和按量计费 Key 不通用。Free 档一期有效多久未公布。",
+    "how_to_claim": [
+     "打开 U Plan 订阅页（maas.unisound.com/token-plan）并登录",
+     "选 Free 档，点「立即领取」（不会自动发放）",
+     "到 控制台 > 订阅管理 > U Plan 获取套餐专属 API Key 和 Base URL",
+     "用 OpenAI 兼容接口 https://maas-api.unisound.com/v1 调用 u2-flash，或按文档接入 Codex、Claude Code、OpenCode、Cursor 等工具"
+    ],
+    "end": "未公布",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明，请查看云知声服务条款。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明（国内平台，人民币计价）",
+    "conditions": "每个账号同时只能有一个套餐；Free 档不支持补差价升级。",
+    "notes": "U Plan 取代旧 Token Plan（旧套餐已停售）。付费档：Standard 59 元/月、Plus 269 元/月（横幅写套餐升级限时 5 折，低至 29.5 元/月）。每周 Token 数是官方按 90% 以上缓存命中率的估算。同一天 U2 Flash 按量限免已结束（见已结束条目）。未实测。",
+    "source_label": "云知声文档：U Plan 订阅概要",
+    "cn_note": "国内平台。",
+    "use_note": "用“订阅管理”里的 U Plan 专属 Key，不要用按量计费 Key。"
+   }
+  },
+  {
+   "slug": "unisound-u2-decision-free",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/unisound-u2-decision-free/",
+   "url_zh": "https://freeai.alexai.top/zh/unisound-u2-decision-free/",
+   "start": "Not published (already listed as free on Oct 30, 2026)",
+   "end_date": null,
+   "last_verified": "2026-10-31",
+   "source_url": "https://maas.unisound.com/model-hub/u2-decision",
+   "source_type": "official page",
+   "extra_sources": [
+    {
+     "label": "Unisound pricing page",
+     "url": "https://maas.unisound.com/docs/price/overview"
+    }
+   ],
+   "claim_url": "https://maas.unisound.com/model-hub/u2-decision",
+   "api": {
+    "base_url": "https://maas-api.unisound.com/v1/systemone",
+    "model": "u2-decision",
+    "style": null
+   },
+   "cli": [],
+   "en": {
+    "provider": "Unisound (Unisound Token Hub)",
+    "models": "U2-Decision (u2-decision, 4B open decision model, 128K context)",
+    "title": "Unisound U2-Decision Decision Model API Free for a Limited Time",
+    "what_free": "The U2-Decision model page and the pricing page tag it 限时免费 (free for a limited time): ¥0 per 1M input, cached input and output tokens.",
+    "limits": "Model page limits: RPM 100, TPM 10,000,000; max input 128K, context 128K, max output 8K. End date not published. It is a decision model (structured choice / probabilities / confidence), not a chat model.",
+    "how_to_claim": [
+     "Sign up on Unisound Token Hub (maas.unisound.com) and get an API key",
+     "Call the SystemOne-protocol endpoint https://maas-api.unisound.com/v1/systemone with model u2-decision, sending a state and your questions (choice / boolean / score)"
+    ],
+    "end": "Not published (\"限时免费\")",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; Unisound says the model is open-sourced.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page (China platform)",
+    "conditions": "",
+    "notes": "Found while re-checking the Unisound pricing page (also tagged 限时免费 there on Oct 30). Not tested.",
+    "source_label": "Unisound model hub: U2-Decision",
+    "use_note": "Uses the SystemOne decision protocol, not Chat Completions."
+   },
+   "zh": {
+    "provider": "云知声（Unisound Token Hub）",
+    "models": "U2-Decision（u2-decision，4B 开源决策模型，128K 上下文）",
+    "title": "云知声 U2-Decision 决策模型 API 限时免费",
+    "what_free": "U2-Decision 模型页和价格页都标“限时免费”：输入、缓存命中、输出均为 ¥0 / 百万 tokens。",
+    "limits": "模型页限流：RPM 100，TPM 10,000,000；最大输入 128K，上下文 128K，最大输出 8K。截止时间未公布。这是决策模型（输出结构化的选项 / 概率 / 置信度），不是对话模型。",
+    "how_to_claim": [
+     "在云知声 Token Hub（maas.unisound.com）注册并获取 API Key",
+     "按 SystemOne 协议调用 https://maas-api.unisound.com/v1/systemone，模型填 u2-decision，传入 state 和问题（choice / boolean / score）"
+    ],
+    "end": "未公布（“限时免费”）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明；云知声称该模型已开源。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明（国内平台）",
+    "conditions": "",
+    "notes": "复查云知声价格页时发现（10 月 30 日价格页已标限时免费）。未实测。",
+    "source_label": "云知声模型广场：U2-Decision",
+    "cn_note": "国内平台。",
+    "use_note": "走 SystemOne 决策协议，不是 Chat Completions。"
+   }
+  },
+  {
+   "slug": "articul8-bivia-1b-free-tokens",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/articul8-bivia-1b-free-tokens/",
+   "url_zh": "https://freeai.alexai.top/zh/articul8-bivia-1b-free-tokens/",
+   "start": "2026-10-28 (launch)",
+   "end_date": null,
+   "last_verified": "2026-10-31",
+   "source_url": "https://articul8.ai/bivia/",
+   "source_type": "official page + official X",
+   "extra_sources": [
+    {
+     "label": "@Articul8_AI on X: Introducing Bivia (Oct 28, 2026 21:35 UTC)",
+     "url": "https://x.com/Articul8_AI/status/2115558202029007195"
+    },
+    {
+     "label": "Bivia docs",
+     "url": "https://docs.articul8.ai/bivia"
+    }
+   ],
+   "claim_url": "https://app.articul8.ai/registration?source=bivia&code=bivia",
+   "api": {
+    "base_url": "https://api.articul8.ai/bivia",
+    "model": null,
+    "style": null
+   },
+   "cli": [
+    "pip install bivia"
+   ],
+   "en": {
+    "provider": "Articul8 AI (Bivia)",
+    "models": "Bivia (multimodal decision model; drop-in replacement for Jev / System One API)",
+    "title": "Articul8 Bivia Launch Offer: 1 Billion Free Tokens for the First 10,000 Users",
+    "what_free": "Bivia page: \"Launch offer · First 10,000 early adopters. Get 1 billion tokens free. No subscription.\" @Articul8_AI on X: \"The first 10,000 users get up to 1B tokens free.\"",
+    "limits": "First 10,000 early adopters only; how many spots remain is not published. Whether the free tokens expire is not published. Regular price: $0.042 per 1M input tokens, $0 output tokens. Bivia is a decision model (returns calibrated, structured decisions, zero generated tokens), not a chat model.",
+    "how_to_claim": [
+     "Open articul8.ai/bivia and click Claim yours (or Get access)",
+     "Register on the Articul8 platform (app.articul8.ai registration)",
+     "Create an API key",
+     "Call the Bivia API at https://api.articul8.ai/bivia with the SDK (pip install bivia / npm install @articul8/bivia) or add it to your coding agent"
+    ],
+    "end": "Not published (while the first 10,000 spots last)",
+    "extended": "Not applicable",
+    "commercial_use": "Subject to Articul8 terms.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "First 10,000 users.",
+    "notes": "@Articul8_AI has a blue checkmark (not the business badge). The \"up to 1B\" wording comes from Articul8's X post; the page says \"Get 1 billion tokens free\". Lead from third-party X post @EnvouHzu (Oct 30). Not tested.",
+    "source_label": "Articul8: Bivia (launch offer)",
+    "use_note": "Decision model with a System One style API, not Chat Completions."
+   },
+   "zh": {
+    "provider": "Articul8 AI（Bivia）",
+    "models": "Bivia（多模态决策模型，可替换 Jev / System One API）",
+    "title": "Articul8 Bivia 首发福利：前 1 万名用户送 10 亿免费 Token",
+    "what_free": "Bivia 页面原文：“Launch offer · First 10,000 early adopters. Get 1 billion tokens free. No subscription.” @Articul8_AI 在 X 上写 “The first 10,000 users get up to 1B tokens free.”",
+    "limits": "只限前 10,000 名早期用户，剩余名额未公布。免费 Token 是否过期未公布。原价：输入 $0.042 / 百万 tokens，输出 $0。Bivia 是决策模型（返回校准过的结构化判断，不生成文本），不是对话模型。",
+    "how_to_claim": [
+     "打开 articul8.ai/bivia，点 Claim yours（或 Get access）",
+     "在 Articul8 平台注册（app.articul8.ai 注册页）",
+     "创建 API Key",
+     "用 SDK（pip install bivia / npm install @articul8/bivia）或在编程 Agent 里接入，调用 https://api.articul8.ai/bivia"
+    ],
+    "end": "未公布（前 1 万个名额领完为止）",
+    "extended": "不适用",
+    "commercial_use": "受 Articul8 条款约束。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "仅限前 10,000 名用户。",
+    "notes": "@Articul8_AI 是蓝标认证（非企业金标）。“up to 1B” 是 X 帖的说法，页面写的是 “Get 1 billion tokens free”。线索来自第三方 X 帖 @EnvouHzu（10-30）。未实测。",
+    "source_label": "Articul8：Bivia（首发福利）",
+    "cn_note": "海外服务，国内直连情况未测。",
+    "use_note": "决策模型，走 System One 风格接口，不是 Chat Completions。"
+   }
+  },
+  {
+   "slug": "voyage-ai-200m-free-embedding-tokens",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/voyage-ai-200m-free-embedding-tokens/",
+   "url_zh": "https://freeai.alexai.top/zh/voyage-ai-200m-free-embedding-tokens/",
+   "start": "Ongoing",
+   "end_date": null,
+   "last_verified": "2026-10-31",
+   "source_url": "https://docs.voyageai.com/docs/pricing",
+   "source_type": "official docs",
+   "extra_sources": [],
+   "claim_url": "https://dashboard.voyageai.com/",
+   "api": {
+    "base_url": "https://api.voyageai.com/v1",
+    "model": "voyage-4",
+    "style": null
+   },
+   "cli": [],
+   "en": {
+    "provider": "Voyage AI (MongoDB)",
+    "models": "Embeddings: voyage-4-large, voyage-4, voyage-4-lite, voyage-context-4, voyage-code-3 / voyage-code-4 (200M each); voyage-multilingual-2, voyage-finance-2, voyage-law-2, voyage-code-2 (50M each); multimodal voyage-multimodal-3.5 / -3; rerankers rerank-2.5, rerank-2.5-lite, rerank-2, rerank-2-lite (the table also lists rerank-3 / rerank-3-lite)",
+    "title": "Voyage AI: First 200M Embedding and Rerank Tokens Free per Account",
+    "what_free": "Voyage pricing docs: \"The first 200 million tokens for voyage-4-large, voyage-4, voyage-4-lite, voyage-context-4, and voyage-code-3, or the first 50 million tokens for voyage-multilingual-2, voyage-finance-2, voyage-law-2, and voyage-code-2, are free for every account.\" Multimodal: \"The first 200M text tokens and 150B pixels for voyage-multimodal-3.5 and voyage-multimodal-3 are free for every account.\" Rerankers: \"The first 200 million tokens for rerank-2.5, rerank-2.5-lite, rerank-2, and rerank-2-lite are free for each account.\"",
+    "limits": "One-time free allowance per account and model (not monthly). \"Free token credits do not apply to Batch API usage.\" Older models listed in the \"Older models\" table get no free tokens. The docs' text and tables name slightly different models (e.g. voyage-code-3 in the text vs voyage-code-4 in the table; rerank-2.5 in the text vs rerank-3 in the table). Embedding and rerank models only, not chat models.",
+    "how_to_claim": [
+     "Sign up at Voyage AI (dashboard.voyageai.com)",
+     "Create an API key",
+     "Call the embeddings or rerank endpoint with a listed model; the free tokens are applied automatically"
+    ],
+    "end": "Not published",
+    "extended": "Not applicable",
+    "commercial_use": "Subject to Voyage AI terms.",
+    "card_required": "Not stated on the pricing page.",
+    "phone_required": "Not stated on the pricing page.",
+    "region": "Not stated on the pricing page",
+    "conditions": "Per account.",
+    "notes": "Long-running allowance, not a new promotion; resurfaced in a third-party X post (@HenyJone, Oct 30). Not tested.",
+    "source_label": "Voyage AI docs: Pricing",
+    "use_note": "For RAG and search (embeddings / rerank). Batch API usage is always billed."
+   },
+   "zh": {
+    "provider": "Voyage AI（MongoDB 旗下）",
+    "models": "向量模型：voyage-4-large、voyage-4、voyage-4-lite、voyage-context-4、voyage-code-3 / voyage-code-4（各 2 亿）；voyage-multilingual-2、voyage-finance-2、voyage-law-2、voyage-code-2（各 5000 万）；多模态 voyage-multimodal-3.5 / -3；重排 rerank-2.5、rerank-2.5-lite、rerank-2、rerank-2-lite（表格里另列 rerank-3 / rerank-3-lite）",
+    "title": "Voyage AI：每个账号前 2 亿向量 / 重排 Token 免费",
+    "what_free": "Voyage 价格文档原文：“The first 200 million tokens for voyage-4-large, voyage-4, voyage-4-lite, voyage-context-4, and voyage-code-3, or the first 50 million tokens for voyage-multilingual-2, voyage-finance-2, voyage-law-2, and voyage-code-2, are free for every account.” 多模态：前 2 亿文本 token 和 1500 亿像素免费（voyage-multimodal-3.5 / -3）。重排：rerank-2.5、rerank-2.5-lite、rerank-2、rerank-2-lite 前 2 亿 token 免费。",
+    "limits": "每个账号每个模型一次性的免费额度（不是每月刷新）。官方写 “Free token credits do not apply to Batch API usage.” “Older models” 表里的旧模型没有免费额度。文档正文和表格列的模型名略有出入（如正文 voyage-code-3、表格 voyage-code-4；正文 rerank-2.5、表格 rerank-3）。只有向量和重排模型，不是对话模型。",
+    "how_to_claim": [
+     "在 Voyage AI 注册（dashboard.voyageai.com）",
+     "创建 API Key",
+     "用上面列出的模型调用 embeddings 或 rerank 接口，免费额度自动抵扣"
+    ],
+    "end": "未公布",
+    "extended": "不适用",
+    "commercial_use": "受 Voyage AI 条款约束。",
+    "card_required": "价格页未说明。",
+    "phone_required": "价格页未说明。",
+    "region": "价格页未说明",
+    "conditions": "按账号计算。",
+    "notes": "长期额度，不是新活动；10 月 30 日被第三方 X 帖（@HenyJone）提到。未实测。",
+    "source_label": "Voyage AI 文档：Pricing",
+    "cn_note": "海外服务，国内直连情况未测。",
+    "use_note": "适合 RAG、检索（向量 / 重排）。Batch API 一律收费。"
+   }
+  },
+  {
+   "slug": "zhipu-autoclaw-weekly-perk-nov2-nov8",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#zhipu-autoclaw-weekly-perk-nov2-nov8",
+   "url_zh": "https://freeai.alexai.top/zh/#zhipu-autoclaw-weekly-perk-nov2-nov8",
+   "start": "2026-11-02 00:00 (UTC+8)",
+   "end_date": "2026-11-08",
+   "last_verified": "2026-10-31",
+   "source_url": "https://autoclaw.zhipuai.cn/blog/news/M11W1/",
+   "source_type": "official blog",
+   "extra_sources": [
+    {
+     "label": "AutoClaw blog (China): v2.2.0 upgrade gift, 5,000 credits (Oct 26, 2026)",
+     "url": "https://autoclaw.zhipuai.cn/blog/news/autoclaw-2-2-0-upgrade-data-migration/"
+    }
+   ],
+   "claim_url": "https://autoclaw.zhipuai.cn/",
+   "api": null,
+   "cli": [],
+   "en": {
+    "provider": "Zhipu AI (AutoClaw, China site)",
+    "models": "Models available inside the AutoClaw desktop app (credits)",
+    "title": "Zhipu AutoClaw Weekly Perk (China): Log In for 50M Tokens, Nov 2 – Nov 8",
+    "what_free": "Starts Nov 2, 2026 at 00:00 (UTC+8); it cannot be claimed before then. AutoClaw blog (China): \"11 月 2 日至 11 月 8 日，登录 AutoClaw，即得 50M Tokens.\" Log in to AutoClaw to claim 50M tokens (equivalent to 5,000 credits), once per account.",
+    "limits": "One claim per account. The reward expires on Nov 8, 2026 at 23:59 (UTC+8). Credits are used inside the AutoClaw app; this is not an API key credit. The International site (autoclaw.z.ai) runs its own perk: 40M Tokens, Oct 31 – Nov 8 (see zhipu-autoclaw-intl-halloween-40m-oct31-nov8).",
+    "how_to_claim": [
+     "Download AutoClaw from autoclaw.zhipuai.cn and sign in",
+     "Log in between Nov 2 00:00 and Nov 8 23:59 (UTC+8) and claim the 50M tokens",
+     "Use them in AutoClaw before Nov 8 23:59 (UTC+8)"
+    ],
+    "end": "Nov 8, 2026 23:59 (UTC+8); claimed credits also expire then",
+    "extended": "No",
+    "commercial_use": "Not specified on the official pages; check the provider's terms.",
+    "card_required": "Not stated on the official pages.",
+    "phone_required": "Not stated on the official pages.",
+    "region": "China site only (autoclaw.zhipuai.cn)",
+    "conditions": "One claim per account.",
+    "notes": "Follows the Oct 26 – Nov 1 weekly perk (separate entry). Also on the China site: upgrading to AutoClaw 2.2.0 and logging in grants 5,000 credits (about 50M tokens) automatically, valid 7 days after they are issued (no end date for the upgrade gift published). Not tested.",
+    "source_label": "AutoClaw blog (China): Weekly Perk 50M Tokens (Oct 30, 2026)",
+    "use_note": "In-app credits only."
+   },
+   "zh": {
+    "provider": "智谱 AutoClaw（澳龙，国内版）",
+    "models": "AutoClaw 桌面客户端内可用的模型（积分）",
+    "title": "智谱 AutoClaw 每周福利（国内版）：11 月 2–8 日登录领 50M Tokens",
+    "what_free": "2026 年 11 月 2 日 00:00（北京时间）才开始，之前领不了。AutoClaw 国内版博客原文：“11 月 2 日至 11 月 8 日，登录 AutoClaw，即得 50M Tokens。” 登录即可领取 50M Tokens（相当于 5,000 积分），每个账号限领一次。",
+    "limits": "每个账号限领一次。奖励 2026 年 11 月 8 日 23:59（北京时间）失效。积分只在 AutoClaw 客户端里用，不是 API 额度。国际版（autoclaw.z.ai）另有活动：10 月 31 日–11 月 8 日登录领 40M Tokens（见 zhipu-autoclaw-intl-halloween-40m-oct31-nov8）。",
+    "how_to_claim": [
+     "到 autoclaw.zhipuai.cn 下载 AutoClaw 并登录",
+     "在 11 月 2 日 00:00 至 11 月 8 日 23:59（北京时间）之间登录领取 50M Tokens",
+     "在 11 月 8 日 23:59 前用完"
+    ],
+    "end": "2026 年 11 月 8 日 23:59（北京时间）；领到的积分同时失效",
+    "extended": "否",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "仅国内版（autoclaw.zhipuai.cn）",
+    "conditions": "每个账号限领一次。",
+    "notes": "接在 10 月 26 日–11 月 1 日那期每周福利之后（另一条目）。国内版另有：升级到 AutoClaw 2.2.0 并登录，自动发 5,000 积分（约 5,000 万 tokens），发放后 7 天有效（升级礼未写截止日期）。未实测。",
+    "source_label": "AutoClaw 博客（国内版）：每周福利 50M Tokens（2026-10-30）",
+    "cn_note": "国内版和国际版账号分开。",
+    "use_note": "只能在客户端里用。"
+   }
+  },
+  {
+   "slug": "command-code-free-models-ling-beam-laguna-glyph",
+   "status": "active",
+   "display_status": "active",
+   "category": "subscriber",
+   "china_vendor": false,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#command-code-free-models-ling-beam-laguna-glyph",
+   "url_zh": "https://freeai.alexai.top/zh/#command-code-free-models-ling-beam-laguna-glyph",
+   "start": "Ling 3.1 Flash 1019 free from Oct 31, 2026 (per @CommandCodeAI); others not stated",
+   "end_date": null,
+   "last_verified": "2026-11-01",
+   "source_url": "https://commandcode.ai/docs/resources/pricing-limits",
+   "source_type": "official docs + official X",
+   "extra_sources": [
+    {
+     "label": "Command Code pricing (plans)",
+     "url": "https://commandcode.ai/pricing"
+    },
+    {
+     "label": "Ling 3.1 Flash 1019 model page",
+     "url": "https://commandcode.ai/models/ling-3-1-flash-1019-free"
+    },
+    {
+     "label": "@CommandCodeAI on X: Ling 3.1 Flash 1019 free for the next 4 days (Oct 31, 2026 12:29 UTC)",
+     "url": "https://x.com/CommandCodeAI/status/2116507729670086950"
+    },
+    {
+     "label": "@novita_labs on X (Oct 31, 2026)",
+     "url": "https://x.com/novita_labs/status/2116554677949186526"
+    }
+   ],
+   "claim_url": "https://commandcode.ai/pricing",
+   "api": {
+    "base_url": null,
+    "model": "inclusionai/ling-3.1-flash-1019:free",
+    "style": null
+   },
+   "cli": [
+    "npm i -g command-code && cmd --model inclusionai/ling-3.1-flash-1019:free"
+   ],
+   "en": {
+    "provider": "Command Code",
+    "models": "Ling 3.1 Flash 1019 (ling-3.1-flash-1019:free), Beam 1.0 (beam:free), Laguna S 2.1 (laguna-s-2.1-free), Glyph Cluster stealth preview (glyph-cluster:free)",
+    "title": "Command Code Free Models: Ling 3.1 Flash 1019 (Until Nov 3), Beam 1.0, Laguna S 2.1 and Glyph Cluster",
+    "what_free": "Requires a paid Command Code plan: Go at $1/month + processing fee (or higher), with at least $1 of credits in the account. Command Code's pricing docs list four models at 100% off (\"Requests cost no credits: Input, output, and cache reads are all $0.00 per million tokens\"): Ling 3.1 Flash 1019 \"is free until 16:00 UTC on November 3\"; Beam 1.0 \"is free while capacity lasts\"; Laguna S 2.1 \"is free while capacity lasts\"; Glyph Cluster \"is a free stealth preview\". The discount is auto-applied when you pick the free model.",
+    "limits": "Not available without a plan: \"Available to all customers: Go, GOAT, Pro, Max, Ultra, and Team Pro. Need to have $1 of credits in your account to start a session.\" The cheapest plan, Go, is $1/month + processing fee. Daily request caps per account (reset at midnight UTC, 08:00 UTC+8): Ling 3.1 Flash 1019 100 requests/day; Laguna S 2.1 1,000/day; Glyph Cluster 1,000/day; Beam 1.0 \"No daily request limit\". Beam 1.0 and Glyph Cluster: \"the provider may keep your prompts and outputs and train on them\", so they won't run in a CMD_ZDR=1 session. A stealth preview \"can change or end without notice\".",
+    "how_to_claim": [
+     "Sign up at commandcode.ai and subscribe to a plan (Go is $1/month + processing fee)",
+     "Keep at least $1 of credits in your account",
+     "Install the CLI with npm i -g command-code (or download the Command Code Desktop App)",
+     "Run cmd in your project, then type /model and pick a free model, or run cmd --model inclusionai/ling-3.1-flash-1019:free",
+     "On GOAT and Pro the free price applies automatically and doesn't draw down per-model allowances"
+    ],
+    "end": "Ling 3.1 Flash 1019: until Nov 3, 2026, 16:00 UTC (Nov 4, 00:00 UTC+8). Beam 1.0 and Laguna S 2.1: while capacity lasts. Glyph Cluster: while the stealth preview lasts",
+    "extended": "No",
+    "commercial_use": "Not specified on the official page; check Command Code's terms.",
+    "card_required": "Yes. A paid plan (Go, $1/month + processing fee, or higher) is required.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "Requires a Command Code plan and at least $1 of credits. After the Ling free tier ends, switch to the paid ling-3.1-flash with /model.",
+    "notes": "@CommandCodeAI and @novita_labs are verified business accounts. @CommandCodeAI (Nov 1, 01:39 UTC): \"Free models live in Command Code. Ling 3.1 Flash 1019, Beam 1.0, Glyph Cluster, Laguna S 2.1.\" Laguna S 2.1 :free was removed from OpenRouter on Oct 31 (see openrouter-poolside-laguna-free). Not tested.",
+    "source_label": "Command Code Docs: Pricing Limits (deals section)",
+    "use_note": "CLI / desktop agent, not a free API key (the separate Provider API plan is $15/month). Ling free tier ends Nov 3, 16:00 UTC."
+   },
+   "zh": {
+    "provider": "Command Code",
+    "models": "Ling 3.1 Flash 1019（ling-3.1-flash-1019:free）、Beam 1.0（beam:free）、Laguna S 2.1（laguna-s-2.1-free）、Glyph Cluster 匿名预览（glyph-cluster:free）",
+    "title": "Command Code 免费模型：Ling 3.1 Flash 1019（到 11 月 3 日）、Beam 1.0、Laguna S 2.1、Glyph Cluster",
+    "what_free": "需要付费订阅 Command Code 套餐：Go 套餐 $1/月 + 手续费（或更高档），账户里还要至少有 $1 credits。Command Code 价格文档把 4 个模型标为 100% 折扣（“Requests cost no credits”，输入、输出、缓存读取都是 $0.00 / 百万 tokens）：Ling 3.1 Flash 1019 “free until 16:00 UTC on November 3”；Beam 1.0 和 Laguna S 2.1 “free while capacity lasts”；Glyph Cluster 是 “free stealth preview”。选中免费模型后自动生效。",
+    "limits": "没有套餐用不了：官方原文 “Available to all customers: Go, GOAT, Pro, Max, Ultra, and Team Pro. Need to have $1 of credits in your account to start a session.” 最便宜的 Go 套餐 $1/月 + 手续费。每账号每日请求上限（UTC 0 点、北京时间 08:00 重置）：Ling 3.1 Flash 1019 每天 100 次；Laguna S 2.1 每天 1,000 次；Glyph Cluster 每天 1,000 次；Beam 1.0 “No daily request limit”。Beam 1.0 和 Glyph Cluster 的服务商可能保留并用你的输入输出训练，所以不能在 CMD_ZDR=1 会话里用。匿名预览“can change or end without notice”。",
+    "how_to_claim": [
+     "在 commandcode.ai 注册并订阅套餐（Go 为 $1/月 + 手续费）",
+     "账户里保持至少 $1 的 credits",
+     "用 npm i -g command-code 安装 CLI（或下载 Command Code 桌面版）",
+     "在项目目录运行 cmd，输入 /model 选免费模型，或直接运行 cmd --model inclusionai/ling-3.1-flash-1019:free",
+     "GOAT 和 Pro 套餐自动按免费计价，不占各模型的额度"
+    ],
+    "end": "Ling 3.1 Flash 1019：到 2026 年 11 月 3 日 16:00 UTC（北京时间 11 月 4 日 00:00）。Beam 1.0、Laguna S 2.1：容量用完为止。Glyph Cluster：匿名预览期间",
+    "extended": "否",
+    "commercial_use": "官方页面未说明，请查看 Command Code 条款。",
+    "card_required": "需要。必须订阅付费套餐（Go $1/月 + 手续费，或更高档）。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "需要 Command Code 套餐且账户至少有 $1 credits。Ling 免费期结束后用 /model 切换到付费的 ling-3.1-flash。",
+    "notes": "@CommandCodeAI、@novita_labs 都是企业认证账号。@CommandCodeAI 北京时间 11 月 1 日 09:39 发帖：“Free models live in Command Code. Ling 3.1 Flash 1019, Beam 1.0, Glyph Cluster, Laguna S 2.1.” Laguna S 2.1 :free 已于 10 月 31 日从 OpenRouter 下线（见 openrouter-poolside-laguna-free）。未实测。",
+    "source_label": "Command Code 文档：Pricing Limits（优惠一节）",
+    "cn_note": "海外服务，国内直连未测。这不是“零门槛免费”，至少要 $1/月的 Go 套餐。",
+    "use_note": "命令行 / 桌面 Agent，不是免费 API Key（单独的 Provider API 套餐 $15/月）。Ling 免费期北京时间 11 月 4 日 00:00 结束。"
+   }
+  },
+  {
+   "slug": "fish-audio-s2-1-pro-free-tts-api",
+   "status": "active",
+   "display_status": "ext",
+   "category": "limited",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/fish-audio-s2-1-pro-free-tts-api/",
+   "url_zh": "https://freeai.alexai.top/zh/fish-audio-s2-1-pro-free-tts-api/",
+   "start": "June 2026",
+   "end_date": "2026-11-30",
+   "last_verified": "2026-11-01",
+   "source_url": "https://fish.audio/blog/s2-1-pro-free-api/",
+   "source_type": "official blog + official docs",
+   "extra_sources": [
+    {
+     "label": "Fish Audio Developers page",
+     "url": "https://fish.audio/developers/"
+    },
+    {
+     "label": "Fish Audio docs: Models overview",
+     "url": "https://docs.fish.audio/developer-guide/models-pricing/models-overview"
+    },
+    {
+     "label": "Fish Audio docs: Pricing and rate limits",
+     "url": "https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits"
+    },
+    {
+     "label": "Fish Audio changelog",
+     "url": "https://docs.fish.audio/developer-guide/getting-started/changelog"
+    }
+   ],
+   "claim_url": "https://fish.audio/app/developers/get-started/",
+   "api": {
+    "base_url": "https://api.fish.audio/v1",
+    "model": "s2.1-pro-free",
+    "style": null
+   },
+   "cli": [],
+   "en": {
+    "provider": "Fish Audio (API)",
+    "models": "Fish Audio S2.1 Pro Free (s2.1-pro-free), text-to-speech, 83 languages",
+    "title": "Fish Audio S2.1 Pro Free: Text-to-Speech API Free Through Nov 30, 2026",
+    "what_free": "Fish Audio: \"S2.1 Pro Free is free through November 30, 2026, with no SLA, and requests may be used to improve model quality.\" The pricing table lists s2.1-pro-free at $0.00 per million UTF-8 bytes (s2.1-pro is $15.00). The docs call it \"the same model as S2.1-Pro, available at $0 for development and testing\", \"Free to use under fair-use limits\".",
+    "limits": "\"High-volume access with no hard character cap (subject to Fair Use Policy)\". No SLA, no TTFA or DPA guarantees, best-effort latency. Fish Audio says it's for \"testing, prototyping, development, and smaller businesses\" and recommends s2.1-pro for production. \"Products generating more than $1M ARR should contact us before using S2.1 Pro Free.\" If the model header is omitted or unrecognized, the request falls back to the paid s2.1-pro.",
+    "how_to_claim": [
+     "Sign up at fish.audio and open Developers > Get started (fish.audio/app/developers/get-started/) to get an API key",
+     "Call POST https://api.fish.audio/v1/tts with headers Authorization: Bearer <key>, Content-Type: application/json and model: s2.1-pro-free",
+     "Body example: {\"text\":\"Hello, world!\",\"format\":\"mp3\"}; add reference_id to use a voice",
+     "Or use the Python SDK (pip install fish-audio-sdk) with model=\"s2.1-pro-free\""
+    ],
+    "end": "Free through November 30, 2026 (time zone not stated); extended several times (from July 24, then end of July, then August 31). Fish Audio says it will \"communicate any changes with advance notice\"",
+    "extended": "Yes",
+    "commercial_use": "Some commercial scenarios may have restrictions; products over $1M ARR should contact Fish Audio first.",
+    "card_required": "No (\"S2.1 Pro Free is free to call. No card required.\").",
+    "phone_required": "Not stated on the official pages.",
+    "region": "Not stated on the official pages",
+    "conditions": "Requests may be used to improve model quality. Set the model header to s2.1-pro-free, or you are billed for s2.1-pro.",
+    "notes": "Not a new offer (launched June 2026); resurfaced in a third-party X post (@sleewppi, Oct 31). Not tested.",
+    "source_label": "Fish Audio blog: S2.1 Pro free text-to-speech API",
+    "use_note": "Text-to-speech, not an LLM. The model is selected with an HTTP header (model: s2.1-pro-free), not in the JSON body."
+   },
+   "zh": {
+    "provider": "Fish Audio（API）",
+    "models": "Fish Audio S2.1 Pro Free（s2.1-pro-free），文字转语音，83 种语言",
+    "title": "Fish Audio S2.1 Pro Free：文字转语音 API 免费到 2026 年 11 月 30 日",
+    "what_free": "Fish Audio 官方原文：“S2.1 Pro Free is free through November 30, 2026, with no SLA, and requests may be used to improve model quality.” 价格表里 s2.1-pro-free 为 $0.00 / 百万 UTF-8 字节（s2.1-pro 是 $15.00）。文档说它和 S2.1-Pro 是同一个模型，“Free to use under fair-use limits”。",
+    "limits": "官方写“no hard character cap (subject to Fair Use Policy)”。没有 SLA，不保证首包延迟（TTFA）和 DPA。官方定位是测试、原型、开发和小型企业，生产环境建议用 s2.1-pro。年收入超过 100 万美元的产品要先联系 Fish Audio。请求头没写 model 或写错，会按付费的 s2.1-pro 处理。",
+    "how_to_claim": [
+     "在 fish.audio 注册，进入 Developers > Get started（fish.audio/app/developers/get-started/）获取 API Key",
+     "调用 POST https://api.fish.audio/v1/tts，请求头带 Authorization: Bearer <key>、Content-Type: application/json 和 model: s2.1-pro-free",
+     "请求体示例：{\"text\":\"Hello, world!\",\"format\":\"mp3\"}，要指定音色就加 reference_id",
+     "也可以用 Python SDK（pip install fish-audio-sdk），model 填 \"s2.1-pro-free\""
+    ],
+    "end": "免费到 2026 年 11 月 30 日（未写时区）；已多次延期（原定 7 月 24 日，后延到 7 月底、8 月 31 日）。官方说有变化会提前通知",
+    "extended": "是",
+    "commercial_use": "部分商业场景可能受限；年收入超过 100 万美元的产品要先联系 Fish Audio。",
+    "card_required": "不需要（官方原文 “No card required.”）。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "请求可能被用于改进模型。请求头必须写 model: s2.1-pro-free，否则按 s2.1-pro 计费。",
+    "notes": "不是新活动（2026 年 6 月上线），10 月 31 日被第三方 X 帖（@sleewppi）翻出来。未实测。",
+    "source_label": "Fish Audio 博客：S2.1 Pro 免费文字转语音 API",
+    "cn_note": "Fish Audio 支持中文。海外服务，国内直连未测。时区未写，保守按北京时间 11 月 30 日前用。",
+    "use_note": "文字转语音，不是对话模型。模型通过 HTTP 请求头 model: s2.1-pro-free 指定，不写在 JSON 里。"
+   }
+  },
+  {
+   "slug": "freeinference-harvard-free-llm-api",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/freeinference-harvard-free-llm-api/",
+   "url_zh": "https://freeai.alexai.top/zh/freeinference-harvard-free-llm-api/",
+   "start": "Ongoing",
+   "end_date": null,
+   "last_verified": "2026-11-01",
+   "source_url": "https://doc.freeinference.org/models",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "FreeInference home",
+     "url": "https://freeinference.org/"
+    },
+    {
+     "label": "Quick Start",
+     "url": "https://doc.freeinference.org/quickstart"
+    },
+    {
+     "label": "Terms",
+     "url": "https://freeinference.org/terms"
+    }
+   ],
+   "claim_url": "https://freeinference.org/",
+   "api": {
+    "base_url": "https://freeinference.org/v1",
+    "model": "glm-5.3-flash",
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "FreeInference (Harvard SEAS MadSys Lab)",
+    "models": "glm-5.3-flash, deepseek-v4-flash, minimax-m3, qwen3.6-35b (Free); glm-5.2 and kimi-k2.7-code need a Pro-enabled key",
+    "title": "FreeInference: Free OpenAI-Compatible API for GLM-5.3 Flash, DeepSeek V4 Flash, MiniMax M3 and Qwen3.6",
+    "what_free": "FreeInference describes itself as \"An OpenAI-compatible API powered by frontier open models — free for the research community\", built at Harvard SEAS (MadSys Lab). Its docs mark four models as Free for every account: glm-5.3-flash (1M context), deepseek-v4-flash (1M), minimax-m3 (1M, text/image/video input) and qwen3.6-35b (262K).",
+    "limits": "Quota is not published (\"Generous quota for research and prototyping\"). \"Service is provided without guarantee.\" The authenticated GET /v1/models list is the source of truth for what your key can use; Pro models (glm-5.2, kimi-k2.7-code) need a Pro-enabled key. Aimed at open-source, research and education use.",
+    "how_to_claim": [
+     "Register a free account with your email at freeinference.org (no credit card)",
+     "Create an API key from the dashboard",
+     "Set the base URL to https://freeinference.org/v1 in any OpenAI-compatible client (Kilo Code, Cursor, etc.) and pick glm-5.3-flash, deepseek-v4-flash, minimax-m3 or qwen3.6-35b",
+     "Check GET /v1/models with your key to see which models it can use"
+    ],
+    "end": "Not published",
+    "extended": "Not applicable",
+    "commercial_use": "Positioned for open-source, research and education; check the Terms of Service.",
+    "card_required": "No (\"No credit card required\").",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "\"All prompts and responses are logged for research purposes. Anonymized data derived from requests may be open-sourced to support research.\" Don't send secrets or personal data.",
+    "notes": "Not a new service; resurfaced in third-party X posts on Oct 31 (@Retik_S, @lu_chrisy84598, @daqiyun). Harvard SEAS / MadSys Lab affiliation is as stated on freeinference.org. Not tested.",
+    "source_label": "FreeInference docs: Available Models",
+    "use_note": "OpenAI-compatible. For Claude Code, FreeInference also documents an Anthropic-format base (see Quick Start). glm-5.3-flash always reasons; control it with reasoning_effort."
+   },
+   "zh": {
+    "provider": "FreeInference（哈佛 SEAS MadSys 实验室）",
+    "models": "glm-5.3-flash、deepseek-v4-flash、minimax-m3、qwen3.6-35b（免费）；glm-5.2、kimi-k2.7-code 需要 Pro 权限的 Key",
+    "title": "FreeInference：免费调用 GLM-5.3 Flash、DeepSeek V4 Flash、MiniMax M3、Qwen3.6 的 OpenAI 兼容 API",
+    "what_free": "FreeInference 官网自称 “An OpenAI-compatible API powered by frontier open models — free for the research community”，由哈佛 SEAS（MadSys 实验室）搭建。文档把 4 个模型标为所有账号可用的 Free：glm-5.3-flash（1M 上下文）、deepseek-v4-flash（1M）、minimax-m3（1M，支持图片 / 视频输入）、qwen3.6-35b（262K）。",
+    "limits": "额度未公布（官网写 “Generous quota for research and prototyping”）。“Service is provided without guarantee.” 你的 Key 能用哪些模型以带 Key 调用 GET /v1/models 的结果为准；Pro 模型（glm-5.2、kimi-k2.7-code）要 Pro 权限的 Key。面向开源、科研和教育用途。",
+    "how_to_claim": [
+     "在 freeinference.org 用邮箱注册（不用绑卡）",
+     "在控制台创建 API Key",
+     "在任意 OpenAI 兼容客户端（Kilo Code、Cursor 等）把 Base URL 设为 https://freeinference.org/v1，模型选 glm-5.3-flash、deepseek-v4-flash、minimax-m3 或 qwen3.6-35b",
+     "带 Key 调 GET /v1/models 确认可用模型"
+    ],
+    "end": "未公布",
+    "extended": "不适用",
+    "commercial_use": "定位是开源、科研和教育用途；请查看服务条款。",
+    "card_required": "不需要（“No credit card required”）。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "官网原文 “All prompts and responses are logged for research purposes. Anonymized data derived from requests may be open-sourced to support research.” 不要发送密钥或个人隐私。",
+    "notes": "不是新服务，10 月 31 日被第三方 X 帖翻出来（@Retik_S、@lu_chrisy84598、@daqiyun）。哈佛 SEAS / MadSys 实验室的归属以 freeinference.org 自述为准。未实测。",
+    "source_label": "FreeInference 文档：Available Models",
+    "cn_note": "海外服务，国内直连未测。所有对话都会被记录用于研究，别拿来处理敏感内容。",
+    "use_note": "OpenAI 兼容。接 Claude Code 可用文档里的 Anthropic 格式地址（见 Quick Start）。glm-5.3-flash 一直开思考，用 reasoning_effort 控制。"
+   }
+  },
+  {
+   "slug": "zhipu-autoclaw-intl-halloween-40m-oct31-nov8",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#zhipu-autoclaw-intl-halloween-40m-oct31-nov8",
+   "url_zh": "https://freeai.alexai.top/zh/#zhipu-autoclaw-intl-halloween-40m-oct31-nov8",
+   "start": "2026-10-31 00:00 (UTC+8)",
+   "end_date": "2026-11-08",
+   "last_verified": "2026-11-01",
+   "source_url": "https://autoclaw.z.ai/blog/news/M11W1/",
+   "source_type": "official blog",
+   "extra_sources": [
+    {
+     "label": "Previous International weekly perk (Oct 26 – Nov 1)",
+     "url": "https://autoclaw.z.ai/blog/news/M10W4/"
+    }
+   ],
+   "claim_url": "https://autoclaw.z.ai/",
+   "api": null,
+   "cli": [],
+   "en": {
+    "provider": "Zhipu AutoClaw (International)",
+    "models": "Models available in the AutoClaw desktop app (credits)",
+    "title": "Zhipu AutoClaw International Halloween Perk: Log In for 40M Tokens, Oct 31 – Nov 8",
+    "what_free": "AutoClaw International blog: \"From October 31 to November 8, log in to AutoClaw and get 40 million Tokens!\" Logging in during the event gives 40M Tokens (4,000 credits). \"If you haven't claimed last week's reward yet, you can claim both rewards for up to 80M Tokens (8,000 credits) in total!\"",
+    "limits": "One claim per account. These credits expire on Nov 8, 2026 at 23:59 (UTC+8). Last week's credits expire on Nov 1, 2026 at 23:59 (UTC+8). Credits are used inside the AutoClaw app; this is not an API credit.",
+    "how_to_claim": [
+     "Download AutoClaw from autoclaw.z.ai and sign in",
+     "Log in between Oct 31, 00:00 and Nov 8, 23:59 (UTC+8) to claim 4,000 credits (40M Tokens)",
+     "If you haven't claimed last week's perk, claim it before Nov 1, 23:59 (UTC+8)",
+     "Use the credits before they expire"
+    ],
+    "end": "Nov 8, 2026 23:59 (UTC+8); claimed credits also expire then",
+    "extended": "No",
+    "commercial_use": "Not specified on the official page; check the terms of service.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "International site (autoclaw.z.ai); accounts are separate from the China site",
+    "conditions": "One claim per account.",
+    "notes": "The International counterpart of the China-site perk zhipu-autoclaw-weekly-perk-nov2-nov8 (50M Tokens, Nov 2–8). The post is dated Oct 30; our Oct 31 note that the International site had no matching perk was wrong. The \"up to 80M\" figure includes last week's 40M, which can only be claimed until Nov 1, 23:59 (UTC+8). Not tested.",
+    "source_label": "AutoClaw blog (International): Halloween Surprise: Claim Up to 80M Tokens! (Oct 30, 2026)",
+    "use_note": "In-app credits only."
+   },
+   "zh": {
+    "provider": "智谱 AutoClaw（国际版）",
+    "models": "AutoClaw 桌面客户端内可用的模型（积分）",
+    "title": "智谱 AutoClaw 国际版万圣节福利：10 月 31 日–11 月 8 日登录领 40M Tokens",
+    "what_free": "AutoClaw 国际版博客原文：“From October 31 to November 8, log in to AutoClaw and get 40 million Tokens!” 活动期间登录可领 40M Tokens（4,000 积分）；没领上周福利的还能一起领，合计最多 80M Tokens（8,000 积分）。",
+    "limits": "每个账号限领一次。本期积分 2026 年 11 月 8 日 23:59（北京时间）失效；上周积分 11 月 1 日 23:59（北京时间）失效。积分只在 AutoClaw 客户端里用，不是 API 额度。",
+    "how_to_claim": [
+     "到 autoclaw.z.ai 下载 AutoClaw 并登录",
+     "在 10 月 31 日 00:00 至 11 月 8 日 23:59（北京时间）之间登录领取 4,000 积分（40M Tokens）",
+     "没领上周福利的，在 11 月 1 日 23:59（北京时间）前领",
+     "在到期前用完"
+    ],
+    "end": "2026 年 11 月 8 日 23:59（北京时间）；领到的积分同时失效",
+    "extended": "否",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "国际版（autoclaw.z.ai），和国内版账号分开",
+    "conditions": "每个账号限领一次。",
+    "notes": "是国内版 zhipu-autoclaw-weekly-perk-nov2-nov8（11 月 2–8 日 50M Tokens）的国际版对应活动。博文日期是 10 月 30 日，10 月 31 日写的“国际版还没发同期福利”有误。“最多 80M”包含上周的 40M，上周那份只能领到 11 月 1 日 23:59（北京时间）。未实测。",
+    "source_label": "AutoClaw 博客（国际版）：Halloween Surprise: Claim Up to 80M Tokens!（2026-10-30）",
+    "cn_note": "国际版和国内版账号分开；国内用户一般用国内版。",
+    "use_note": "只能在客户端里用。"
    }
   }
  ]
