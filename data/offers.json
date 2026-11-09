@@ -1,9 +1,9 @@
 {
  "schema_version": 1,
- "generated": "2026-11-01",
+ "generated": "2026-11-09",
  "site": "https://freeai.alexai.top",
  "license_note": "Facts compiled from official provider pages; always check source_url.",
- "count": 82,
+ "count": 88,
  "offers": [
   {
    "slug": "google-gemini-api-free-tier",
@@ -1138,7 +1138,7 @@
    "url_zh": "https://freeai.alexai.top/zh/#nous-portal-solar-mini-4-free",
    "start": "2026-10-05",
    "end_date": null,
-   "last_verified": "2026-10-21",
+   "last_verified": "2026-11-02",
    "source_url": "https://x.com/NousResearch/status/2107138770088714678",
    "source_type": "official X",
    "extra_sources": [
@@ -2232,19 +2232,31 @@
   },
   {
    "slug": "openai-codex-28-day-reset-run",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "resets",
    "china_vendor": false,
    "has_page": false,
    "url_en": "https://freeai.alexai.top/#openai-codex-28-day-reset-run",
    "url_zh": "https://freeai.alexai.top/zh/#openai-codex-28-day-reset-run",
    "start": "2026-10-04",
-   "end_date": "2026-11-01",
-   "last_verified": "2026-10-18",
+   "end_date": "2026-11-02",
+   "last_verified": "2026-11-02",
    "source_url": "https://x.com/thsottiaux/status/2106845241357824205",
    "source_type": "official X (OpenAI Codex lead) + OpenAI Help Center",
    "extra_sources": [
+    {
+     "label": "@thsottiaux: Day 28/ Banked 2/2 (Nov 1, 2026 UTC)",
+     "url": "https://x.com/thsottiaux/status/2117035794678546764"
+    },
+    {
+     "label": "@thsottiaux: Banked 1/2 (Nov 1, 2026 UTC)",
+     "url": "https://x.com/thsottiaux/status/2116692529970311254"
+    },
+    {
+     "label": "@thsottiaux: Day 26, next two days resets (Oct 31, 2026 UTC)",
+     "url": "https://x.com/thsottiaux/status/2116405414921384099"
+    },
     {
      "label": "@thsottiaux: Day 13 reset (Oct 17)",
      "url": "https://x.com/thsottiaux/status/2111492673890824348"
@@ -2281,7 +2293,7 @@
     "provider": "OpenAI Codex (paid ChatGPT plans)",
     "models": "Codex and ChatGPT Work usage limits",
     "title": "Codex 28-day run: a usage reset or an improvement every day",
-    "what_free": "On Oct 4, 2026 OpenAI's Codex and ChatGPT lead Tibo Sottiaux (@thsottiaux) said that for the next 28 days Codex would ship either one clear improvement or a full usage reset each day. Resets so far (UTC dates of the posts): Oct 7 (Day 2, after a community vote, and Day 3, a banked reset loaded into all paid accounts), Oct 10 (Day 6), Oct 13 (Day 8), Oct 15 (Day 10) and Oct 17 (Day 13).",
+    "what_free": "On Oct 4, 2026 OpenAI's Codex and ChatGPT lead Tibo Sottiaux (@thsottiaux) said that for the next 28 days Codex would ship either one clear improvement or a full usage reset each day. Resets so far (UTC dates of the posts): Oct 7 (Day 2, after a community vote, and Day 3, a banked reset loaded into all paid accounts), Oct 10 (Day 6), Oct 13 (Day 8), Oct 15 (Day 10) and Oct 17 (Day 13). The run ended with two banked resets: \"Banked 1/2\" (Nov 1, 00:43 UTC) and \"Day 28/ Banked 2/2\" (Nov 1, 23:27 UTC).",
     "limits": "Global resets refresh eligible limits automatically; a banked reset waits in your account until you apply it or it expires. A full banked reset refreshes both the 5-hour and the weekly window and moves your weekly reset date. OpenAI's help center says promotional resets aren't guaranteed every day.",
     "how_to_claim": [
      "Nothing to claim for a global reset: eligible limits refresh on their own",
@@ -2289,7 +2301,7 @@
      "Select the usage summary that shows an available reset (e.g. \"1 reset available\" or \"Full reset\"), check the expiry and confirm",
      "In a Codex CLI session, /status shows your remaining limits"
     ],
-    "end": "28 days from Oct 4, 2026 (Day 13 was Oct 17, so Day 28 is about Nov 1); no fixed reset schedule",
+    "end": "Ended: the 28-day run closed with \"Day 28/ Banked 2/2\" (Nov 1, 2026, 23:27 UTC = Nov 2, 07:27 UTC+8). Banked resets you received stay usable until the expiry shown in your account.",
     "extended": "No",
     "commercial_use": "Not applicable",
     "card_required": "Paid ChatGPT plan required (the posts say \"all paid ChatGPT accounts\"); eligibility can vary by plan, region and workspace.",
@@ -2304,7 +2316,7 @@
     "provider": "OpenAI Codex（ChatGPT 付费套餐）",
     "models": "Codex 与 ChatGPT Work 用量限额",
     "title": "Codex 28 天活动：每天一次用量重置或一项改进",
-    "what_free": "2026年10月4日，OpenAI 的 Codex 与 ChatGPT 负责人 Tibo Sottiaux（@thsottiaux）宣布：接下来 28 天，Codex 每天要么上线一项明显改进，要么全量重置用量。目前已重置（按帖子 UTC 日期）：10月7日（第 2 天社区投票后重置；第 3 天给所有付费账号发放存档重置）、10月10日（第 6 天）、10月13日（第 8 天）、10月15日（第 10 天）、10月17日（第 13 天）。",
+    "what_free": "2026年10月4日，OpenAI 的 Codex 与 ChatGPT 负责人 Tibo Sottiaux（@thsottiaux）宣布：接下来 28 天，Codex 每天要么上线一项明显改进，要么全量重置用量。目前已重置（按帖子 UTC 日期）：10月7日（第 2 天社区投票后重置；第 3 天给所有付费账号发放存档重置）、10月10日（第 6 天）、10月13日（第 8 天）、10月15日（第 10 天）、10月17日（第 13 天）。 活动最后两天发了两次存档重置：“Banked 1/2”（11 月 1 日 00:43 UTC）和“Day 28/ Banked 2/2”（11 月 1 日 23:27 UTC）。",
     "limits": "全局重置会自动刷新符合条件的限额；存档重置会留在账号里，直到你手动使用或过期。一次完整存档重置会同时刷新 5 小时和每周窗口，并改变每周重置日期。OpenAI 帮助中心说明：促销重置不保证每天都有。",
     "how_to_claim": [
      "全局重置无需领取，符合条件的限额会自动刷新",
@@ -2312,7 +2324,7 @@
      "选择显示可用重置的用量摘要（如“1 reset available”或“Full reset”），确认过期时间后点确认",
      "在 Codex CLI 会话里输入 /status 查看剩余额度"
     ],
-    "end": "自 2026年10月4日起 28 天（第 13 天是 10月17日，第 28 天约为 11月1日）；没有固定的重置时间表",
+    "end": "已结束：28 天活动以“Day 28/ Banked 2/2”收尾（2026-11-01 23:27 UTC，即北京时间 11 月 2 日 07:27）。已收到的存档重置在账号里显示的过期时间前都能用。",
     "extended": "否",
     "commercial_use": "不适用",
     "card_required": "需要 ChatGPT 付费套餐（帖子写的是“所有 ChatGPT 付费账号”）；资格可能因套餐、地区和工作区而不同。",
@@ -2488,7 +2500,7 @@
    "url_zh": "https://freeai.alexai.top/zh/nous-portal-free-models/",
    "start": "Not published (plan); catalog checked Oct 19, 2026",
    "end_date": null,
-   "last_verified": "2026-10-19",
+   "last_verified": "2026-11-02",
    "source_url": "https://portal.nousresearch.com/",
    "source_type": "official page",
    "extra_sources": [
@@ -2502,9 +2514,9 @@
    "cli": [],
    "en": {
     "provider": "Nous Research (Nous Portal)",
-    "models": "Models priced $0.00/1M on Oct 19, 2026: Reflection Beam 1.0 501B A23B, StepFun Step 5 Preview, StepFun Step 3.7 Flash, Upstage Solar Mini 4, Meituan LongCat 2.0, Meituan LongCat 2.5 Preview, Poolside Laguna S 2.1, Poolside Laguna XS 2.1",
-    "title": "Nous Portal Free Plan: Beam, Step 5 Preview, LongCat and More at $0",
-    "what_free": "Nous Portal has a $0 Free plan: \"Free models only\", \"Standard rate limits\", \"$0 monthly credits\". On Oct 19, 2026 the Portal model catalog listed $0.00/1M variants of Reflection Beam 1.0, StepFun Step 5 Preview and Step 3.7 Flash, Upstage Solar Mini 4, Meituan LongCat 2.0 and LongCat 2.5 Preview, and Poolside Laguna S 2.1 and Laguna XS 2.1 (each next to a separately priced paid variant).",
+    "models": "Models priced $0.00/1M on Nov 2, 2026: Ornith 1.5 122B, Reflection Beam 1.0 501B A23B, StepFun Step 3.7 Flash, Upstage Solar Mini 4",
+    "title": "Nous Portal Free Plan: Beam, Step 3.7 Flash, Solar Mini 4, Ornith 1.5 at $0",
+    "what_free": "Nous Portal has a $0 Free plan: \"Free models only\", \"Standard rate limits\", \"$0 monthly credits\". On Nov 2, 2026 the Portal model catalog listed $0.00/1M variants of Ornith 1.5 122B, Reflection Beam 1.0, StepFun Step 3.7 Flash and Upstage Solar Mini 4 (each next to a separately priced paid variant).",
     "limits": "\"Standard rate limits\" (numbers not published). The free lineup changes; some entries are time-limited promotions (Nous announced Solar Mini 4 as free for two weeks from Oct 5, 2026).",
     "how_to_claim": [
      "Sign up at portal.nousresearch.com (Free plan, $0)",
@@ -2518,15 +2530,15 @@
     "phone_required": "Not stated on the official page.",
     "region": "Not stated on the official page",
     "conditions": "Tools and Hermes Cloud hosting are charged separately (per the plans section).",
-    "notes": "MISSINGNO., the stealth model Nous offered free from Oct 10, 2026, was no longer in the Portal catalog on Oct 19, 2026.",
+    "notes": "Nov 2, 2026: StepFun Step 5 Preview, Meituan LongCat 2.0, LongCat 2.5 Preview and Poolside Laguna S / XS 2.1 no longer have a $0.00/1M listing; Ornith 1.5 122B is new. MISSINGNO., the stealth model Nous offered free from Oct 10, 2026, was no longer in the catalog on Oct 19, 2026.",
     "source_label": "Nous Portal: plans and model catalog",
     "use_note": "Choose the $0.00/1M entry; the same model also appears as a paid entry with per-token prices."
    },
    "zh": {
     "provider": "Nous Research（Nous Portal）",
-    "models": "2026 年 10 月 19 日标价 $0.00/1M 的模型：Reflection Beam 1.0 501B A23B、阶跃星辰 Step 5 Preview、Step 3.7 Flash、Upstage Solar Mini 4、美团 LongCat 2.0、LongCat 2.5 Preview、Poolside Laguna S 2.1、Laguna XS 2.1",
-    "title": "Nous Portal 免费套餐：Beam、Step 5 Preview、LongCat 等 0 元可用",
-    "what_free": "Nous Portal 有 0 美元的 Free 套餐：“仅限免费模型”（Free models only）、“标准速率限制”、“每月 0 美元额度”。2026 年 10 月 19 日，Portal 模型目录里标价 $0.00/1M 的有 Reflection Beam 1.0、阶跃星辰 Step 5 Preview 和 Step 3.7 Flash、Upstage Solar Mini 4、美团 LongCat 2.0 和 LongCat 2.5 Preview、Poolside Laguna S 2.1 和 Laguna XS 2.1（每个模型旁边另有单独计价的付费版本）。",
+    "models": "2026 年 11 月 2 日标价 $0.00/1M 的模型：Ornith 1.5 122B、Reflection Beam 1.0 501B A23B、阶跃星辰 Step 3.7 Flash、Upstage Solar Mini 4",
+    "title": "Nous Portal 免费套餐：Beam、Step 3.7 Flash、Solar Mini 4、Ornith 1.5 等 0 元可用",
+    "what_free": "Nous Portal 有 0 美元的 Free 套餐：“仅限免费模型”（Free models only）、“标准速率限制”、“每月 0 美元额度”。2026 年 11 月 2 日，Portal 模型目录里标价 $0.00/1M 的有 Ornith 1.5 122B、Reflection Beam 1.0、阶跃星辰 Step 3.7 Flash 和 Upstage Solar Mini 4（每个模型旁边另有单独计价的付费版本）。",
     "limits": "“标准速率限制”（具体数字未公布）。免费模型会变动，其中有些是限时活动（Nous 宣布 Solar Mini 4 从 2026 年 10 月 5 日起免费两周）。",
     "how_to_claim": [
      "在 portal.nousresearch.com 注册（Free 套餐，0 美元）",
@@ -2540,9 +2552,9 @@
     "phone_required": "官方页面未说明。",
     "region": "官方页面未说明",
     "conditions": "工具调用和 Hermes Cloud 托管单独收费（见套餐说明）。",
-    "notes": "Nous 从 2026 年 10 月 10 日起限时免费的匿名模型 MISSINGNO.，10 月 19 日已不在 Portal 模型目录中。",
+    "notes": "2026 年 11 月 2 日：阶跃星辰 Step 5 Preview、美团 LongCat 2.0、LongCat 2.5 Preview、Poolside Laguna S / XS 2.1 已没有 $0.00/1M 版本；新出现 Ornith 1.5 122B。Nous 从 10 月 10 日起限时免费的匿名模型 MISSINGNO.，10 月 19 日已不在目录中。",
     "source_label": "Nous Portal：套餐与模型目录",
-    "cn_note": "免费列表里有阶跃星辰和美团 LongCat 等国产模型。官方页面没有提到中国大陆是否可用，也没提手机号或实名要求。",
+    "cn_note": "免费列表里还有阶跃星辰 Step 3.7 Flash 这款国产模型。官方页面没有提到中国大陆是否可用，也没提手机号或实名要求。",
     "use_note": "选标价 $0.00/1M 的那一条；同一个模型还有一条按 token 计费的付费版本。"
    }
   },
@@ -2628,7 +2640,7 @@
    "url_zh": "https://freeai.alexai.top/zh/cline-free-models/",
    "start": "Rotating; free list checked Oct 23, 2026",
    "end_date": null,
-   "last_verified": "2026-10-23",
+   "last_verified": "2026-11-02",
    "source_url": "https://docs.cline.bot/getting-started/free-models",
    "source_type": "official docs",
    "extra_sources": [
@@ -2654,9 +2666,9 @@
    "cli": [],
    "en": {
     "provider": "Cline",
-    "models": "Free list on Oct 23, 2026: Reflection Beam (501B), Nemotron 3.5 Super VL (120B), Poolside Laguna S 2.1 (118B), Nemotron 3.5 Lightning (32B), Solar Mini 4 (35B) (reflection/beam-free, cline-free/nemotron-3.5-super-vl, poolside/laguna-s-2.1-free, nvidia/nemotron-3.5-lightning-free, cline-free/solar-mini4)",
-    "title": "Cline Free Models: Reflection Beam, Nemotron 3.5 Super VL, Laguna S 2.1, Solar Mini 4 and More",
-    "what_free": "Cline periodically offers free model promotions that let you try select models at no cost, up to a limited usage quota; free models are available to any user with a Cline account. On Oct 22, 2026 Cline announced new free models: Reflection Beam, Nemotron 3.5 Super VL, Poolside Laguna S 2.1, Nemotron 3.5 Lightning and Solar Mini 4; Cline's free model API listed the same five on Oct 23, 2026.",
+    "models": "Free list on Nov 2, 2026: Reflection Beam (reflection/beam-free), Nemotron 3.5 Super VL (cline-free/nemotron-3.5-super-vl), Nemotron 3.5 Lightning (nvidia/nemotron-3.5-lightning-free), Solar Mini 4 (cline-free/solar-mini4)",
+    "title": "Cline Free Models: Reflection Beam, Nemotron 3.5 Super VL, Nemotron 3.5 Lightning and Solar Mini 4",
+    "what_free": "Cline periodically offers free model promotions that let you try select models at no cost, up to a limited usage quota; free models are available to any user with a Cline account. On Nov 2, 2026 Cline's free model API listed four models: Reflection Beam, Nemotron 3.5 Super VL, Nemotron 3.5 Lightning and Solar Mini 4.",
     "limits": "\"Up to a limited usage quota\" (amount not published). Free model usage is not supported through the Cline API; free models are only available in the Cline IDE extension and CLI.",
     "how_to_claim": [
      "Create or sign in to a Cline account",
@@ -2670,15 +2682,15 @@
     "phone_required": "Not stated on the official page.",
     "region": "Not stated on the official page",
     "conditions": "Free model usage may be used to help improve model performance and quality.",
-    "notes": "Oct 23, 2026: MiMo V2.6 Flash, Muse Spark 1.3 Contributor and MiniMax M3.1 Flash are no longer on the free list. @cline is a verified business account.",
+    "notes": "Nov 2, 2026: Poolside Laguna S 2.1 is no longer on the free list. Oct 23, 2026: MiMo V2.6 Flash, Muse Spark 1.3 Contributor and MiniMax M3.1 Flash were removed. @cline is a verified business account.",
     "source_label": "Cline Docs: Cline Free Models",
     "use_note": "When the free quota runs out, Cline's docs list ClinePass ($9.99/month), Cline usage-billing (pay-as-you-go credits) or your own API key."
    },
    "zh": {
     "provider": "Cline",
-    "models": "2026 年 10 月 23 日的免费列表：Reflection Beam（501B）、Nemotron 3.5 Super VL（120B）、Poolside Laguna S 2.1（118B）、Nemotron 3.5 Lightning（32B）、Solar Mini 4（35B）（reflection/beam-free、cline-free/nemotron-3.5-super-vl、poolside/laguna-s-2.1-free、nvidia/nemotron-3.5-lightning-free、cline-free/solar-mini4）",
-    "title": "Cline 免费模型：Reflection Beam、Nemotron 3.5 Super VL、Laguna S 2.1、Solar Mini 4 等",
-    "what_free": "Cline 会不定期推出免费模型活动，在有限的用量额度内免费试用指定模型；任何有 Cline 账号的用户都能用。2026 年 10 月 22 日 Cline 宣布新的免费模型：Reflection Beam、Nemotron 3.5 Super VL、Poolside Laguna S 2.1、Nemotron 3.5 Lightning 和 Solar Mini 4；10 月 23 日 Cline 免费模型接口列出的也是这 5 个。",
+    "models": "2026 年 11 月 2 日的免费列表：Reflection Beam（reflection/beam-free）、Nemotron 3.5 Super VL（cline-free/nemotron-3.5-super-vl）、Nemotron 3.5 Lightning（nvidia/nemotron-3.5-lightning-free）、Solar Mini 4（cline-free/solar-mini4）",
+    "title": "Cline 免费模型：Reflection Beam、Nemotron 3.5 Super VL、Nemotron 3.5 Lightning、Solar Mini 4",
+    "what_free": "Cline 会不定期推出免费模型活动，在有限的用量额度内免费试用指定模型；任何有 Cline 账号的用户都能用。2026 年 11 月 2 日 Cline 免费模型接口列出 4 个：Reflection Beam、Nemotron 3.5 Super VL、Nemotron 3.5 Lightning 和 Solar Mini 4。",
     "limits": "“有限的用量额度”（具体数量未公布）。免费模型不支持通过 Cline API 调用，只能在 Cline IDE 插件和 CLI 里用。",
     "how_to_claim": [
      "注册或登录 Cline 账号",
@@ -2692,7 +2704,7 @@
     "phone_required": "官方页面未说明。",
     "region": "官方页面未说明",
     "conditions": "免费模型的使用数据可能被用于改进模型性能和质量。",
-    "notes": "2026 年 10 月 23 日：MiMo V2.6 Flash、Muse Spark 1.3 Contributor 和 MiniMax M3.1 Flash 已不在免费列表。@cline 为企业认证账号。",
+    "notes": "2026 年 11 月 2 日：Poolside Laguna S 2.1 已不在免费列表。10 月 23 日：MiMo V2.6 Flash、Muse Spark 1.3 Contributor 和 MiniMax M3.1 Flash 已移出。@cline 为企业认证账号。",
     "source_label": "Cline 文档：Cline Free Models",
     "cn_note": "官方页面没有提到中国大陆是否可用，也没提手机号或实名要求。",
     "use_note": "免费额度用完后，Cline 文档给出的选项是 ClinePass（每月 9.99 美元）、Cline 按量计费（Cline credits）或自带 API Key。"
@@ -2709,7 +2721,7 @@
    "url_zh": "https://freeai.alexai.top/zh/#kilo-code-free-models",
    "start": "Rotating; free list checked Oct 19, 2026",
    "end_date": null,
-   "last_verified": "2026-10-19",
+   "last_verified": "2026-11-02",
    "source_url": "https://kilo.ai/docs/getting-started/using-kilo-for-free",
    "source_type": "official docs",
    "extra_sources": [
@@ -2729,9 +2741,9 @@
    ],
    "en": {
     "provider": "Kilo Code (Kilo Gateway)",
-    "models": "Free on Oct 19, 2026: Nemotron 3.5 Super VL, Nemotron 3 Ultra, Nemotron 3 Super, Dots3-Note Preview, Laguna S 2.1; plus Auto Free (kilo-auto/free)",
-    "title": "Kilo Code Free Models: Auto Free, Nemotron 3.5 Super VL, Laguna S 2.1 and More",
-    "what_free": "Kilo Code supports free models for coding and background tasks through the Kilo Gateway and partner providers. Auto Free (kilo-auto/free) automatically routes your requests to the best available free models. Kilo's live free-models page listed 5 free models on Oct 19, 2026.",
+    "models": "Free on Nov 2, 2026: Nemotron 3.5 Super VL, Dots3-Note Preview, Nemotron 3 Ultra; plus Auto Free (kilo-auto/free)",
+    "title": "Kilo Code Free Models: Auto Free, Nemotron 3.5 Super VL, Dots3-Note Preview, Nemotron 3 Ultra",
+    "what_free": "Kilo Code supports free models for coding and background tasks through the Kilo Gateway and partner providers. Auto Free (kilo-auto/free) automatically routes your requests to the best available free models. Kilo's live free-models page listed 3 free models on Nov 2, 2026.",
     "limits": "Not published. Kilo says some free models may be rate limited by the upstream provider, and available free models change over time.",
     "how_to_claim": [
      "Install Kilo Code (VS Code, JetBrains or CLI)",
@@ -2746,15 +2758,15 @@
     "phone_required": "Not stated on the official page.",
     "region": "Not stated on the official page",
     "conditions": "Auto Free may route your requests to providers that log prompts and outputs and use them to improve their services, including NVIDIA free endpoints (trial use only; do not submit personal or confidential data). Autocomplete and background tasks consume credits by default.",
-    "notes": "",
+    "notes": "Nov 2, 2026: Nemotron 3 Super and Laguna S 2.1 are no longer on Kilo's free list (they were on Oct 19).",
     "source_label": "Kilo Docs: Using Kilo for Free",
     "use_note": "To avoid credit use for background tasks, set the small model to a free model (VS Code: Settings → Models; CLI: small_model in ~/.config/kilo/config.json)."
    },
    "zh": {
     "provider": "Kilo Code（Kilo Gateway）",
-    "models": "2026 年 10 月 19 日免费：Nemotron 3.5 Super VL、Nemotron 3 Ultra、Nemotron 3 Super、Dots3-Note Preview、Laguna S 2.1；另有 Auto Free（kilo-auto/free）",
-    "title": "Kilo Code 免费模型：Auto Free、Nemotron 3.5 Super VL、Laguna S 2.1 等",
-    "what_free": "Kilo Code 通过 Kilo Gateway 和合作提供商提供可用于编程和后台任务的免费模型。Auto Free（kilo-auto/free）会自动把请求路由到当前可用的免费模型。2026 年 10 月 19 日，Kilo 的免费模型实时页面列出 5 个免费模型。",
+    "models": "2026 年 11 月 2 日免费：Nemotron 3.5 Super VL、Dots3-Note Preview、Nemotron 3 Ultra；另有 Auto Free（kilo-auto/free）",
+    "title": "Kilo Code 免费模型：Auto Free、Nemotron 3.5 Super VL、Dots3-Note Preview、Nemotron 3 Ultra",
+    "what_free": "Kilo Code 通过 Kilo Gateway 和合作提供商提供可用于编程和后台任务的免费模型。Auto Free（kilo-auto/free）会自动把请求路由到当前可用的免费模型。2026 年 11 月 2 日，Kilo 的免费模型实时页面列出 3 个免费模型。",
     "limits": "未公布。Kilo 说部分免费模型可能被上游提供商限速，可用的免费模型会随时间变化。",
     "how_to_claim": [
      "安装 Kilo Code（VS Code、JetBrains 或 CLI）",
@@ -2769,7 +2781,7 @@
     "phone_required": "官方页面未说明。",
     "region": "官方页面未说明",
     "conditions": "Auto Free 可能把请求路由到会记录提示词和输出、并用于改进服务的提供商，包括 NVIDIA 免费端点（仅供试用，不要提交个人或机密数据）。自动补全和后台任务默认消耗 credits。",
-    "notes": "",
+    "notes": "2026 年 11 月 2 日：Nemotron 3 Super 和 Laguna S 2.1 已不在 Kilo 免费列表（10 月 19 日还在）。",
     "source_label": "Kilo 文档：Using Kilo for Free",
     "cn_note": "官方页面没有提到中国大陆是否可用，也没提手机号或实名要求。",
     "use_note": "想让后台任务也不扣 credits，把 small model 设成免费模型（VS Code：Settings → Models；CLI：在 ~/.config/kilo/config.json 里设置 small_model）。"
@@ -4152,8 +4164,8 @@
   },
   {
    "slug": "zhipu-autoclaw-weekly-perk-oct26-nov1",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": true,
    "has_page": true,
@@ -4161,7 +4173,7 @@
    "url_zh": "https://freeai.alexai.top/zh/zhipu-autoclaw-weekly-perk-oct26-nov1/",
    "start": "2026-10-26 00:00 (UTC+8)",
    "end_date": "2026-11-01",
-   "last_verified": "2026-10-25",
+   "last_verified": "2026-11-02",
    "source_url": "https://autoclaw.zhipuai.cn/blog/news/M10W4/",
    "source_type": "official blog",
    "extra_sources": [
@@ -4184,7 +4196,7 @@
      "Log in during Oct 26 – Nov 1 and claim the reward as shown in the app",
      "Use the credits in AutoClaw before Nov 1 23:59 (UTC+8)"
     ],
-    "end": "Nov 1, 2026 23:59 (UTC+8); claimed credits also expire then",
+    "end": "Ended Nov 1, 2026, 23:59 (UTC+8) as scheduled; claimed credits expired at the same time",
     "extended": "No",
     "commercial_use": "Not specified on the official pages; check the provider's terms.",
     "card_required": "Not stated on the official pages.",
@@ -4206,7 +4218,7 @@
      "10 月 26 日至 11 月 1 日期间登录，按客户端提示领取",
      "在 11 月 1 日 23:59（北京时间）前用完"
     ],
-    "end": "2026 年 11 月 1 日 23:59（北京时间），已领积分同时失效",
+    "end": "已于 2026 年 11 月 1 日 23:59（北京时间）按期结束，已领积分同时失效",
     "extended": "否",
     "commercial_use": "官方页面未说明，请查看服务条款。",
     "card_required": "官方页面未说明。",
@@ -4299,7 +4311,7 @@
   {
    "slug": "scnet-maas-new-user-10m-tokens",
    "status": "active",
-   "display_status": "active",
+   "display_status": "soon",
    "category": "trial_credits",
    "china_vendor": true,
    "has_page": true,
@@ -5200,8 +5212,8 @@
   },
   {
    "slug": "vercel-ai-gateway-ling-3-1-flash-1019-free",
-   "status": "active",
-   "display_status": "soon",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": true,
    "has_page": true,
@@ -5738,8 +5750,8 @@
   },
   {
    "slug": "zhipu-autoclaw-weekly-perk-nov2-nov8",
-   "status": "active",
-   "display_status": "active",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": true,
    "has_page": false,
@@ -6068,8 +6080,8 @@
   },
   {
    "slug": "zhipu-autoclaw-intl-halloween-40m-oct31-nov8",
-   "status": "active",
-   "display_status": "active",
+   "status": "expired",
+   "display_status": "ended",
    "category": "limited",
    "china_vendor": true,
    "has_page": false,
@@ -6135,6 +6147,494 @@
     "source_label": "AutoClaw 博客（国际版）：Halloween Surprise: Claim Up to 80M Tokens!（2026-10-30）",
     "cn_note": "国际版和国内版账号分开；国内用户一般用国内版。",
     "use_note": "只能在客户端里用。"
+   }
+  },
+  {
+   "slug": "openrouter-crouton-alpha-free",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": false,
+   "has_page": false,
+   "url_en": "https://freeai.alexai.top/#openrouter-crouton-alpha-free",
+   "url_zh": "https://freeai.alexai.top/zh/#openrouter-crouton-alpha-free",
+   "start": "Not published",
+   "end_date": null,
+   "last_verified": "2026-11-04",
+   "source_url": "https://openrouter.ai/stealth/crouton-alpha",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "OpenRouter models API",
+     "url": "https://openrouter.ai/api/v1/models"
+    },
+    {
+     "label": "OpenCode Zen models",
+     "url": "https://opencode.ai/zen/v1/models"
+    }
+   ],
+   "claim_url": "https://openrouter.ai/settings/keys",
+   "api": {
+    "base_url": "https://openrouter.ai/api/v1",
+    "model": "stealth/crouton-alpha",
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "OpenRouter / OpenCode",
+    "models": "Crouton Alpha (stealth model)",
+    "title": "Crouton Alpha: Free Stealth Model on OpenRouter and OpenCode Zen",
+    "what_free": "OpenRouter lists stealth/crouton-alpha at $0 per input and output token (models API, Nov 4, 2026). OpenCode Zen also lists crouton-alpha-free.",
+    "limits": "1,048,576-token context on OpenRouter. OpenRouter free-model rate limits may apply. Usage caps: Not published.",
+    "how_to_claim": [
+     "Create an OpenRouter account and API key",
+     "Call model stealth/crouton-alpha via https://openrouter.ai/api/v1",
+     "Or in OpenCode, pick Crouton Alpha Free (crouton-alpha-free) from OpenCode Zen"
+    ],
+    "end": "Not published (stealth preview)",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "Stealth model; maker not disclosed. Free status can end without notice.",
+    "notes": "",
+    "source_label": "OpenRouter: Crouton Alpha model page",
+    "use_note": ""
+   },
+   "zh": {
+    "provider": "OpenRouter / OpenCode",
+    "models": "Crouton Alpha（隐身模型）",
+    "title": "Crouton Alpha：OpenRouter 与 OpenCode Zen 免费隐身模型",
+    "what_free": "OpenRouter 模型 API 显示 stealth/crouton-alpha 输入输出价格均为 0（2026-11-04 核验）；OpenCode Zen 也上架了 crouton-alpha-free。",
+    "limits": "OpenRouter 上下文 1,048,576 token；可能适用 OpenRouter 免费模型限速；用量上限：未公布。",
+    "how_to_claim": [
+     "注册 OpenRouter 并创建 API Key",
+     "通过 https://openrouter.ai/api/v1 调用 stealth/crouton-alpha",
+     "或在 OpenCode 中选择 OpenCode Zen 的 Crouton Alpha Free（crouton-alpha-free）"
+    ],
+    "end": "未公布（隐身预览）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明",
+    "card_required": "官方页面未说明",
+    "phone_required": "官方页面未说明",
+    "region": "官方页面未说明",
+    "conditions": "隐身模型，厂商未公开；免费可能随时结束。",
+    "notes": "",
+    "source_label": "OpenRouter：Crouton Alpha 模型页",
+    "cn_note": "",
+    "use_note": ""
+   }
+  },
+  {
+   "slug": "opencode-pulse-alpha-free",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/opencode-pulse-alpha-free/",
+   "url_zh": "https://freeai.alexai.top/zh/opencode-pulse-alpha-free/",
+   "start": "Not published",
+   "end_date": null,
+   "last_verified": "2026-11-04",
+   "source_url": "https://opencode.ai/docs/zen/",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "OpenCode Zen models",
+     "url": "https://opencode.ai/zen/v1/models"
+    }
+   ],
+   "claim_url": "https://opencode.ai/zen",
+   "api": {
+    "base_url": "https://opencode.ai/zen/v1",
+    "model": "pulse-alpha-free",
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "OpenCode",
+    "models": "Pulse Alpha Free (stealth model)",
+    "title": "Pulse Alpha Free: Stealth Model Free on OpenCode Zen for a Limited Time",
+    "what_free": "OpenCode docs: \"Pulse Alpha Free is a stealth model that’s free on OpenCode for a limited time.\" Input, output and cached reads are listed as Free.",
+    "limits": "Usage caps: Not published. Not available in the EU, Iceland, Liechtenstein, Norway, Cuba, Iran, North Korea, Russia, Ukraine, or Venezuela.",
+    "how_to_claim": [
+     "Install OpenCode and sign in to OpenCode Zen",
+     "Select Pulse Alpha Free (pulse-alpha-free) in the model picker",
+     "Or call https://opencode.ai/zen/v1 with model pulse-alpha-free"
+    ],
+    "end": "Not published (\"for a limited time\")",
+    "extended": "Not applicable",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not available in the EU, Iceland, Liechtenstein, Norway, Cuba, Iran, North Korea, Russia, Ukraine, or Venezuela",
+    "conditions": "During its free period, collected data may be retained and used to improve the model.",
+    "notes": "",
+    "source_label": "OpenCode Docs: Zen",
+    "use_note": ""
+   },
+   "zh": {
+    "provider": "OpenCode",
+    "models": "Pulse Alpha Free（隐身模型）",
+    "title": "Pulse Alpha Free：OpenCode Zen 限时免费隐身模型",
+    "what_free": "OpenCode 文档：Pulse Alpha Free 是在 OpenCode 上限时免费（free for a limited time）的隐身模型，输入、输出、缓存读取均标为 Free。",
+    "limits": "用量上限：未公布。欧盟、冰岛、列支敦士登、挪威、古巴、伊朗、朝鲜、俄罗斯、乌克兰、委内瑞拉不可用。",
+    "how_to_claim": [
+     "安装 OpenCode 并登录 OpenCode Zen",
+     "在模型列表选择 Pulse Alpha Free（pulse-alpha-free）",
+     "或用 https://opencode.ai/zen/v1 调用 pulse-alpha-free"
+    ],
+    "end": "未公布（限时）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明",
+    "card_required": "官方页面未说明",
+    "phone_required": "官方页面未说明",
+    "region": "不可用地区：欧盟、冰岛、列支敦士登、挪威、古巴、伊朗、朝鲜、俄罗斯、乌克兰、委内瑞拉",
+    "conditions": "免费期间数据可能被保留并用于改进模型。",
+    "notes": "",
+    "source_label": "OpenCode 文档：Zen",
+    "cn_note": "",
+    "use_note": ""
+   }
+  },
+  {
+   "slug": "stepfun-stepaudio-3-free-until-nov-8",
+   "status": "expired",
+   "display_status": "ended",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/stepfun-stepaudio-3-free-until-nov-8/",
+   "url_zh": "https://freeai.alexai.top/zh/stepfun-stepaudio-3-free-until-nov-8/",
+   "start": "Not published",
+   "end_date": "2026-11-08",
+   "last_verified": "2026-11-04",
+   "source_url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "StepFun 中文定价",
+     "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details"
+    },
+    {
+     "label": "StepAudio 3 Gen",
+     "url": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-gen"
+    }
+   ],
+   "claim_url": "https://platform.stepfun.ai/",
+   "api": {
+    "base_url": null,
+    "model": "stepaudio-3-gen-preview",
+    "style": null
+   },
+   "cli": [],
+   "en": {
+    "provider": "StepFun",
+    "models": "StepAudio 3 series (stepaudio-3-realtime-preview, stepaudio-3-chat-preview, stepaudio-3-gen-preview, TTS, music, ASR)",
+    "title": "StepFun StepAudio 3 Speech Models Free on the API Until Nov 8, 2026",
+    "what_free": "StepFun pricing page: \"StepAudio 3 series models are free for a limited time until 23:59:59 on November 8, 2026 (UTC+8)\". Covers realtime speech, TTS, voice cloning/design, audio generation, music generation and ASR.",
+    "limits": "Free window ends 23:59:59 Nov 8, 2026 (UTC+8); billed at list prices from 00:00:00 Nov 9, 2026 (UTC+8). Preview model IDs used during the trial will be retired. Rate limits follow the Pricing and Rate Limits page. Usage caps: Not published.",
+    "how_to_claim": [
+     "Sign in to the StepFun Open Platform and create an API key",
+     "Call the StepAudio 3 preview model IDs (e.g. stepaudio-3-realtime-preview, stepaudio-3-gen-preview)",
+     "Stop or budget before Nov 9, 2026 00:00 (UTC+8) when billing starts"
+    ],
+    "end": "Nov 8, 2026 23:59:59 (UTC+8)",
+    "extended": "No",
+    "commercial_use": "Not specified on the official page; check the provider's terms.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "Speech models; not a text chat model.",
+    "notes": "Some older voice models also get new prices from Nov 9, 2026.",
+    "source_label": "StepFun Docs: Pricing and Rate Limits",
+    "use_note": ""
+   },
+   "zh": {
+    "provider": "阶跃星辰 StepFun",
+    "models": "StepAudio 3 series (stepaudio-3-realtime-preview, stepaudio-3-chat-preview, stepaudio-3-gen-preview, TTS, music, ASR)",
+    "title": "阶跃星辰 StepAudio 3 系列语音模型 API 限时免费至 11 月 8 日",
+    "what_free": "官方定价页：“StepAudio 3 系列模型限时免费至北京时间 2026 年 11 月 8 日 23:59:59”。含实时语音、语音合成、音色复刻/设计、音频生成、音乐生成、语音识别。",
+    "limits": "北京时间 2026 年 11 月 9 日 00:00:00 起按价目表计费；试用期用的 preview 模型名到期下线。用量上限未公布。",
+    "how_to_claim": [
+     "登录阶跃星辰开放平台创建 API Key",
+     "调用 StepAudio 3 的 preview 模型名（如 stepaudio-3-realtime-preview、stepaudio-3-gen-preview）",
+     "11 月 9 日 00:00（北京时间）开始计费前停用或控制预算"
+    ],
+    "end": "2026 年 11 月 8 日 23:59:59（北京时间）",
+    "extended": "否",
+    "commercial_use": "官方页面未说明，请查看服务条款。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "语音模型，不是文本对话模型。",
+    "notes": "部分旧语音模型也自 11 月 9 日起调价。",
+    "source_label": "阶跃星辰文档：API 定价",
+    "cn_note": "国产厂商；中文站 platform.stepfun.com 按人民币计费，国际站 platform.stepfun.ai 按美元计费。",
+    "use_note": ""
+   }
+  },
+  {
+   "slug": "amd-radeon-cloud-token-factory-free-api",
+   "status": "active",
+   "display_status": "ongoing",
+   "category": "evergreen",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/amd-radeon-cloud-token-factory-free-api/",
+   "url_zh": "https://freeai.alexai.top/zh/amd-radeon-cloud-token-factory-free-api/",
+   "start": "Not stated (docs last updated Oct 21, 2026)",
+   "end_date": null,
+   "last_verified": "2026-11-02",
+   "source_url": "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/guides/token-factory/",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "Radeon Cloud Token Factory (model list)",
+     "url": "https://developer.amd.com.cn/radeon/tokenfactory"
+    },
+    {
+     "label": "Radeon Cloud Docs: API terms",
+     "url": "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/api/terms/"
+    },
+    {
+     "label": "Radeon Cloud Docs: Rate limits",
+     "url": "https://amd-aim.github.io/radeon-cloud-docs/api/rate-limits/"
+    },
+    {
+     "label": "Radeon Cloud Docs: Usage and quota",
+     "url": "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/api/usage/"
+    },
+    {
+     "label": "Radeon Cloud Docs: Login",
+     "url": "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/guides/login/"
+    }
+   ],
+   "claim_url": "https://developer.amd.com.cn/radeon/tokenfactory",
+   "api": {
+    "base_url": "https://developer.amd.com.cn/radeon/api/v1",
+    "model": "GLM-5.3-Flash",
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "AMD Radeon Cloud (Token Factory, China site)",
+    "models": "15 \"Public Free Model APIs\" on Nov 2, 2026, including DeepSeek-V4.1-Flash-1017, DeepSeek-V4-Flash-0731, GLM-5.3-Flash, Qwen3.8-Flash-Next, Qwen3.8-27B, MiMo-V2.6-Flash, Gemma-4-31B-IT, MiniCPM-V-4.7-35B-A3B, MiniCPM-V-4.7-1B, MiniCPM5-2B, decision models d3 / d3-flash / Clef, OmniVoice (TTS) and MinerU2.5-Pro (OCR, \"Limited Free\")",
+    "title": "AMD Radeon Cloud Token Factory: Free OpenAI-Compatible API for DeepSeek V4.1 Flash, GLM-5.3-Flash, Qwen3.8 and More (China Site)",
+    "what_free": "AMD's Radeon Cloud docs: \"Token Factory hosts a set of models on Radeon GPUs behind an OpenAI-compatible API. No instance to start and no credits consumed: copy the API key and send requests\" (translated from the Chinese docs). The API terms say \"Token Factory is free\" (\"完全免费\"). On Nov 2, 2026 the Token Factory page listed 15 public free model APIs, including DeepSeek-V4.1-Flash-1017, GLM-5.3-Flash, Qwen3.8-27B, MiMo-V2.6-Flash and Gemma-4-31B-IT.",
+    "limits": "Free but capped: a daily usage cap counted in Token Factory points (pts), reset at 00:00 Beijing time (UTC+8); the cap differs by account (read it from GET /v1/usage). Typical rate limits from the docs: 30 requests/min and 8 concurrent requests per API key, 20 requests/min per account (60-second sliding window), 120 requests/min per IP. Over the limit you get HTTP 429 with Retry-After. pts are not money and are not charged.",
+    "how_to_claim": [
+     "Log in at developer.amd.com.cn (AMD AI Developer Program account: verification code by phone number or email, password, or ModelScope / CSDN / GitHub login); new users click \"注册账号\" (register)",
+     "Open Radeon Cloud and go to the Token Factory tab",
+     "Copy the endpoint and the API key (starts with rc-) from the \"您的 API 密钥\" card",
+     "Call https://developer.amd.com.cn/radeon/api/v1/chat/completions with any OpenAI-compatible client; list your models with GET /v1/models"
+    ],
+    "end": "Not published (ongoing free trial and development service; models change without notice)",
+    "extended": "Not applicable",
+    "commercial_use": "Trial and development only: the terms say not to run production workloads and forbid reselling or proxying access. OmniVoice is non-commercial only.",
+    "card_required": "No card mentioned; the docs say Token Factory consumes no credits and is free.",
+    "phone_required": "Login uses a verification code sent to a phone number or email (or ModelScope / CSDN / GitHub login). Real-name verification is not mentioned. Some new accounts must pass a review before they can get an API key.",
+    "region": "China site only (\"Token Factory 只在中国站提供\"). The global site (radeon-global.anruicloud.com) uses separate accounts.",
+    "conditions": "One API key per person; multiple accounts (including email alias tricks), sharing or selling keys, bulk registration and reselling/proxying get keys disabled. Prompts and outputs are logged and kept for a rolling two-day window; AMD says it does not train on your data. Do not send sensitive data. Models are upstream weights unmodified, but the catalog changes without notice.",
+    "notes": "Lead from third-party X posts on Nov 1, 2026 (@Laborlool, @danhai05); facts checked on AMD's docs and the developer.amd.com.cn Token Factory page (the docs are linked from that page). The page showed some popular models as \"Busy\" or \"At capacity\". Not tested (no account).",
+    "source_label": "Radeon Cloud Docs: Token Factory (Chinese)",
+    "use_note": "OpenAI-compatible; the same key also works with Anthropic-style Messages for Claude Code (see the docs). Check GET /v1/models instead of hard-coding model names, and GET /v1/usage for your daily cap."
+   },
+   "zh": {
+    "provider": "AMD Radeon Cloud（Token Factory，中国站）",
+    "models": "2026 年 11 月 2 日共 15 个“Public Free Model APIs”，包括 DeepSeek-V4.1-Flash-1017、DeepSeek-V4-Flash-0731、GLM-5.3-Flash、Qwen3.8-Flash-Next、Qwen3.8-27B、MiMo-V2.6-Flash、Gemma-4-31B-IT、MiniCPM-V-4.7-35B-A3B、MiniCPM-V-4.7-1B、MiniCPM5-2B、决策模型 d3 / d3-flash / Clef、OmniVoice（语音合成）和 MinerU2.5-Pro（OCR，标“Limited Free”）",
+    "title": "AMD Radeon Cloud Token Factory：免费调用 DeepSeek V4.1 Flash、GLM-5.3-Flash、Qwen3.8 等模型的 OpenAI 兼容 API（中国站）",
+    "what_free": "AMD Radeon Cloud 官方文档原文：“Token Factory 在 Radeon GPU 上托管了一批模型，通过兼容 OpenAI 的接口提供服务。不需要启动实例，也不消耗积分，复制 API Key 就能发请求。”API 使用条款写明“它完全免费”。2026 年 11 月 2 日 Token Factory 页面列出 15 个公共免费模型 API，包括 DeepSeek-V4.1-Flash-1017、GLM-5.3-Flash、Qwen3.8-27B、MiMo-V2.6-Flash、Gemma-4-31B-IT 等。",
+    "limits": "免费但有上限：每日用量上限以 pts 计，每天北京时间 0 点重置；不同账号的上限不同（调 GET /v1/usage 查看自己的）。文档给的典型限流：每个 API Key 每分钟 30 次、并发 8 个；每个账号每分钟 20 次（60 秒滑动窗口）；每个 IP 每分钟 120 次。超限返回 429 和 Retry-After。pts 不是钱，不会扣费。",
+    "how_to_claim": [
+     "在 developer.amd.com.cn 登录 AMD AI 开发者计划账号（手机号或邮箱收验证码、密码登录，或用魔搭 / CSDN / GitHub 账号登录），新用户点“注册账号”",
+     "进入 Radeon Cloud，切到 Token Factory 标签页",
+     "在“您的 API 密钥”卡片复制接口地址和 API Key（rc- 开头）",
+     "用任意 OpenAI 兼容客户端调用 https://developer.amd.com.cn/radeon/api/v1/chat/completions，用 GET /v1/models 查看可用模型"
+    ],
+    "end": "未公布（长期的免费试用和开发服务，模型会不定期调整）",
+    "extended": "不适用",
+    "commercial_use": "只用于试用和开发：条款要求不要放生产负载，禁止转售或代理访问。OmniVoice 仅限非商业用途。",
+    "card_required": "不需要（文档没提绑卡，写明 Token Factory 免费、不消耗积分）。",
+    "phone_required": "登录用手机号或邮箱收验证码（也可用魔搭 / CSDN / GitHub 登录）。官方文档没提实名认证。部分新账号要先通过审核才能拿到 API Key。",
+    "region": "只在中国站提供（“Token Factory 只在中国站提供”）。全球站（radeon-global.anruicloud.com）账号不互通。",
+    "conditions": "一人一个 API Key；多账号（含邮箱点号、+ 标签等别名）、分享或出售 Key、脚本批量注册、转售或代理访问都会导致 Key 被停用。会记录提示词和输出，内容只保留约两天滚动窗口；官方称不用你的数据训练模型。不要发送敏感数据。模型为上游原版权重，目录可能随时变动。",
+    "notes": "线索来自 2026 年 11 月 1 日的第三方 X 帖（@Laborlool、@danhai05）；事实以 AMD 官方文档和 developer.amd.com.cn 的 Token Factory 页面为准（文档由该页面链接）。页面上部分热门模型显示“Busy”或“At capacity”。未实测（没有账号）。",
+    "source_label": "Radeon Cloud 文档：Token Factory",
+    "cn_note": "国内直连的官方免费 API，适合个人开发测试。登录需要手机号或邮箱验证码；部分新账号要审核。别把它当生产主力。",
+    "use_note": "OpenAI 兼容；同一个 Key 也支持 Anthropic Messages 格式，可接 Claude Code（见文档）。不要把模型名写死，先调 GET /v1/models；每日额度用 GET /v1/usage 查看。"
+   }
+  },
+  {
+   "slug": "inferx-deepseek-v4-1-flash-1017-basic-free",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": true,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/inferx-deepseek-v4-1-flash-1017-basic-free/",
+   "url_zh": "https://freeai.alexai.top/zh/inferx-deepseek-v4-1-flash-1017-basic-free/",
+   "start": "Oct 31, 2026 (post at 15:12 UTC = Oct 31, 23:12 UTC+8); an earlier free weekend ran from Oct 24, 2026",
+   "end_date": null,
+   "last_verified": "2026-11-02",
+   "source_url": "https://inferx.net/pricing/endpoints",
+   "source_type": "official pricing page + official X",
+   "extra_sources": [
+    {
+     "label": "InferX model page: DeepSeek V4.1 Flash 1017 Basic",
+     "url": "https://inferx.net/models/deepseek-v4.1-flash-1017-basic"
+    },
+    {
+     "label": "InferX endpoint catalog (base URL and model name)",
+     "url": "https://model.inferx.net/catalog/endpoints/deepseek-v4.1-flash-1017-basic"
+    },
+    {
+     "label": "@InferXai on X: free again until further notice (Oct 31, 2026)",
+     "url": "https://x.com/InferXai/status/2116548881052004513"
+    },
+    {
+     "label": "@InferXai on X: no limits for now (reply)",
+     "url": "https://x.com/InferXai/status/2116582732671439128"
+    }
+   ],
+   "claim_url": "https://model.inferx.net/",
+   "api": {
+    "base_url": "https://model.inferx.net/endpoints/v1",
+    "model": "deepseek-v4.1-flash-1017-basic",
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "InferX",
+    "models": "DeepSeek V4.1 Flash 1017 Basic (deepseek-v4.1-flash-1017-basic, 262,144-token context)",
+    "title": "InferX: DeepSeek V4.1 Flash 1017 Basic Free (Input, Output and Cached Input $0) Until Further Notice",
+    "what_free": "InferX's endpoint pricing page lists DeepSeek V4.1 Flash 1017 Basic at $0 per 1M input, output and cached input tokens (\"100% off\"), with a 262,144-token context. @InferXai (Oct 31, 2026, 15:12 UTC): \"We made Deeseek v4.1 flash-1017 Free again. This time it's here to stay until further notice.\" The full-context deepseek-v4.1-flash-1017 endpoint (1M context) is 50% off, not free.",
+    "limits": "Not published on the official page. @InferXai replied on Oct 31, 2026: \"It's free until we further announce. No limits for now.\" InferX also says to use only the free model unless you intend to pay; calling paid models without balance returns \"Quota Exceeded\".",
+    "how_to_claim": [
+     "Open model.inferx.net and log in / sign up",
+     "Create an inference API key on the Admin > Apikeys page",
+     "Use the OpenAI-compatible base URL https://model.inferx.net/endpoints/v1 with model deepseek-v4.1-flash-1017-basic"
+    ],
+    "end": "Not published (\"until further notice\")",
+    "extended": "Not applicable",
+    "commercial_use": "Not stated on the official page.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "Use the Basic variant; the 1M-context variant and other models are paid. Data processing and retention follow the endpoint's service configuration (InferX's post claims 100% zero data retention). Capacity limits were hit during the earlier free weekend.",
+    "notes": "@InferXai is a blue-check (not business-verified) account linked from InferX. The site's own quick-start docs were reported (by a third party) to show a different base URL; the endpoint catalog shows /endpoints/v1. Not tested (no account).",
+    "source_label": "InferX: Endpoint pricing",
+    "use_note": "OpenAI-compatible endpoint; pick exactly deepseek-v4.1-flash-1017-basic (the version without \"basic\" is billed)."
+   },
+   "zh": {
+    "provider": "InferX",
+    "models": "DeepSeek V4.1 Flash 1017 Basic（deepseek-v4.1-flash-1017-basic，262,144 上下文）",
+    "title": "InferX：DeepSeek V4.1 Flash 1017 Basic 免费（输入、输出、缓存读取都是 $0），直到另行通知",
+    "what_free": "InferX 端点价格页把 DeepSeek V4.1 Flash 1017 Basic 标为输入、输出、缓存输入都是 $0 / 百万 tokens（“100% off”），上下文 262,144。@InferXai（2026-10-31 15:12 UTC）原文：“We made Deeseek v4.1 flash-1017 Free again. This time it's here to stay until further notice.” 1M 上下文的 deepseek-v4.1-flash-1017 只打 5 折，不免费。",
+    "limits": "官方页面未公布。@InferXai 10 月 31 日回复网友：“It's free until we further announce. No limits for now.” 官方还提醒只用免费模型，不打算付费就别调付费模型，否则余额不足会返回 “Quota Exceeded”。",
+    "how_to_claim": [
+     "打开 model.inferx.net 登录 / 注册",
+     "在 Admin > Apikeys 页面创建推理 API Key",
+     "用 OpenAI 兼容地址 https://model.inferx.net/endpoints/v1，模型填 deepseek-v4.1-flash-1017-basic"
+    ],
+    "end": "未公布（“until further notice”）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "只有 Basic 版免费；1M 上下文版和其他模型收费。数据处理和留存按端点配置（官方帖称 100% 零数据留存）。上次免费周末出现过容量不足。",
+    "notes": "@InferXai 是蓝标账号（不是企业认证），官网有链接。有第三方说官方快速开始文档里的 Base URL 不对；以端点目录页的 /endpoints/v1 为准。未实测（没有账号）。",
+    "source_label": "InferX：端点价格",
+    "cn_note": "海外平台，官方没写中国大陆能否使用，也没写是否要手机号或绑卡；国内直连未测。",
+    "use_note": "OpenAI 兼容端点；模型名一定要写 deepseek-v4.1-flash-1017-basic（不带 basic 的版本收费）。"
+   }
+  },
+  {
+   "slug": "maritaca-s5-free-limited-time",
+   "status": "active",
+   "display_status": "active",
+   "category": "limited",
+   "china_vendor": false,
+   "has_page": true,
+   "url_en": "https://freeai.alexai.top/maritaca-s5-free-limited-time/",
+   "url_zh": "https://freeai.alexai.top/zh/maritaca-s5-free-limited-time/",
+   "start": "Not published",
+   "end_date": null,
+   "last_verified": "2026-11-07",
+   "source_url": "https://docs.maritaca.ai/pt/precos",
+   "source_type": "official docs",
+   "extra_sources": [
+    {
+     "label": "Maritaca docs: Modelos (S5 Free)",
+     "url": "https://docs.maritaca.ai/pt/modelos"
+    },
+    {
+     "label": "Maritaca docs: Rate Limits",
+     "url": "https://docs.maritaca.ai/pt/rate-limits"
+    },
+    {
+     "label": "Maritaca docs: Quickstart",
+     "url": "https://docs.maritaca.ai/pt/api/comeco-rapido"
+    },
+    {
+     "label": "Maritaca docs: OpenAI client compatibility",
+     "url": "https://docs.maritaca.ai/pt/api/openai-compatibilidade"
+    }
+   ],
+   "claim_url": "https://plataforma.maritaca.ai",
+   "api": {
+    "base_url": "https://chat.maritaca.ai/api",
+    "model": "S5-free",
+    "style": "openai"
+   },
+   "cli": [],
+   "en": {
+    "provider": "Maritaca AI",
+    "models": "S5 Free (S5-free / s5-free, 1M context, 32K max output)",
+    "title": "Maritaca AI: S5-free Free for a Limited Time (No Token Charges)",
+    "what_free": "Pricing page: \"O S5-free é gratuito por tempo limitado: não há cobrança de tokens\" (S5-free is free for a limited time: no token charges). Text only.",
+    "limits": "Fixed for all tiers: 60 RPM, 256k input TPM and 256k output TPM; no Batch API, Flex or built-in tools; text input only.",
+    "how_to_claim": [
+     "Sign up at plataforma.maritaca.ai",
+     "Create an API key",
+     "Use the documented OpenAI client base_url https://chat.maritaca.ai/api with model S5-free (s5-free is also accepted)."
+    ],
+    "end": "Not published (temporary launch offer; \"may be ended at any time\")",
+    "extended": "Not applicable",
+    "commercial_use": "Not stated on the official page.",
+    "card_required": "Not stated on the official page.",
+    "phone_required": "Not stated on the official page.",
+    "region": "Not stated on the official page",
+    "conditions": "Temporary launch offer that can end at any time; for continued or production use Maritaca says to use paid S5.",
+    "notes": "Not API-tested (no account). Reverified official Portuguese docs on 2026-11-07; endpoint and OpenAI client-library compatibility confirmed in official Quickstart/compatibility pages (examples use sabia-4, not S5-free). Evidence: verify-2026-11-06/correction-20261107-maritaca/ .",
+    "source_label": "Maritaca AI docs: Preços (S5 Free)",
+    "use_note": "Use exactly S5-free or s5-free; plain S5/s5 is paid. Limited-time launch offer, may end at any time; not permanently free. OpenAI client-library compatibility is documented; S5-free is text-only, without Batch API, Flex or built-in tools."
+   },
+   "zh": {
+    "provider": "Maritaca AI",
+    "models": "S5 Free（S5-free / s5-free，1M 上下文，最大输出 32K）",
+    "title": "Maritaca AI：S5-free 限时免费（不收 token 费）",
+    "what_free": "官方价格页原文：\"O S5-free é gratuito por tempo limitado: não há cobrança de tokens\"（S5-free 限时免费，不收取 token 费用）。仅支持文本。",
+    "limits": "所有等级统一固定：60 RPM，输入 256k TPM，输出 256k TPM；不含 Batch API、Flex 和内置工具；仅文本输入。",
+    "how_to_claim": [
+     "在 plataforma.maritaca.ai 注册",
+     "创建 API Key",
+     "按官方文档将 OpenAI 客户端 base_url 设为 https://chat.maritaca.ai/api，调用 S5-free（s5-free 亦为官方接受的别名）。"
+    ],
+    "end": "未公布（临时首发优惠，\"可能随时结束\"）",
+    "extended": "不适用",
+    "commercial_use": "官方页面未说明。",
+    "card_required": "官方页面未说明。",
+    "phone_required": "官方页面未说明。",
+    "region": "官方页面未说明",
+    "conditions": "临时首发优惠，可随时结束；官方建议持续/生产使用改用付费版 S5。",
+    "notes": "未做 API 实测（无账号）。2026-11-07 复核官方葡语文档；快速开始和兼容性页证实 API base_url 与 OpenAI 客户端库兼容（页面示例使用 sabia-4，并非 S5-free）。证据：verify-2026-11-06/correction-20261107-maritaca/。",
+    "source_label": "Maritaca AI 文档：Preços（S5 Free）",
+    "cn_note": "API 地址及 OpenAI 客户端库兼容依据：https://docs.maritaca.ai/pt/api/comeco-rapido ; https://docs.maritaca.ai/pt/api/openai-compatibilidade",
+    "use_note": "免费模型 ID 必须为 S5-free 或 s5-free；普通 S5/s5 收费。临时首发优惠，官方可随时结束，不是长期免费；仅文本，不含 Batch API、Flex 和内置工具。"
    }
   }
  ]

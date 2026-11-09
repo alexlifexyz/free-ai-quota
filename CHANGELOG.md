@@ -2,6 +2,13 @@
 
 Weekly updates of the verified free LLM API quota list. Live site: https://freeai.alexai.top
 
+## 2026-11-09
+
+- 88 offers (60 active, 28 ended as of Nov 9), synced from https://freeai.alexai.top/offers.json (generated 2026-11-09).
+- New (6): Maritaca AI: S5-free Free for a Limited Time (No Token Charges); Crouton Alpha: Free Stealth Model on OpenRouter and OpenCode Zen; Pulse Alpha Free: Stealth Model Free on OpenCode Zen for a Limited Time; AMD Radeon Cloud Token Factory: Free OpenAI-Compatible API for DeepSeek V4.1 Flash, GLM-5.3-Flash, Qwen3.8 and More (China Site); InferX: DeepSeek V4.1 Flash 1017 Basic Free Until Further Notice.
+- Added already ended (1): StepFun StepAudio 3 Speech Models Free on the API Until Nov 8, 2026.
+- Ended (3): Ling 3.1 Flash 1019 free on Vercel AI Gateway (to Nov 3); Zhipu AutoClaw Weekly Perk (China), Nov 2 – Nov 8; Zhipu AutoClaw International Halloween Perk, Oct 31 – Nov 8.
+
 ## 2026-11-02
 
 - 82 offers (58 active, 24 ended as of Nov 2), synced from https://freeai.alexai.top/offers.json (generated 2026-11-01).
